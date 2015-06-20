@@ -1,0 +1,70 @@
+/* Colorful Page Numbers! */
+.Pager.NumberedPager a:nth-child(5n-3) { color:rgb(160,160,255) !important; }
+.Pager.NumberedPager a:nth-child(5n-2) { color:rgb(255,128,128) !important; }
+.Pager.NumberedPager a:nth-child(5n-1) { color:rgb(255,255,128) !important; }
+.Pager.NumberedPager a:nth-child(5n-0) { color:rgb(128,255,128) !important; }
+.Pager.NumberedPager a:nth-child(5n+1) { color:rgb(128,208,208) !important; }
+.Pager.NumberedPager a:nth-child(5n-3):hover, .Pager.NumberedPager a:nth-child(5n-3):active { color:rgba(160,160,255,0.75) !important; }
+.Pager.NumberedPager a:nth-child(5n-2):hover, .Pager.NumberedPager a:nth-child(5n-2):active { color:rgba(255,128,128,0.75) !important; }
+.Pager.NumberedPager a:nth-child(5n-1):hover, .Pager.NumberedPager a:nth-child(5n-1):active { color:rgba(255,255,128,0.75) !important; }
+.Pager.NumberedPager a:nth-child(5n-0):hover, .Pager.NumberedPager a:nth-child(5n-0):active { color:rgba(128,255,128,0.75) !important; }
+.Pager.NumberedPager a:nth-child(5n+1):hover, .Pager.NumberedPager a:nth-child(5n+1):active { color:rgba(128,208,208,0.75) !important; }
+
+/* Made posts have a hover-over border to help eye focus */
+.MessageList .Item:hover
+{
+    box-shadow:none; /* Erase previous hover-over shadow */
+}
+
+.MessageList .Item.ItemDiscussion
+{
+    border:2px solid lightblue;
+}
+
+.MessageList .Item.ItemDiscussion:hover
+{
+    box-shadow: 0 0 9px 3px lightblue;
+}
+
+.MessageList > li:nth-child(5n-4) { border:1px solid rgb(64,64,128); }
+.MessageList > li:nth-child(5n-3) { border:1px solid rgb(128,64,64); }
+.MessageList > li:nth-child(5n-2) { border:1px solid rgb(128,128,64); }
+.MessageList > li:nth-child(5n-1) { border:1px solid rgb(64,128,64); }
+.MessageList > li:nth-child(5n-0) { border:1px solid rgb(64,128,128); }
+.MessageList > li:nth-child(5n-4):hover { border:1px solid rgb(64,64,128); box-shadow: 0 0 9px 3px rgba(128,128,255,0.35); }
+.MessageList > li:nth-child(5n-3):hover { border:1px solid rgb(128,64,64); box-shadow: 0 0 9px 3px rgba(255,128,128,0.35); }
+.MessageList > li:nth-child(5n-2):hover { border:1px solid rgb(128,128,64);box-shadow: 0 0 9px 3px rgba(255,255,128,0.35); }
+.MessageList > li:nth-child(5n-1):hover { border:1px solid rgb(64,128,64); box-shadow: 0 0 9px 3px rgba(128,255,128,0.35); }
+.MessageList > li:nth-child(5n-0):hover { border:1px solid rgb(64,128,128);box-shadow: 0 0 9px 3px rgba(128,255,255,0.35); }
+
+/* Changes to make quotes stand out more */
+blockquote.Quote
+{
+    border-left:4px solid rgba(160,160,255,0.75);
+    background-color:rgba(32,32,64,0.25);
+}
+
+blockquote.Quote blockquote.Quote
+{
+    border-left:4px solid rgba(255,128,128,0.75);
+    background-color:rgba(64,32,32,0.15);
+}
+
+blockquote.Quote blockquote.Quote blockquote.Quote
+{
+    border-left:4px solid rgba(255,255,128,0.75);
+    background-color:rgba(64,64,32,0.15);
+}
+
+blockquote.Quote blockquote.Quote blockquote.Quote blockquote.Quote
+{
+    border-left:4px solid rgba(128,255,128,0.75);
+    background-color:rgba(32,64,32,0.15);
+}
+
+blockquote.Quote blockquote.Quote blockquote.Quote blockquote.Quote blockquote.Quote
+{
+    
+    border-left:4px solid rgba(128,208,208,0.75);
+    background-color:rgba(32,64,64,0.25);
+}

@@ -1,0 +1,7 @@
+/* Changed to fluid width forum */
+.Row
+{
+    padding:0 3%;
+    width:auto;
+    min-width:960px;
+}
