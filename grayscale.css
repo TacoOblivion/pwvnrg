@@ -214,3 +214,26 @@ blockquote.Quote
 {
     background-image: url("/applications/dashboard/design/images/sprites-14-ffffff.png") !important;
 }
+
+/* Fixes bookmarked threads */
+.Bookmarked::before
+{
+    display:none;
+}
+
+a.Bookmarked::before
+{
+    display:inline-block;
+    font-family:"vanillicon";
+    font-variant:normal;
+    font-weight:normal;
+    font-style:normal;
+    color:#FFF;
+    min-width:1em;
+    text-align:center;
+    text-decoration:inherit;
+    text-transform:none;
+    line-height:1;
+    -webkit-font-smoothing:antialiased;
+    content: "\f199";
+}
