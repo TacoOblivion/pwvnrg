@@ -147,6 +147,14 @@ table.PreferenceGroup tbody tr:hover td
     background:linear-gradient(rgba(61,61,70,0.5), rgba(104,104,111,0.5));
 }
 
+/* Fixes large page number display */
+.Pager a
+{
+    box-sizing:border-box;
+    padding-left:4px;
+    padding-right:5px;
+}
+
 /* Changes to make quotes stand out more */
 blockquote.Quote
 {
