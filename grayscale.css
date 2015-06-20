@@ -190,7 +190,7 @@ blockquote.Quote
     padding:0 6px;
 }
 
-.Item .Comment .Item-BodyWrap .Message: a:hover, .Item .Discussion .Item-BodyWrap .Message a:hover
+.Item .Comment .Item-BodyWrap .Message a:hover, .Item .Discussion .Item-BodyWrap .Message a:hover
 {
     border-radius:8px;
     background-color:rgba(255,255,255,0.1);
@@ -214,4 +214,3 @@ blockquote.Quote
 {
     background-image: url("/applications/dashboard/design/images/sprites-14-ffffff.png") !important;
 }
-
