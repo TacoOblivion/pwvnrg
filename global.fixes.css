@@ -1,0 +1,92 @@
+/* Fixes codebox colors */
+pre
+{
+	background-color:rgba(255,255,255,0.025);
+	border-radius:5px;
+}
+
+pre:hover
+{
+    box-shadow:0 0 8px 2px rgba(255,255,255,0.4);
+}
+
+.SpoilerText > pre
+{
+    background-color:rgba(0,0,0,0.5);
+}
+
+/* Fixes "Post Edited" message color (less intense) */
+div.PostEdited
+{
+    color: rgba(255,128,128,0.7);
+}
+
+/* Adds page listing to bottom of page */
+#PagerAfter
+{
+    display:block !important;
+}
+
+/* Adds separators to editor */
+.editor .editor-sep
+{
+    border-left-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Fixes profile hover-over background colors */
+table.PreferenceGroup tbody tr:hover td
+{
+    background: rgba(255,255,255,0.2) !important;
+}
+
+/* Fixes large page number display */
+.Pager a
+{
+    box-sizing:border-box;
+    padding-left:4px;
+    padding-right:5px;
+}
+
+/* Differentiates between message and signature area */
+.Signature.UserSignature
+{
+    border-top:1px solid rgba(255,255,255,0.2);
+}
+
+/* Stop overly large image displays */
+.Signature.UserSignature img
+{
+    width:auto;
+    height:auto;
+    max-width:500px;
+    max-height:150px;
+}
+
+/* show icons properly (they used FFFFFF instead of ffffff - credit to dblazen1 for finding this one */
+.ReactSprite
+{
+    background-image: url("/applications/dashboard/design/images/sprites-14-ffffff.png") !important;
+}
+
+/* Fixes bookmarked threads */
+.Bookmarked::before
+{
+    display:none;
+}
+
+a.Bookmarked::before
+{
+    display:inline-block;
+    font-family:"vanillicon";
+    font-variant:normal;
+    font-weight:normal;
+    font-style:normal;
+    color:#FFF;
+    min-width:1em;
+    text-align:center;
+    text-decoration:inherit;
+    text-transform:none;
+    line-height:1;
+    -webkit-font-smoothing:antialiased;
+    content: "\f199";
+}
