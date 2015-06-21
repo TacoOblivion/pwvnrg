@@ -90,3 +90,9 @@ a.Bookmarked::before
     -webkit-font-smoothing:antialiased;
     content: "\f199";
 }
+
+/* Puts a comma between page numbers in thread lists */
+.MiniPager a:not(:last-child)::after
+{
+    content:",";
+}
