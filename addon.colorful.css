@@ -68,3 +68,34 @@ blockquote.Quote blockquote.Quote blockquote.Quote blockquote.Quote blockquote.Q
     border-left:4px solid rgba(128,208,208,0.75);
     background-color:rgba(32,64,64,0.25);
 }
+
+/* Thread list coloring */
+.Item.Unread.ItemDiscussion { background-color:rgba(51,173,173,0.5); }
+.Item.Unread.ItemDiscussion:hover td { background:rgba(51,173,173,0.6) !important; }
+.Item.Unread.ItemDiscussion > td:first-child:hover { border-left:3px solid #33ADAD; }
+
+.Item.Read.ItemDiscussion { background-color:rgba(148, 184, 255,0.4); }
+.Item.Read.ItemDiscussion:hover td { background-color:rgba(148, 184, 255,0.6) !important; }
+.Item.Read.ItemDiscussion > td:first-child:hover { border-left:3px solid #94B8FF; }
+
+.Item.New.ItemDiscussion { background-color:rgba(226, 113, 113,0.4); }
+.Item.New.ItemDiscussion:hover td { background-color:rgba(226, 113, 113,0.6) !important; }
+.Item.New.ItemDiscussion > td:first-child:hover { border-left:3px solid #E27171; }
+
+.Item.Announcement.ItemDiscussion { background-color:rgba(51, 173, 92,0.6); }
+.Item.Announcement.ItemDiscussion:hover td { background-color:rgba(51, 173, 92,0.7) !important; }
+
+.Item.ItemDiscussion:hover td a:hover { color:rgba(255,255,255,0.75); }
+
+/* Category list coloring */
+.CategoryGroup tr:nth-child(5n-2) { background-color:rgba(128,255,128,0.25); }
+.CategoryGroup tr:nth-child(5n-1) { background-color:rgba(255,128,128,0.25); }
+.CategoryGroup tr:nth-child(5n+0) { background-color:rgba(173, 92,173,0.25); }
+.CategoryGroup tr:nth-child(5n+1) { background-color:rgba(160,160,255,0.25); }
+.CategoryGroup tr:nth-child(5n+2) { background-color:rgba(128,208,208,0.25); }
+.ChildCategories a:nth-child(5n-2) { color:rgb(160,160,255); }
+.ChildCategories a:nth-child(5n-1) { color:rgb(128,208,208); }
+.ChildCategories a:nth-child(5n+0) { color:rgb(128,216,128); }
+.ChildCategories a:nth-child(5n+1) { color:rgb(224,128,128); }
+.ChildCategories a:nth-child(5n+2) { color:rgb(204,152,204); }
+.ChildCategories a:hover { padding:0 6px; margin:0 -6px; border-radius:6px; background-color:rgba(255,255,255,0.15); }
