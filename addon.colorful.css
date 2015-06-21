@@ -88,11 +88,13 @@ blockquote.Quote blockquote.Quote blockquote.Quote blockquote.Quote blockquote.Q
 .Item.ItemDiscussion:hover td a:hover { color:rgba(255,255,255,0.75); }
 
 /* Category list coloring */
-.CategoryGroup,.CategoryTable tr:nth-child(5n-2) { background-color:rgba(128,255,128,0.25); }
-.CategoryGroup,.CategoryTable tr:nth-child(5n-1) { background-color:rgba(255,128,128,0.25); }
-.CategoryGroup,.CategoryTable tr:nth-child(5n+0) { background-color:rgba(173, 92,173,0.25); }
-.CategoryGroup,.CategoryTable tr:nth-child(5n+1) { background-color:rgba(160,160,255,0.25); }
-.CategoryGroup,.CategoryTable tr:nth-child(5n+2) { background-color:rgba(128,208,208,0.25); }
+.CategoryGroup tr:nth-child(5n-2), .ContentColumn .CategoryGroup:nth-child(5n-2) { background-color:rgba(128,255,128,0.25); }
+.CategoryGroup tr:nth-child(5n-1), .ContentColumn .CategoryGroup:nth-child(5n-1) { background-color:rgba(255,128,128,0.25); }
+.CategoryGroup tr:nth-child(5n+0), .ContentColumn .CategoryGroup:nth-child(5n+0) { background-color:rgba(173, 92,173,0.25); }
+.CategoryGroup tr:nth-child(5n+1), .ContentColumn .CategoryGroup:nth-child(5n+1) { background-color:rgba(160,160,255,0.25); }
+.CategoryGroup tr:nth-child(5n+2), .ContentColumn .CategoryGroup:nth-child(5n+2) { background-color:rgba(128,208,208,0.25); }
+.ContentColumn h2.H { padding-left:20px; padding-top:13px; color:#EEEEF5; text-shadow:0 0 5px #EEEEF5; font-size:1.5em; letter-spacing:2px; }
+.ContentColumn .CategoryGroup { border-radius:20px 5px 0 0; margin-top:25px; }
 .ChildCategories a:nth-child(5n-2) { color:rgb(160,160,255); }
 .ChildCategories a:nth-child(5n-1) { color:rgb(128,208,208); }
 .ChildCategories a:nth-child(5n+0) { color:rgb(128,216,128); }
