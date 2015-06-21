@@ -36,22 +36,22 @@ div.PostEdited
 }
 
 /* Various item lists item colors */
-.Item.Unread.ItemDiscussion
+.Item.Unread
 {
- 	background-color:rgba(0,0,0,0.05) !important;   
+ 	background-color:rgba(0,0,0,0.05);   
 }
 
-.Item.Unread.ItemDiscussion > td:first-child:hover
+.Item.Unread > td:first-child:hover
 {
     border-left:3px solid red;
 }
 
-.Item.New.ItemDiscussion
+.Item.New
 {
- 	background-color:rgba(255,255,255,0.01) !important;   
+ 	background-color:rgba(255,255,255,0.01);   
 }
 
-.Item.New.ItemDiscussion > td:first-child:hover
+.Item.New > td:first-child:hover
 {
     border-left:3px solid cyan;
 }
