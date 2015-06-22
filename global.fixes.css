@@ -179,3 +179,8 @@ a.Bookmarked::before
     overflow:visible;
     position:relative;
 }
+
+.ChildCategoryList .Item .Meta.Hidden .MItem.CommentCount
+{
+    text-align:right;
+}
