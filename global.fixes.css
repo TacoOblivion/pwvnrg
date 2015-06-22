@@ -96,3 +96,86 @@ a.Bookmarked::before
 {
     content:",";
 }
+
+/* Fixes awful look of subforum categories subforums of thread lists */
+.ChildCategoryList
+{
+    padding:20px 0;
+}
+
+.HomepageTitle
+{
+    padding-left:20px;
+}
+
+.P
+{
+    padding-left:30px;
+}
+
+.ChildCategoryList .Item
+{
+    box-sizing:border-box;
+    width:24%;
+    height:140px;
+    margin:0 3px;
+    overflow:hidden;
+    box-shadow:0 0 4px 0px #000;
+}
+
+.ChildCategoryList .Item:nth-child(odd)
+{
+    clear:none;
+}
+
+.ChildCategoryList .Item h3.CategoryName
+{
+    height:20px;
+    display:block;
+    margin-bottom:8px;
+    padding-top:4px;
+    padding-bottom:6px;
+    text-align:center;
+    border-bottom:1px solid #222224;
+    background-color:#222224;
+}
+
+.ChildCategoryList .Item div.CategoryDescription
+{
+    font-size:0.8em;
+    line-height:1.3em;
+    padding:0 10px;
+}
+
+.ChildCategoryList .ItemContent
+{
+    padding:0;
+    vertical-align:top;
+}
+
+.DataList.ChildCategoryList > li.Item
+{
+    /* Why the frick is PWE using !important so much? Only I should need it, not them... */
+    margin-bottom:6px !important;
+    border-radius:10px 4px 10px 4px;
+    position:relative;
+}
+
+.ChildCategoryList .Item .Meta.Hidden
+{
+    display:block;
+    overflow:hidden;
+    /*padding-top:10px;*/
+    position:absolute;
+    width:95%;
+    padding:0 10px;
+    bottom:0;
+}
+
+.ChildCategoryList .Item .Meta.Hidden .MItem
+{
+    display:inline-block;
+    width:45%;
+    overflow:visible;
+    position:relative;
+}
