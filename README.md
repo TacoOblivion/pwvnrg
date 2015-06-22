@@ -6,7 +6,7 @@
 3. Create a new style by clicking on the link pointed to on this picture. ![Example](http://dump.nrgs.org/pwpw/StylishPWEFStyles2.png)
 4. Copy the data from the CSS file by clicking on a ".css" file provided above and paste it into the editor.
 5. Give the style a title/name and click the save button.
-6. Repeat steps 4-6 until you have everything you need.
+6. Repeat steps 3-6 until you have everything you need.
 7. Click on the checkmarks to activate each style. Some are ordered. The order can be viewed below.
 8. You can now use http://www.arcgames.com/en/forums to view the forums and the styles will stay. You won't be able to activate/deactivate unless on http://perfectworld.vanillaforums.com/
 
