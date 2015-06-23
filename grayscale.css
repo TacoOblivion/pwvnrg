@@ -21,7 +21,7 @@ div.PostEdited
     min-height: 150px;
     max-height: 600px;
     overflow-x: hidden !important;
-    overflow-y: scroll !important;
+    overflow-y: auto !important;
 }
 
 #Form_Body:focus
