@@ -55,7 +55,8 @@ table.PreferenceGroup tbody tr:hover td
     /* padding of 8 vertically around each line */
     /* 150 max img + 4 text lines * 15 line height + 5 elements * 8 padding */
     /* That is how I arrived at 250px */
-    height:250px; 
+    height:auto;
+    max-height:250px; 
     overflow-y:auto;
 }
 
