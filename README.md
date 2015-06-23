@@ -13,7 +13,11 @@
 ### Activation Order (You only need to activate what you want to)
 1. Global Fixes
 2. Grayscale
-3. Colorful Addon
+3. Colorful Addon, Compact Addon
 
 ### Styles that don't need to be activated in order
 * Fluid Width
+
+### What JS?
+None yet. I've been actively trying to avoid using JS. I want to do as much as I can in pure CSS.
+

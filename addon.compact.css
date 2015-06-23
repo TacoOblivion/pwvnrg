@@ -5,10 +5,20 @@
 }
 
 /* Shrink table headers */
-.DataTable.CategoryTable
+.DataTable > thead > tr > td
 {
-    
+    height:22px;
+    line-height:22px;
+    vertical-align:middle;
+    margin:0;padding:0;background-image:0;
 }
+
+.DataTable.CategoryTable .CategoryName h2 a
+{
+    font-size:90%;
+}
+
+
 
 /* Remove vertical padding on forum categories */
 .CategoryTable > tbody > tr > td, .DiscussionsTable > tbody > tr > td, .DataTable.CategoryTable .Item h2
@@ -57,8 +67,8 @@ div.BoxTop
     margin-bottom:10px;
 }
 
-/* "Announcement", "x new", "Question", and "Answer" are on the same line as the link */
-strong.NewCommentCount
+/* Move "x new" to before the post */
+/*strong.NewCommentCount
 {
     padding:2px 4px;
     margin:5px 5px 0 0;
@@ -68,11 +78,48 @@ strong.NewCommentCount
     width:auto;
     min-width:35px;
     text-align:center;
+    background-color:rgb(196,196,0);
+    border-radius:8px;
+}*/
+
+
+.DiscussionsTable .Item a.Title::before
+{
+    display:inline-block;
+    font-family:"vanillicon";
+    font-variant:normal;
+    font-weight:normal;
+    font-style:normal;
+    color:#FFF;
+    min-width:1em;
+    text-align:center;
+    text-decoration:inherit;
+    text-transform:none;
+    line-height:1;
+    -webkit-font-smoothing:antialiased;
+    margin-right:2px;
 }
 
-.DataTable .Meta.Meta-Discussion
+.DiscussionsTable .Item.Announcement a.Title::before
 {
-    display:none;
+    content: "\f1a1";
+}
+
+.DiscussionsTable .Item.New a.Title::before
+{
+    content: "\f137";
+}
+
+.DiscussionsTable .Item.Announcement.New a.Title::before
+{
+    content: "\f137\0020\f1a1";
+}
+
+/* f1a1, f137, f181, f183 https://github.com/vanilla/vanilla/blob/master/resources/design/vanillicon.css */
+/* Remove "Question", "Answer", and "Announcement" messages */
+.DataTable .Meta.Meta-Discussion, strong.NewCommentCount
+{
+    display:none
 }
 
 .DataTable.DiscussionsTable tr td.BigCount
@@ -84,4 +131,158 @@ strong.NewCommentCount
 {
     vertical-align:middle;
     line-height:28px;
+}
+
+/* Shrink profile image and username */
+.AuthorWrap > .Author .ProfilePhotoMedium
+{
+    max-width:25px;
+    max-height:25px;
+}
+
+.Comment .Author .PhotoWrap
+{
+    float:left;
+}
+
+.CommentHeader .AuthorWrap
+{
+    line-height:31px;
+    height:31px;
+    vertical-align:middle;
+    text-align:left;
+}
+
+.Comment a.Username
+{
+    display:inline;
+    min-height:30px;
+    font-weight:normal;
+    font-size:12px;
+    margin-left:5px;
+}
+
+/* Change post sizes */
+.Comment .CommentHeader
+{
+    width:145px;
+    display:block;
+    overflow:hidden;
+}
+
+.ItemComment
+{
+    margin:0;
+    display:block;
+}
+
+.Comment
+{
+    min-height:31px;
+    padding:0;
+    overflow:hidden;
+}
+
+.Comment .Item-BodyWrap
+{
+    display:block;
+    min-height:31px;
+    padding:10px 5px 3px 10px;
+}
+
+.Comment .Item-BodyWrap .Item-Body
+{
+    min-height:31px;
+}
+
+/* Remove margins on certain forum elements */
+blockquote.Quote
+{
+    margin:3px;
+    /* The further back the quote, the smaller the text */
+    font-size:0.95em;
+    
+    border:1px dotted rgba(255,255,255,0.35);
+    border-left:5px solid rgba(255,255,255,0.35);
+    border-radius:15px 0 0 15px;
+}
+
+/* Shrink line spacing */
+.Comment .Item-BodyWrap .Message
+{
+    min-height:31px;
+    -webkit-font-smoothing:subpixel-antialiased;
+    line-height:138%;
+}
+
+.AuthorWrap > .AuthorInfo
+{
+    display:none;
+}
+
+/* Limit image sizes on posts */
+.Comment .Item-BodyWrap .Message img
+{
+    max-height:150px;
+    max-width:700px;
+    padding:10px 5px;
+    line-height:100px;
+    vertical-align:middle;
+}
+
+/* Hide Signature Area */
+.Signature.UserSignature
+{
+    display:none;
+}
+
+/* Hide Flag/Quote Area */
+.Reactions
+{
+    display:none;
+}
+
+/* Hide Comment Date/Edit Date */
+.Meta.CommentMeta.CommentInfo, .Meta.DiscussionMeta
+{
+    display:none;
+}
+
+/* Emoji's need to be compacted */
+img.emoji
+{
+    margin:-6px;
+}
+
+/* Remove border hover */
+.MessageList > li
+{
+    z-index:0;
+    margin-top:-1px !important;
+    border:1px solid transparent !important;
+    transition: border 0.8s ease-out 0.1s, z-index 0.8s ease-out 0.1s;
+}
+
+.MessageList > li:hover
+{
+    box-shadow:none !important;
+    z-index:999;
+    border:1px solid #777 !important;
+    transition: border 0s linear 0s, z-index 0s linear 0s;
+}
+
+.MessageList > li .Comment .Item-BodyWrap
+{
+    transition: border 0.8s ease-out 0.1s;
+}
+
+.MessageList > li:hover .Comment .Item-BodyWrap
+{
+    border-left:1px solid #777 !important;
+    transition: border 0s linear 0s;
+}
+
+.MessageList > li
+{
+    margin-bottom:0 !important;
 }
