@@ -1,0 +1,87 @@
+/* Remove description and sub forums */
+.DataTable.CategoryTable .Item .ChildCategories, .DataTable.CategoryTable .Item .CategoryDescription
+{
+    display:none;
+}
+
+/* Shrink table headers */
+.DataTable.CategoryTable
+{
+    
+}
+
+/* Remove vertical padding on forum categories */
+.CategoryTable > tbody > tr > td, .DiscussionsTable > tbody > tr > td, .DataTable.CategoryTable .Item h2
+{
+    padding-top:0;
+    padding-bottom:0;
+}
+
+/* Shrink post count number size */
+.DataTable.CategoryTable .Item .BigCount
+{
+    font-size:0.9em;
+    /*display:none;*/
+}
+
+/* Shrink warning messages */
+.DismissMessage.WarningMessage
+{
+    padding:1px 1px 1px 10px;
+    margin:0 0 5px;
+}
+
+/* Shrink all "HomepageTitle" elements, including the ones in the preferences area */
+h1.H.HomepageTitle
+{
+    font-size:110%;
+    margin-bottom:0px;
+}
+
+h2.H
+{
+    padding:5px 0;
+    font-size:100%;
+}
+
+/* Shrink page description */
+div.P.PageDescription
+{
+    font-size:80%;
+    margin-top:0px;
+}
+
+/* Remove large margin between UCP and content */
+div.BoxTop
+{
+    margin-bottom:10px;
+}
+
+/* "Announcement", "x new", "Question", and "Answer" are on the same line as the link */
+strong.NewCommentCount
+{
+    padding:2px 4px;
+    margin:5px 5px 0 0;
+    line-height:14px;
+    float:left;
+    display:inline-block;
+    width:auto;
+    min-width:35px;
+    text-align:center;
+}
+
+.DataTable .Meta.Meta-Discussion
+{
+    display:none;
+}
+
+.DataTable.DiscussionsTable tr td.BigCount
+{
+    display:none;
+}
+
+.DiscussionsTable .Item
+{
+    vertical-align:middle;
+    line-height:28px;
+}

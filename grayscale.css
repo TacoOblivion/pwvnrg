@@ -68,10 +68,10 @@ div.PostEdited
 /* Changes to pretty the avatar area */
 .AuthorWrap > .Author .ProfilePhotoMedium
 {
-    width:auto !important;
+    width:auto;
     height:auto;
-    max-width: 125px !important;
-    max-height:125px !important;
+    max-width: 125px;
+    max-height:125px;
 }
 
 .AuthorWrap > .Author .Online .ProfilePhotoMedium
