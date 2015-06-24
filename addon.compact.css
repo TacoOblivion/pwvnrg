@@ -10,7 +10,8 @@
     height:22px;
     line-height:22px;
     vertical-align:middle;
-    margin:0;padding:0;background-image:0;
+    margin:0;
+    padding:0;
 }
 
 .DataTable.CategoryTable .CategoryName h2 a
@@ -202,8 +203,11 @@ blockquote.Quote
     /* The further back the quote, the smaller the text */
     font-size:0.95em;
     
-    border:1px dotted rgba(255,255,255,0.35);
-    border-left:5px solid rgba(255,255,255,0.35);
+    /* Don't want to interfere with colorful addon */
+    border-top:1px dotted rgba(255,255,255,0.35);
+    border-right:1px dotted rgba(255,255,255,0.35);
+    border-bottom:1px dotted rgba(255,255,255,0.35);
+    
     border-radius:15px 0 0 15px;
 }
 
@@ -259,7 +263,7 @@ img.emoji
 {
     z-index:0;
     margin-top:-1px !important;
-    border:1px solid transparent !important;
+    border:1px solid #222224 !important;
     transition: border 0.8s ease-out 0.1s, z-index 0.8s ease-out 0.1s;
 }
 
