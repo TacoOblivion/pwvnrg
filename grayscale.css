@@ -137,6 +137,8 @@ blockquote.Quote
     background-color:rgba(0,0,0,0.3);
     display:inline-block;
     padding:0 6px;
+    max-width:100%;
+    box-sizing:border-box;
 }
 
 .Item .Comment .Item-BodyWrap .Message a:hover, .Item .Discussion .Item-BodyWrap .Message a:hover, .ConversationMessage .Message a:hover
@@ -147,6 +149,18 @@ blockquote.Quote
     padding:0 6px;
     color:rgb(196,128,128);
     text-decoration:none;
+}
+
+.Item .Comment .Item-BodyWrap .Message a > img, .Item .Discussion .Item-BodyWrap .Message a > img, .ConversationMessage .Message a > img
+{
+    width:auto;
+    height:auto;
+    margin:10px 5px;
+}
+
+.Message
+{
+    overflow:hidden;
 }
 
 /* Removes outline from non-normal post links due to above change (no reason to have those stick out) */
