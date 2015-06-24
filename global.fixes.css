@@ -104,6 +104,27 @@ a.Bookmarked::before
     content:",";
 }
 
+/* Fixes profile button - partial credit to dblazen1 */
+.ProfileOptions a.NavButton
+{
+	color:#DDD;
+	text-shadow: none;
+    border-top:1px solid rgba(255,255,255,0.4);
+    border-radius:4px;
+}
+.ProfileOptions a.NavButton:hover
+{
+    color:#FFF;
+    background:linear-gradient(#4B4E56, #3D3D46);
+}
+
+.ProfileOptions a.NavButton:active
+{
+    color:#AAA;
+    background:linear-gradient(#272731, #373a43);
+    border-top-color:rgba(255,255,255,0.1);
+}
+
 /* Fixes awful look of subforum categories subforums of thread lists */
 .ChildCategoryList
 {

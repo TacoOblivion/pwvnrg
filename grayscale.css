@@ -60,7 +60,7 @@ div.PostEdited
 
 
 /* Changes general post color (is too dark otherwise) */
-.ItemDiscussion, .Comment, .Activities > .Activity, .MessageList > li, .Item-Search
+.ItemDiscussion, .Comment, .Activities > .Activity, .MessageList > li, .Item-Search, .MessageList > li.Item
 {
     background-color:rgb(45, 47, 55);
 }
@@ -131,7 +131,7 @@ blockquote.Quote
 }
 
 /* Message area link colors */
-.Item .Comment .Item-BodyWrap .Message a:link, .Item .Discussion .Item-BodyWrap .Message a:link
+.Item .Comment .Item-BodyWrap .Message a:link, .Item .Discussion .Item-BodyWrap .Message a:link, .ConversationMessage .Message a:link
 {
     border-radius:8px;
     background-color:rgba(0,0,0,0.3);
@@ -139,7 +139,7 @@ blockquote.Quote
     padding:0 6px;
 }
 
-.Item .Comment .Item-BodyWrap .Message a:hover, .Item .Discussion .Item-BodyWrap .Message a:hover
+.Item .Comment .Item-BodyWrap .Message a:hover, .Item .Discussion .Item-BodyWrap .Message a:hover, .ConversationMessage .Message a:hover
 {
     border-radius:8px;
     background-color:rgba(255,255,255,0.1);
