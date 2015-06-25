@@ -156,6 +156,7 @@ a.Bookmarked::before
     margin:0 3px;
     overflow:hidden;
     box-shadow:0 0 4px 0px #000;
+    background-color:#1B1C20;
 }
 
 .ChildCategoryList .Item:nth-child(odd)
@@ -194,6 +195,7 @@ a.Bookmarked::before
     margin-bottom:6px !important;
     border-radius:10px 4px 10px 4px;
     position:relative;
+    background-color:#1B1C20;
 }
 
 .ChildCategoryList .Item .Meta.Hidden

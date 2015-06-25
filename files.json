@@ -50,6 +50,17 @@
 			"description":"Makes better use of the screen",
 			"order":-1,
 			"requires":[]
+		},
+		
+		"VA Eclipse":
+		{
+			"baseurl":"https://rawgit.com/Goodlookinguy/pwvnrg/",
+			"branch-commit":"master",
+			"file":"addon.va-eclipse.css",
+			"description":"Gives the forum a PW Eclipse theme",
+			"order":3,
+			"requires":["Global Fixes","Grayscale","Colorful Addon"]
+			
 		}
 	}
 }
