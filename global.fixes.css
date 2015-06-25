@@ -15,13 +15,6 @@ code:hover, pre:hover
     background-color:rgba(0,0,0,0.5);
 }
 
-/* I honestly never thought I'd have to use the tilde operator in CSS. Who knew. */
-/* Hide the break between a codebox, quote, and spoiler and their text */
-code ~ br, pre ~ br, .Quote.UserQuote ~ br, .UserSpoiler ~ br
-{
-    display:none;
-}
-
 /* Fixes "Post Edited" message color (less intense) */
 div.PostEdited
 {
