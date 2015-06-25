@@ -21,3 +21,5 @@
 ### What JS?
 None yet. I've been actively trying to avoid using JS. I want to do as much as I can in pure CSS.
 
+### For programmers / extension makers
+I've added a files.json file that has the themes listed using Asterelle's descriptions of my style sheets.

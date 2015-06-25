@@ -1,0 +1,45 @@
+{
+	"themes":
+	{
+		"Global Fixes":
+		{
+			"file":"global.fixes.css",
+			"description":"General fixes and usability",
+			"order":-1,
+			"requires":[]
+		},
+		
+		"Grayscale":
+		{
+			"file":"grayscale.css",
+			"description":"Makes the forum look nicer",
+			"order":1,
+			"requires":["Global Fixes"]
+		},
+		
+		"Colorful Addon":
+		{
+			"file":"addon.colorful.css",
+			"description":"Adds a dash of color to navigation",
+			"order":2,
+			"requires":["Global Fixes","Grayscale"]
+		},
+		
+		"Compact":
+		{
+			"file":"addon.compact.css",
+			"description":"For those that like minimalism",
+			"order":2,
+			"requires":["Global Fixes","Grayscale"]
+			
+		},
+		
+		"Fluid Width":
+		{
+			"file":"addon.fluid-width.css",
+			"description":"Makes better use of the screen",
+			"order":-1,
+			"requires":[]
+		}
+	}
+}
