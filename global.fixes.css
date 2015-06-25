@@ -1,23 +1,23 @@
 /* Fixes codebox colors */
-pre
+code, pre
 {
 	background-color:rgba(255,255,255,0.025);
-	border-radius:5px;
+	border-radius:6px;
 }
 
-pre:hover
+code:hover, pre:hover
 {
     box-shadow:0 0 8px 2px rgba(255,255,255,0.4);
 }
 
-.SpoilerText > pre
+.SpoilerText > pre, .SpoilerText > code
 {
     background-color:rgba(0,0,0,0.5);
 }
 
 /* I honestly never thought I'd have to use the tilde operator in CSS. Who knew. */
 /* Hide the break between a codebox, quote, and spoiler and their text */
-pre ~ br, .Quote.UserQuote ~ br, .UserSpoiler ~ br
+code ~ br, pre ~ br, .Quote.UserQuote ~ br, .UserSpoiler ~ br
 {
     display:none;
 }
