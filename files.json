@@ -46,7 +46,7 @@
 		{
 			"baseurl":"https://rawgit.com/Goodlookinguy/pwvnrg/",
 			"branch-commit":"master",
-			"file":"addon.fluid-width.css",
+			"file":"global.fluid-width.css",
 			"description":"Makes better use of the screen",
 			"order":-1,
 			"requires":[]
