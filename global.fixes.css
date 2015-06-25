@@ -16,8 +16,8 @@ pre:hover
 }
 
 /* I honestly never thought I'd have to use the tilde operator in CSS. Who knew. */
-/* Hide the break between a codebox and text */
-pre ~ br
+/* Hide the break between a codebox, quote, and spoiler and their text */
+pre ~ br, .Quote.UserQuote ~ br, .UserSpoiler ~ br
 {
     display:none;
 }
