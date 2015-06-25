@@ -270,7 +270,7 @@ img.emoji
 .MessageList > li:hover
 {
     box-shadow:none !important;
-    z-index:999;
+    z-index:100;
     border:1px solid #777 !important;
     transition: border 0s linear 0s, z-index 0s linear 0s;
 }
