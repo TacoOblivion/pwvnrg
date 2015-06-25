@@ -212,3 +212,10 @@ a.Bookmarked::before
 {
     text-align:right;
 }
+
+/* Fixes overly long PM snippet alerts */
+.Excerpt
+{
+    max-height:180px;
+    overflow:hidden;
+}
