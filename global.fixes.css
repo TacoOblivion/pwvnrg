@@ -105,20 +105,20 @@ a.Bookmarked::before
 }
 
 /* Fixes profile button - partial credit to dblazen1 */
-.ProfileOptions a.NavButton
+.Button, .NavButton
 {
 	color:#DDD;
 	text-shadow: none;
     border-top:1px solid rgba(255,255,255,0.4);
     border-radius:4px;
 }
-.ProfileOptions a.NavButton:hover
+.Button:hover, .NavButton:hover
 {
     color:#FFF;
     background:linear-gradient(#4B4E56, #3D3D46);
 }
 
-.ProfileOptions a.NavButton:active
+.Button:active, .NavButton:active
 {
     color:#AAA;
     background:linear-gradient(#272731, #373a43);

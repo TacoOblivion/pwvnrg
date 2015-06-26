@@ -12,7 +12,6 @@
     border-color:rgba(43, 59, 85,0.95);
 }
 
-
 /* ===== Grayscale Modification ===== */
 
 /* Change background */
@@ -43,6 +42,7 @@ h1.H, h2.H, div.P.PageDescription, .Discussion .PageTitle
     border-radius:10px;
     padding:6px 8px;
 }
+
 .ContentColumn h2.H { padding:6px 8px; margin-top:-2px; border-radius:7px; }
 h1.H.HomepageTitle, div.P.PageDescription { color:#FFF; border-radius:10px 10px 0px 0px; }
 div.P.PageDescription { padding-left:30px; margin-top:-5px; border-radius:0px 0px 10px 10px; }
@@ -68,6 +68,19 @@ div.P.PageDescription { padding-left:30px; margin-top:-5px; border-radius:0px 0p
 .ItemDiscussion, .Comment, .Activities > .Activity, .MessageList > li, .Item-Search, .MessageList > li.Item, #Content > div.DataListWrap > ul > li, ul.Drafts li.Item
 {
     background-color:rgba(19, 37, 66,0.9);
+}
+
+#Content > div.CommentsWrap > div.DataBox.DataBox-Comments > h2
+{
+    background-color:rgba(19, 37, 66,0.9);
+    margin:0;
+    padding:10px 0 10px 15px;
+}
+
+.CommentsWrap #PagerBefore
+{
+    margin-top:5px;
+    margin-right:4px;
 }
 
 /* Change form box color (index, activity, profile, post) */
@@ -110,12 +123,6 @@ div.P.PageDescription { padding-left:30px; margin-top:-5px; border-radius:0px 0p
 .Breadcrumbs a:link:hover, .Breadcrumbs a:hover
 {
     color:rgba(255, 255, 77,0.75);
-}
-
-/* Preferences changes */
-#Content > div.FormTitleWrapper > div.Preferences
-{
-    background-color:rgba(19, 37, 66, 0.95);
 }
 
 /* Changes to pretty the avatar area */
@@ -164,3 +171,140 @@ blockquote.Quote
 .Item.New.ItemDiscussion:hover { background-color:rgba(255, 249, 184,0.6) !important; }
 
 .Item.Announcement.ItemDiscussion { background-color:rgba(0, 13,38,0.95); }
+
+/* ===== Additional Changes ===== */
+
+/* User Overall Control Panel */
+.Row > .Box
+{
+	background: rgba(19, 37, 66,0.95);
+	border: 1px solid rgb(19, 37, 66);
+}
+
+.BoxTop
+{
+	box-shadow: 0 0 10px 0 rgba(19, 37, 66,0.8);
+}
+
+/* User Profile */
+#Panel
+{
+    box-sizing:border-box;
+    padding:5px;
+    background-color:rgba(19, 37, 66,0.95);
+    border-radius:7px;
+}
+
+#Panel .ProfilePhotoLarge
+{
+    width:190px;
+    border-radius:5px 5px 0px 0px;
+}
+
+#Panel .Box
+{
+    background:none;
+    border:none;
+}
+
+.FilterMenu > li
+{
+    /* PWE, stop using !important so carelessly. Ugh. */
+    padding:0px !important;
+}
+
+.FilterMenu > li a, .FilterMenu > li a:link
+{
+    display:block;
+    padding:5px 0 5px 5px;
+}
+
+.FilterMenu > li a:hover
+{
+    background-color:rgba(255,255,255,0.1);
+    color:rgb(118,175,207);
+}
+
+/* Navigation Button */
+.Button, .NavButton, .Button:focus, .NavButton:focus
+{
+	background: linear-gradient(rgba(255,255,255,0.4), rgba(0,0,0,0.3)) !important;
+    border-top:1px solid rgba(255,255,255,0.8);
+    border-bottom:1px solid rgba(0,0,0,0.8);
+    box-shadow:0 2px 3px 0px #000;
+    border-radius:3px;
+}
+
+.Button:hover, .NavButton:hover
+{
+	background: linear-gradient(rgba(255,255,255,0.5), rgba(0,0,0,0.2)) !important;
+    border-top:1px solid rgba(255,255,255,0.9);
+    border-bottom:1px solid rgba(0,0,0,0.85);
+}
+
+.Button:active:hover, .NavButton:active:hover
+{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(255,255,255,0.3)) !important;
+    border-top:1px solid #FFF;
+    border-bottom:1px solid #000;
+    box-shadow:0 0px 3px 0px #000;
+}
+
+.NavButton.ProfileButtons.Button-EditProfile
+{
+	margin:4px 8px 0 0;
+}
+
+/* Notification Preferences */
+#Content > div.FormTitleWrapper > div.Preferences
+{
+    background-color:rgba(19, 37, 66, 0.95);
+    border-radius:10px;
+}
+
+/* Add backgrounds to preferences */
+#Content form[action="/profile/picture?"],
+#Content form[action="/profile/online?"],
+#Content form[action="/profile/quotes?"],
+#Content form[action="/profile/signature?"]
+{
+    background-color:rgba(19, 37, 66, 0.95) !important;
+    border-radius:10px;
+}
+
+#Content form[action="/profile/signature?"] h1.H, #Content form[action="/profile/signature?"] h2.H
+{
+    background:none;
+}
+
+.ProfileOptions
+{
+    width:110px;
+    height:30px;
+    line-height:30px;
+    text-align:center;
+    vertical-align:middle;
+}
+
+/* Page Listings */
+.Pager a, .Pager span, .Pager a:focus, .Pager a:active:focus
+{
+    background:linear-gradient(rgba(255,255,255,0.6), rgba(0,0,0,0.5));
+    border:none !important;
+    box-shadow:0px 2px 5px 0px rgba(0,0,0,0.5);
+}
+
+.Pager a:hover:not(.Highlight)
+{
+    background:linear-gradient(rgba(255,255,255,0.7), rgba(0,0,0,0.4));
+}
+
+.Pager a:active:not(.Highlight)
+{
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(255,255,255,0.4));
+}
+
+.Pager a.Highlight
+{
+    background:linear-gradient(rgba(255,255,255,0.6), rgba(0,0,0,0.3));
+}
