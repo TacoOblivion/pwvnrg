@@ -72,7 +72,7 @@ table.PreferenceGroup tbody tr:hover td
 /* show icons properly (they used FFFFFF instead of ffffff - credit to dblazen1 for finding this one */
 .ReactSprite
 {
-    background-image: url("/applications/dashboard/design/images/sprites-14-ffffff.png") !important;
+    background-image: url('http://perfectworld.vanillaforums.com/applications/dashboard/design/images/sprites-14-ffffff.png') !important;
 }
 
 /* Fixes bookmarked threads */
