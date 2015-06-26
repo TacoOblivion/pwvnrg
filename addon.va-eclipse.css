@@ -266,7 +266,8 @@ blockquote.Quote
 #Content form[action="/profile/picture?"],
 #Content form[action="/profile/online?"],
 #Content form[action="/profile/quotes?"],
-#Content form[action="/profile/signature?"]
+#Content form[action="/profile/signature?"],
+#Content form[action="/profile/edit?"]
 {
     background-color:rgba(19, 37, 66, 0.95) !important;
     border-radius:10px;
@@ -285,6 +286,22 @@ blockquote.Quote
     text-align:center;
     vertical-align:middle;
 }
+
+#Content > div.Profile > div.DataListWrap > ul > li
+{
+    background-color:rgba(19, 37, 66, 0.95);
+    border-radius:7px;
+    margin-bottom:15px !important;
+    box-shadow:0px 0px 7px 1px rgba(118,175,207,0.8);
+    transition:box-shadow 0.8s ease-out 0s;
+}
+
+#Content > div.Profile > div.DataListWrap > ul > li:hover
+{
+    box-shadow:0px 0px 15px 3px rgba(118,175,207,0.8);
+    transition:box-shadow 50ms linear 0s;
+}
+
 
 /* Page Listings */
 .Pager a, .Pager span, .Pager a:focus, .Pager a:active:focus
