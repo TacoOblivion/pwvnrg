@@ -1,6 +1,12 @@
 ## PWE Vanilla Forums CSS/JS Injection Correction
 
-### How to install/use?
+### How to install/use with Asterelle's PWE Vanilla Enhance?
+1. Follow the installation instructions at https://github.com/asterpw/pwevanillaenhance
+2. There will be a small blue cogwheel in your user control bar. Click on that.
+3. Under themes you will find the themes from here. Click on one to load it.
+4. It is recommended that you reload the page after setting all of the theme pieces you want so that they load in the correct order.
+
+### How to install/use with Stylish (regular install)?
 1. Get the addon called "Stylish" for Firefox or Chrome.
 2. Go to http://perfectworld.vanillaforums.com/
 3. Create a new style by clicking on the link pointed to on this picture. ![Example](http://dump.nrgs.org/pwpw/StylishPWEFStyles2.png)
