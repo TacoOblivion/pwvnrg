@@ -61,6 +61,16 @@
 			"order":3,
 			"requires":["Global Fixes","Grayscale","Colorful Addon"]
 			
+		},
+		
+		"Game Logos":
+		{
+			"baseurl":"https://rawgit.com/Goodlookinguy/pwvnrg/",
+			"branch-commit":"master",
+			"file":"global.logos.css",
+			"description":"Adds game logos to home and game home page",
+			"order":-1,
+			"requires":[]
 		}
 	}
 }

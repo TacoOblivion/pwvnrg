@@ -1,0 +1,180 @@
+/* Idea inspired by eiledon */
+
+/* Sub Pages */
+.Section-Category-neverwinter .MeBoxContainer::before,
+.Section-Category-startrekonline .MeBoxContainer::before,
+.Section-Category-prime-world .MeBoxContainer::before,
+.Section-Category-royal-quest .MeBoxContainer::before,
+.Section-Category-star-conflict .MeBoxContainer::before,
+.Section-Category-apbreloaded .MeBoxContainer::before,
+.Section-Category-elsword .MeBoxContainer::before,
+.Section-Category-jadedynasty .MeBoxContainer::before,
+.Section-Category-championsonline .MeBoxContainer::before,
+.Section-Category-forsakenworld .MeBoxContainer::before,
+.Section-Category-pwi .MeBoxContainer::before,
+.Section-Category-blacklightretribution .MeBoxContainer::before,
+.Section-Category-blacklight-retribution .MeBoxContainer::before,
+.Section-Category-battleoftheimmortals .MeBoxContainer::before,
+.Section-Category-waroftheimmortals .MeBoxContainer::before,
+.Section-Category-stronghold-kingdoms .MeBoxContainer::before,
+.Section-Category-arc-mobile .MeBoxContainer::before,
+.Section-Category-Swordsman .MeBoxContainer::before,
+.Section-Category-swordsman-ru .MeBoxContainer::before,
+.Section-Category-swordsman-fr .MeBoxContainer::before,
+.Section-Category-swordsman-de .MeBoxContainer::before,
+.Section-Category-ethersagaodyssey .MeBoxContainer::before,
+.Section-Category-raiderz .MeBoxContainer::before
+{
+    content:""; /* CSS hackin' */
+    position:relative;
+    float:right;
+    right:0px;
+    top:-25px;
+    display:block;
+    width:217px;
+    height:117px;
+    background-repeat:no-repeat;
+    background-position:right center;
+}
+
+/* Front page */
+#CategoryGroup-en.CategoryGroup tr.Item > .CategoryName > .Wrap,
+#CategoryGroup-russian-forum.CategoryGroup tr.Item > .CategoryName > .Wrap,
+#CategoryGroup-fr.CategoryGroup tr.Item > .CategoryName > .Wrap,
+#CategoryGroup-de.CategoryGroup tr.Item > .CategoryName > .Wrap
+{
+    padding-left:120px;
+}
+
+#CategoryGroup-en.CategoryGroup tr.Item > .CategoryName,
+#CategoryGroup-russian-forum.CategoryGroup tr.Item > .CategoryName,
+#CategoryGroup-fr.CategoryGroup tr.Item > .CategoryName,
+#CategoryGroup-de.CategoryGroup tr.Item > .CategoryName
+{
+    background-repeat:no-repeat;
+    background-position:left center;
+    background-size:120px auto;
+}
+
+.Category-neverwinter > .CategoryName,
+.Section-Category-neverwinter .MeBoxContainer::before
+{
+    background-image:url('http://images-cdn.perfectworld.com/arc/3a/81/3a81ab0f31f45e9932b42a9acb6901251428424134.png');
+}
+
+.Category-startrekonline > .CategoryName,
+.Section-Category-startrekonline .MeBoxContainer::before
+{
+    background-image:url('http://images-cdn.perfectworld.com/arc/b0/f8/b0f828fe91b8db7e4a8bc149fbb61c051429636566.png');
+}
+
+.Category-prime-world > .CategoryName,
+.Section-Category-prime-world .MeBoxContainer::before
+{
+    background-image:url('http://images-cdn.perfectworld.com/arc/94/ec/94ec34ae25f734803e89f145ea28dfc31430354530.png');
+}
+
+.Category-royal-quest > .CategoryName,
+.Section-Category-royal-quest .MeBoxContainer::before
+{
+    background-image:url('http://images-cdn.perfectworld.com/arc/49/18/49185e8a9a3672c0d02db0a08e0b11f41430953754.png');
+}
+
+.Category-star-conflict > .CategoryName,
+.Section-Category-star-conflict .MeBoxContainer::before
+{
+    background-image:url('http://images-cdn.perfectworld.com/arc/b0/d7/b0d7ba458793fa27ff99bfd8cd57a8241426788017.png');
+}
+
+
+.Category-apbreloaded > .CategoryName,
+.Section-Category-apbreloaded .MeBoxContainer::before
+{
+    background-image:url('http://images-cdn.perfectworld.com/arc/04/25/04251ebaafb985484e54dd859c152de31403296162.png');
+}
+
+.Category-elsword > .CategoryName,
+.Section-Category-elsword .MeBoxContainer::before
+{
+    background-image:url('http://images-cdn.perfectworld.com/arc/79/0c/790c434d55e978555c6a51ff796029591423791394.png');
+}
+
+.Category-jadedynasty > .CategoryName,
+.Section-Category-jadedynasty .MeBoxContainer::before
+{
+    background-image:url('http://images-cdn.perfectworld.com/arc/55/ba/55ba6657e975b3d45abdf2cb45ad4b7b1387241344.png');
+}
+
+.Category-championsonline > .CategoryName,
+.Section-Category-championsonline .MeBoxContainer::before
+{
+    background-image:url('http://images-cdn.perfectworld.com/arc/a6/33/a633c3671491651ea7b42d6d95815edb1385152436.png');
+}
+
+.Category-forsakenworld > .CategoryName,
+.Section-Category-forsakenworld .MeBoxContainer::before
+{
+    background-image:url('http://images-cdn.perfectworld.com/arc/c0/75/c0755520a43e6b6a9b551be9948f83d51425683020.png');
+}
+
+.Category-pwi > .CategoryName,
+.Section-Category-pwi .MeBoxContainer::before
+{
+    background-image:url('http://images-cdn.perfectworld.com/arc/92/47/9247267bdf832fd41d502991fe80fbbd1419024145.png');
+}
+
+.Category-blacklightretribution > .CategoryName,
+.Category-blacklight-retribution > .CategoryName,
+.Section-Category-blacklightretribution .MeBoxContainer::before,
+.Section-Category-blacklight-retribution .MeBoxContainer::before
+{
+    background-image:url('http://images-cdn.perfectworld.com/arc/5d/49/5d49d74ac317bb7160337bacb75701191385067585.png');
+}
+
+.Category-battleoftheimmortals > .CategoryName,
+.Section-Category-battleoftheimmortals .MeBoxContainer::before
+{
+    background-image:url('http://images-cdn.perfectworld.com/arc/fc/1b/fc1b836d8d7ddc102d664bbd448cb9441412994941.png');
+}
+
+.Category-waroftheimmortals > .CategoryName,
+.Section-Category-waroftheimmortals .MeBoxContainer::before
+{
+    background-image:url('http://images-cdn.perfectworld.com/arc/1c/a3/1ca3942f422047f4d5fd284a10fe43d41398393797.png');
+}
+
+.Category-stronghold-kingdoms > .CategoryName,
+.Section-Category-stronghold-kingdoms .MeBoxContainer::before
+{
+    background-image:url('http://images-cdn.perfectworld.com/arc/68/c2/68c232a17c60f90978bd3420a39949881425581480.png');
+}
+
+.Category-arc-mobile > .CategoryName,
+.Section-Category-arc-mobile .MeBoxContainer::before
+{
+    background-image:url('https://raw.githubusercontent.com/Goodlookinguy/pwvnrg/master/global.logos.content/arc.png');
+}
+
+.Category-Swordsman > .CategoryName,
+.Category-swordsman-ru > .CategoryName,
+.Category-swordsman-fr > .CategoryName,
+.Category-swordsman-de > .CategoryName,
+.Section-Category-Swordsman .MeBoxContainer::before,
+.Section-Category-swordsman-ru .MeBoxContainer::before,
+.Section-Category-swordsman-fr .MeBoxContainer::before,
+.Section-Category-swordsman-de .MeBoxContainer::before
+{
+    background-image:url('http://images-cdn.perfectworld.com/arc/68/72/68726923a8a436c82dbbdd8973ac24631414170956.png');
+}
+
+.Category-ethersagaodyssey > .CategoryName,
+.Section-Category-ethersagaodyssey .MeBoxContainer::before
+{
+    background-image:url('http://images-cdn.perfectworld.com/arc/3e/1f/3e1f70e14a0bd0d96705b65b079801221386047915.png');
+}
+
+.Category-raiderz > .CategoryName,
+.Section-Category-raiderz .MeBoxContainer::before
+{
+    background-image:url('http://images-cdn.perfectworld.com/arc/7b/7b/7b7b748d3e3815d4f83fa4e85d1225cf1385159081.png');
+}
