@@ -172,6 +172,21 @@ blockquote.Quote
     padding:0px !important;
 }
 
+/* Change form box color (index, activity, profile, post) */
+.CommentFormWrap
+{
+    background:none;
+    border:0;
+}
+
+.Section-ActivityList .FormWrapper,
+.FormWrapper
+{
+    box-sizing:border-box;
+    background-color:rgb(45, 47, 55);
+    margin-bottom:10px;
+}
+
 /* Code box */
 pre
 {
