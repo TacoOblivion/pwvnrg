@@ -279,15 +279,6 @@ blockquote.Quote
     background:none;
 }
 
-.ProfileOptions
-{
-    width:110px;
-    height:30px;
-    line-height:30px;
-    text-align:center;
-    vertical-align:middle;
-}
-
 #Content > div.Profile > div.DataListWrap > ul > li
 {
     background-color:rgba(19, 37, 66, 0.95);

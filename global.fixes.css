@@ -229,3 +229,13 @@ a.Bookmarked::before
     color:inherit;
     border:1px solid rgba(255,255,255,0.2);
 }
+
+/* Fixes profile "Back to Profile"'s unusual feeling location */
+.ProfileOptions
+{
+    width:110px;
+    height:30px;
+    line-height:30px;
+    text-align:center;
+    vertical-align:middle;
+}
