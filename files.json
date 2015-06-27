@@ -64,8 +64,8 @@
 		
 		"The Blues":
 		{
-			"baseurl":"https://rawgit.com/Goodlookinguy/pwvnrg/",
-			"branch-commit":"master",
+			"baseurl":"https://rawgit.com/armntic/pwvnrg/",
+			"branch-commit":"patch-1",
 			"file":"PW-TheBlues.css",
 			"description":"Gives the forum a blue theme",
 			"order":3,
