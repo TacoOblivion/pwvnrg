@@ -28,7 +28,7 @@
 			"file":"addon.colorful.css",
 			"description":"Adds a dash of color to navigation",
 			"order":2,
-			"requires":["Global Fixes","Grayscale"]
+			"requires":["Grayscale"]
 		},
 		
 		"Compact":
@@ -38,7 +38,7 @@
 			"file":"addon.compact.css",
 			"description":"For those that like minimalism",
 			"order":2,
-			"requires":["Global Fixes","Grayscale"]
+			"requires":["Grayscale"]
 			
 		},
 		
@@ -59,7 +59,7 @@
 			"file":"addon.va-eclipse.css",
 			"description":"Gives the forum a PW Eclipse theme",
 			"order":3,
-			"requires":["Global Fixes","Grayscale","Colorful Addon"]
+			"requires":["Colorful Addon"]
 			
 		},
 		
