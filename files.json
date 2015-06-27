@@ -60,9 +60,18 @@
 			"description":"Gives the forum a PW Eclipse theme",
 			"order":3,
 			"requires":["Colorful Addon"]
-			
 		},
 		
+		"The Blues":
+		{
+			"baseurl":"https://rawgit.com/Goodlookinguy/pwvnrg/",
+			"branch-commit":"master",
+			"file":"PW-TheBlues.css",
+			"description":"Gives the forum a blue theme",
+			"order":3,
+			"requires":["Colorful Addon"]
+		},
+
 		"Game Logos":
 		{
 			"baseurl":"https://rawgit.com/Goodlookinguy/pwvnrg/",
