@@ -16,13 +16,21 @@
 7. Click on the checkmarks to activate each style. Some are ordered. The order can be viewed below.
 8. You can now use http://www.arcgames.com/en/forums to view the forums and the styles will stay. You won't be able to activate/deactivate unless on http://perfectworld.vanillaforums.com/
 
-### Activation Order (You only need to activate what you want to)
-1. Global Fixes
-2. Grayscale
-3. Colorful Addon, Compact Addon
+### Should always be activated (even if you activate nothing else)
+0. Global Fixes
 
-### Styles that don't need to be activated in order
+### Activation Order (Style Sheets with the same number may have collisions)
+1. Grayscale
+	2. Colorful Addon
+		3. VA Eclipse (by @ovenusarmanio)
+		3. The Blues (by @eldarth)
+	2. Compact Addon
+	2. Pro Blue
+	2. Pro Red
+
+### Styles that don't need to be activated in any order
 * Fluid Width
+* Game Logos
 
 ### What JS?
 None yet. I've been actively trying to avoid using JS. I want to do as much as I can in pure CSS.
