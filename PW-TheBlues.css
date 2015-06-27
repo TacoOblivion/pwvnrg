@@ -17,13 +17,12 @@ body > #Frame > .Head
 
 div.Message:hover, div.Item-Body:hover
 {
-    background: #008899;
+    background: #004455;
 }
 
 div.Message, div.Item-Body
 {
-    /* background: #008899; */
-    background: #004455;
+    background: #008899;
 }
 
 div.Signature
