@@ -221,3 +221,11 @@ a.Bookmarked::before
     max-height:180px;
     overflow:hidden;
 }
+
+/* Fixes Preview Colors */
+.Preview
+{
+    background:none;
+    color:inherit;
+    border:1px solid rgba(255,255,255,0.2);
+}
