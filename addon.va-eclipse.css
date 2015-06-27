@@ -22,7 +22,8 @@
 
 body
 {
-    background-image: url(https://raw.githubusercontent.com/Goodlookinguy/pwvnrg/master/addon.venusarmani.content/main-backdrop.jpg);
+    background-color:#090C13;
+    background-image: url(https://raw.githubusercontent.com/Goodlookinguy/pwvnrg/master/addon.venusarmani.content/main-backdrop.jpg), linear-gradient(#090C13, #10131A);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position:center center;
