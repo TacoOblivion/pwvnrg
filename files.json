@@ -89,6 +89,16 @@
 			"description":"Gives the forum a blue theme",
 			"order":3,
 			"requires":["Colorful Addon"]
+		},
+		
+		"STO Federation":
+		{
+			"baseurl":"https://rawgit.com/khamseen/PWEVan/",
+			"branch-commit":"master",
+			"file":"STO_Theme_Fed.css",
+			"description":"Federation coloured STO theme",
+			"order":3,
+			"requires":[]
 		}
 	}
 }
