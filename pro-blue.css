@@ -205,25 +205,25 @@ ul.Drafts li.Item:hover,
 }
 
 /* Hover */
-.CategoryTable > tbody > tr:hover td,
+.CategoryTable > tbody > tr:hover,
 .DiscussionsTable > tbody > tr:hover td
 {
     background: rgba(41, 41, 122, 0.7) !important;
 }
 
-.CategoryTable > tbody > tr.Item.Read.ItemDiscussion:hover td,
+.CategoryTable > tbody > tr.Item.Read.ItemDiscussion:hover,
 .DiscussionsTable > tbody > tr.Item.Read.ItemDiscussion:hover td
 {
     background: rgba(51, 51, 153, 0.7) !important;
 }
 
-.CategoryTable > tbody > tr.Item.Unread.ItemDiscussion:hover td,
+.CategoryTable > tbody > tr.Item.Unread.ItemDiscussion:hover,
 .DiscussionsTable > tbody > tr.Item.Unread.ItemDiscussion:hover td
 {
     background: rgba(62, 62, 135, 0.7) !important;
 }
 
-.CategoryTable > tbody > tr.Item.New.ItemDiscussion:hover td,
+.CategoryTable > tbody > tr.Item.New.ItemDiscussion:hover,
 .DiscussionsTable > tbody > tr.Item.New.ItemDiscussion:hover td
 {
     background: rgba(62, 62, 135, 0.7) !important;
