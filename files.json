@@ -11,6 +11,26 @@
 			"requires":[]
 		},
 		
+		"Fluid Width":
+		{
+			"baseurl":"https://cdn.rawgit.com/Goodlookinguy/pwvnrg/",
+			"branch-commit":"9ad82a6",
+			"file":"global.fluid-width.css",
+			"description":"Makes better use of the screen",
+			"order":-1,
+			"requires":[]
+		},
+
+		"Game Logos":
+		{
+			"baseurl":"https://rawgit.com/Goodlookinguy/pwvnrg/",
+			"branch-commit":"master",
+			"file":"global.logos.css",
+			"description":"Adds game logos to home and game home page",
+			"order":-1,
+			"requires":[]
+		},
+		
 		"Grayscale":
 		{
 			"baseurl":"https://rawgit.com/Goodlookinguy/pwvnrg/",
@@ -39,17 +59,16 @@
 			"description":"For those that like minimalism",
 			"order":2,
 			"requires":["Grayscale"]
-			
 		},
 		
-		"Fluid Width":
+		"Pro Blue":
 		{
-			"baseurl":"https://cdn.rawgit.com/Goodlookinguy/pwvnrg/",
-			"branch-commit":"9ad82a6",
-			"file":"global.fluid-width.css",
-			"description":"Makes better use of the screen",
-			"order":-1,
-			"requires":[]
+			"baseurl":"https://rawgit.com/Goodlookinguy/pwvnrg/",
+			"branch-commit":"master",
+			"file":"pro-blue.css",
+			"description":"For the blue in you",
+			"order":2,
+			"requires":["Grayscale"]
 		},
 		
 		"VA Eclipse":
@@ -70,16 +89,6 @@
 			"description":"Gives the forum a blue theme",
 			"order":3,
 			"requires":["Colorful Addon"]
-		},
-
-		"Game Logos":
-		{
-			"baseurl":"https://rawgit.com/Goodlookinguy/pwvnrg/",
-			"branch-commit":"master",
-			"file":"global.logos.css",
-			"description":"Adds game logos to home and game home page",
-			"order":-1,
-			"requires":[]
 		}
 	}
 }

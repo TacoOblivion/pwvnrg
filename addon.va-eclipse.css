@@ -66,7 +66,16 @@ div.P.PageDescription { padding-left:30px; margin-top:-5px; border-radius:0px 0p
 }
 
 /* Changes general post color (is too dark otherwise) */
-.ItemDiscussion, .Comment, .Activities > .Activity, .MessageList > li, .Item-Search, .MessageList > li.Item, #Content > div.DataListWrap > ul > li, ul.Drafts li.Item
+.ItemDiscussion,
+.Comment,
+.Activities > .Activity,
+.MessageList > li,
+.Item-Search,
+.MessageList > li.Item,
+.Profile .DataListWrap ul.DataList li.Item,
+.DataListWrap ul.Conversations li.Item,
+ol.DataList-Search li.Item,
+ul.Drafts li.Item
 {
     background-color:rgba(19, 37, 66,0.9);
 }
@@ -316,4 +325,9 @@ blockquote.Quote
 .Pager a.Highlight
 {
     background:linear-gradient(rgba(255,255,255,0.6), rgba(0,0,0,0.3));
+}
+
+#Body .SearchForm form[action="/search"]
+{
+    display:none;
 }

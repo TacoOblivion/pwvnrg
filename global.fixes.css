@@ -105,20 +105,20 @@ a.Bookmarked::before
 }
 
 /* Fixes profile button - partial credit to dblazen1 */
-#Body .Button, .NavButton
+#Body .Button:not([value="Search"]), .NavButton
 {
 	color:#DDD;
 	text-shadow: none;
     border-top:1px solid rgba(255,255,255,0.4);
     border-radius:4px;
 }
-#Body .Button:hover, .NavButton:hover
+#Body .Button:not([value="Search"]):hover, .NavButton:hover
 {
     color:#FFF;
     background:linear-gradient(#4B4E56, #3D3D46);
 }
 
-#Body .Button:active, .NavButton:active
+#Body .Button:not([value="Search"]):active, .NavButton:active
 {
     color:#AAA;
     background:linear-gradient(#272731, #373a43);
@@ -244,4 +244,13 @@ a.Bookmarked::before
     line-height:30px;
     text-align:center;
     vertical-align:middle;
+}
+
+/* Fixes awful "mark" color */
+mark
+{
+    background:rgba(0,0,0,0.5);
+    border-radius:5px;
+    padding-left:5px;
+    padding-right:4px;
 }
