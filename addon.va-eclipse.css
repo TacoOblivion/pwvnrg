@@ -227,7 +227,7 @@ blockquote.Quote
 }
 
 /* Navigation Button */
-.Button, .NavButton, .Button:focus, .NavButton:focus
+#Body .Button, .NavButton, #Body .Button:focus, .NavButton:focus
 {
 	background: linear-gradient(rgba(255,255,255,0.4), rgba(0,0,0,0.3)) !important;
     border-top:1px solid rgba(255,255,255,0.8);
@@ -236,14 +236,14 @@ blockquote.Quote
     border-radius:3px;
 }
 
-.Button:hover, .NavButton:hover
+#Body .Button:hover, .NavButton:hover
 {
 	background: linear-gradient(rgba(255,255,255,0.5), rgba(0,0,0,0.2)) !important;
     border-top:1px solid rgba(255,255,255,0.9);
     border-bottom:1px solid rgba(0,0,0,0.85);
 }
 
-.Button:active:hover, .NavButton:active:hover
+#Body .Button:active:hover, .NavButton:active:hover
 {
     background: linear-gradient(rgba(0,0,0,0.5), rgba(255,255,255,0.3)) !important;
     border-top:1px solid #FFF;

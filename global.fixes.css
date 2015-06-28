@@ -105,24 +105,30 @@ a.Bookmarked::before
 }
 
 /* Fixes profile button - partial credit to dblazen1 */
-.Button, .NavButton
+#Body .Button, .NavButton
 {
 	color:#DDD;
 	text-shadow: none;
     border-top:1px solid rgba(255,255,255,0.4);
     border-radius:4px;
 }
-.Button:hover, .NavButton:hover
+#Body .Button:hover, .NavButton:hover
 {
     color:#FFF;
     background:linear-gradient(#4B4E56, #3D3D46);
 }
 
-.Button:active, .NavButton:active
+#Body .Button:active, .NavButton:active
 {
     color:#AAA;
     background:linear-gradient(#272731, #373a43);
     border-top-color:rgba(255,255,255,0.1);
+}
+
+/* Fixes Search Icon Focus */
+.SiteSearch .Button:focus
+{
+    background-image: url('http://perfectworld.vanillaforums.com/applications/dashboard/design/images/sprites.png');
 }
 
 /* Fixes awful look of subforum categories subforums of thread lists */
