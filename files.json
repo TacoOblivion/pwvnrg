@@ -136,7 +136,7 @@
 			"order":6,
 			"requires":["Grayscale"],
 			"screenshot":[
-				"screenshots/missing-screenshot.png",
+				"screenshots/pro-blue.1.png",
 				"screenshots/missing-screenshot.png",
 				"screenshots/missing-screenshot.png"
 			],
@@ -157,7 +157,7 @@
 			"order":7,
 			"requires":["Colorful Addon"],
 			"screenshot":[
-				"screenshots/missing-screenshot.png",
+				"screenshots/va-eclipse.1.png",
 				"screenshots/missing-screenshot.png",
 				"screenshots/missing-screenshot.png"
 			],
@@ -178,7 +178,7 @@
 			"order":6,
 			"requires":["Colorful Addon"],
 			"screenshot":[
-				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/missing-screenshot.png",
+				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/the-blues.1.png",
 				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/missing-screenshot.png",
 				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/missing-screenshot.png"
 			],
@@ -199,7 +199,7 @@
 			"order":7,
 			"requires":[],
 			"screenshot":[
-				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/missing-screenshot.png",
+				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/sto-federation.1.png",
 				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/missing-screenshot.png",
 				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/missing-screenshot.png"
 			],
