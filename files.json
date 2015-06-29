@@ -8,7 +8,18 @@
 			"file":"global.fixes.css",
 			"description":"General fixes and usability",
 			"order":-1,
-			"requires":[]
+			"requires":[],
+			"screenshot":[
+				"screenshots/missing-screenshot.png",
+				"screenshots/missing-screenshot.png",
+				"screenshots/missing-screenshot.png"
+			],
+			"author":"nrglg",
+			"author-alias":"NRGLG",
+			"created":"2015-06-19",
+			"updated":"2015-06-28",
+			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
+			"category":"Base Changes"
 		},
 		
 		"Fluid Width":
@@ -18,7 +29,18 @@
 			"file":"global.fluid-width.css",
 			"description":"Makes better use of the screen",
 			"order":-1,
-			"requires":[]
+			"requires":[],
+			"screenshot":[
+				"screenshots/missing-screenshot.png",
+				"screenshots/missing-screenshot.png",
+				"screenshots/missing-screenshot.png"
+			],
+			"author":"nrglg",
+			"author-alias":"NRGLG",
+			"created":"2015-06-19",
+			"updated":"2015-06-28",
+			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
+			"category":"Base Changes"
 		},
 
 		"Game Logos":
@@ -28,7 +50,18 @@
 			"file":"global.logos.css",
 			"description":"Adds game logos to home and game home page",
 			"order":-1,
-			"requires":[]
+			"requires":[],
+			"screenshot":[
+				"screenshots/missing-screenshot.png",
+				"screenshots/missing-screenshot.png",
+				"screenshots/missing-screenshot.png"
+			],
+			"author":"nrglg",
+			"author-alias":"NRGLG",
+			"created":"2015-06-27",
+			"updated":"2015-06-28",
+			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
+			"category":"Base Changes"
 		},
 		
 		"Grayscale":
@@ -38,7 +71,18 @@
 			"file":"grayscale.css",
 			"description":"Makes the forum look nicer",
 			"order":1,
-			"requires":["Global Fixes"]
+			"requires":["Global Fixes"],
+			"screenshot":[
+				"screenshots/missing-screenshot.png",
+				"screenshots/missing-screenshot.png",
+				"screenshots/missing-screenshot.png"
+			],
+			"author":"nrglg",
+			"author-alias":"NRGLG",
+			"created":"2015-06-28",
+			"updated":"2015-06-28",
+			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
+			"category":"Base Themes"
 		},
 		
 		"Colorful Addon":
@@ -48,7 +92,18 @@
 			"file":"addon.colorful.css",
 			"description":"Adds a dash of color to navigation",
 			"order":2,
-			"requires":["Grayscale"]
+			"requires":["Grayscale"],
+			"screenshot":[
+				"screenshots/missing-screenshot.png",
+				"screenshots/missing-screenshot.png",
+				"screenshots/missing-screenshot.png"
+			],
+			"author":"nrglg",
+			"author-alias":"NRGLG",
+			"created":"2015-06-28",
+			"updated":"2015-06-28",
+			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
+			"category":"Base Theme Addons"
 		},
 		
 		"Compact":
@@ -58,7 +113,18 @@
 			"file":"addon.compact.css",
 			"description":"For those that like minimalism",
 			"order":3,
-			"requires":["Grayscale"]
+			"requires":["Grayscale"],
+			"screenshot":[
+				"screenshots/missing-screenshot.png",
+				"screenshots/missing-screenshot.png",
+				"screenshots/missing-screenshot.png"
+			],
+			"author":"nrglg",
+			"author-alias":"NRGLG",
+			"created":"2015-06-28",
+			"updated":"2015-06-28",
+			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
+			"category":"Base Theme Addons"
 		},
 		
 		"Pro Blue":
@@ -68,7 +134,18 @@
 			"file":"pro-blue.css",
 			"description":"For the blue in you",
 			"order":6,
-			"requires":["Grayscale"]
+			"requires":["Grayscale"],
+			"screenshot":[
+				"screenshots/missing-screenshot.png",
+				"screenshots/missing-screenshot.png",
+				"screenshots/missing-screenshot.png"
+			],
+			"author":"nrglg",
+			"author-alias":"NRGLG",
+			"created":"2015-06-28",
+			"updated":"2015-06-28",
+			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
+			"category":"Theme"
 		},
 		
 		"VA Eclipse":
@@ -78,7 +155,18 @@
 			"file":"addon.va-eclipse.css",
 			"description":"Gives the forum a PW Eclipse theme",
 			"order":7,
-			"requires":["Colorful Addon"]
+			"requires":["Colorful Addon"],
+			"screenshot":[
+				"screenshots/missing-screenshot.png",
+				"screenshots/missing-screenshot.png",
+				"screenshots/missing-screenshot.png"
+			],
+			"author":"ovenusarmanio",
+			"author-alias":"VenusArmani",
+			"created":"2015-06-28",
+			"updated":"2015-06-28",
+			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
+			"category":"Theme"
 		},
 		
 		"The Blues":
@@ -88,7 +176,18 @@
 			"file":"PW-TheBlues.css",
 			"description":"Gives the forum a blue theme",
 			"order":6,
-			"requires":["Colorful Addon"]
+			"requires":["Colorful Addon"],
+			"screenshot":[
+				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/missing-screenshot.png",
+				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/missing-screenshot.png",
+				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/missing-screenshot.png"
+			],
+			"author":"eldarth",
+			"author-alias":"",
+			"created":"2015-06-28",
+			"updated":"2015-06-28",
+			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
+			"category":"Theme"
 		},
 		
 		"STO Federation":
@@ -98,7 +197,18 @@
 			"file":"STO_Theme_Fed.css",
 			"description":"Federation coloured STO theme",
 			"order":7,
-			"requires":[]
+			"requires":[],
+			"screenshot":[
+				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/missing-screenshot.png",
+				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/missing-screenshot.png",
+				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/missing-screenshot.png"
+			],
+			"author":"khamseenair",
+			"author-alias":"",
+			"created":"2015-06-28",
+			"updated":"2015-06-28",
+			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
+			"category":"Theme"
 		}
 	}
 }
