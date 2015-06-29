@@ -52,11 +52,8 @@ table.PreferenceGroup tbody tr:hover td
 {
     border-top:1px solid rgba(255,255,255,0.2);
     
-    /* padding of 8 vertically around each line */
-    /* 150 max img + 4 text lines * 15 line height + 5 elements * 8 padding */
-    /* That is how I arrived at 250px */
     height:auto;
-    max-height:250px; 
+    max-height:300px; 
     overflow-y:auto;
 }
 
@@ -65,8 +62,10 @@ table.PreferenceGroup tbody tr:hover td
 {
     width:auto;
     height:auto;
-    max-width:700px;
-    max-height:150px;
+    
+    /* According to official rules, 650x250 is the max size */
+    max-width:650px;
+    max-height:250px !important;
 }
 
 /* show icons properly (they used FFFFFF instead of ffffff - credit to dblazen1 for finding this one */
@@ -165,7 +164,9 @@ a.Bookmarked::before
 
 .ChildCategoryList .Item h3.CategoryName
 {
-    height:20px;
+    min-height:22px;
+    max-height:44px;
+    height:auto;
     display:block;
     margin-bottom:8px;
     padding-top:4px;

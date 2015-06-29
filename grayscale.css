@@ -1,5 +1,12 @@
 /* Body */
+#Head { background:none; }
 body { background: url('https://cdn.rawgit.com/Goodlookinguy/pwvnrg/master/grayscale.content/zwartevilt.png') repeat; }
+
+/* User Control Panel */
+.Row > .Box
+{
+	background: rgb(45, 47, 55);
+}
 
 /* Fixes subforum link colors */
 .ChildCategories a
