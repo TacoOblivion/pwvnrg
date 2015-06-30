@@ -19,14 +19,25 @@
 ### Should always be activated (even if you activate nothing else)
 0. Global Fixes
 
-### Activation Order (Style Sheets with the same number may have collisions)
+### Proper Activation Order
+Pick a style, then follow each list indent to activate a theme to look as it was designed.
+
+Example: To activate Pro Blue. Activate 'Grayscale'. Then activate 'Pro Blue'.
+Example 2: To activate VA Eclipse. Activate 'Grayscale'. Then activate 'Colorful Addon'. Lastly activate 'VA Eclipse'.
+
+For proper looks, addons are optional unless the theme is listed under it, like 'VA Eclipse' and 'The Blues'. If using
+addons that are not considered to be needed for proper look, ensure you activate it at the level of activation before
+activating the rest of the indented list.
+
+Example: To have VA Eclipse with Compact Addon. Activate 'Grayscale' -> Activate 'Colorful Addon' -> Activate 'Compact Addon' -> Activate 'VA Eclipse'
+
 1. Grayscale
 	2. Colorful Addon
 		3. VA Eclipse (by @ovenusarmanio)
 		3. The Blues (by @eldarth)
 	2. Compact Addon
-	2. Pro Blue
-	2. Pro Red
+	2. Pro Blue, Red (WIP), and Green (WIP)
+2. STO Federation (by @khamseenair)
 
 ### Styles that don't need to be activated in any order
 * Fluid Width
