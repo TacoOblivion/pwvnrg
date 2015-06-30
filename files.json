@@ -212,12 +212,12 @@
 			"order":6,
 			"requires":["Colorful Addon"],
 			"screenshot-1080":[
-				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/the-blues.1.png",
-				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/the-blues.2.png"
+				"https://rawgit.com/Goodlookinguy/pwvnrg/master/screenshots/the-blues.1.png",
+				"https://rawgit.com/Goodlookinguy/pwvnrg/master/screenshots/the-blues.2.png"
 			],
 			"screenshot-480":[
-				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/the-blues.1.480.png",
-				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/the-blues.2.480.png"
+				"https://rawgit.com/Goodlookinguy/pwvnrg/master/screenshots/the-blues.1.480.png",
+				"https://rawgit.com/Goodlookinguy/pwvnrg/master/screenshots/the-blues.2.480.png"
 			],
 			"author":"eldarth",
 			"author-alias":"",
@@ -236,12 +236,12 @@
 			"order":7,
 			"requires":[],
 			"screenshot-1080":[
-				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/sto-federation.1.png",
-				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/sto-federation.2.png"
+				"https://rawgit.com/Goodlookinguy/pwvnrg/master/screenshots/sto-federation.1.png",
+				"https://rawgit.com/Goodlookinguy/pwvnrg/master/screenshots/sto-federation.2.png"
 			],
 			"screenshot-480":[
-				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/sto-federation.1.480.png",
-				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/sto-federation.2.480.png"
+				"https://rawgit.com/Goodlookinguy/pwvnrg/master/screenshots/sto-federation.1.480.png",
+				"https://rawgit.com/Goodlookinguy/pwvnrg/master/screenshots/sto-federation.2.480.png"
 			],
 			"author":"khamseenair",
 			"author-alias":"",
