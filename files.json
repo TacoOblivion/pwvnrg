@@ -9,7 +9,7 @@
 			"description":"General fixes and usability",
 			"order":-1,
 			"requires":[],
-			"screenshot":[
+			"screenshot-1080p":[
 				"screenshots/missing-screenshot.png",
 				"screenshots/missing-screenshot.png",
 				"screenshots/missing-screenshot.png"
@@ -30,7 +30,7 @@
 			"description":"Makes better use of the screen",
 			"order":-1,
 			"requires":[],
-			"screenshot":[
+			"screenshot-1080p":[
 				"screenshots/missing-screenshot.png",
 				"screenshots/missing-screenshot.png",
 				"screenshots/missing-screenshot.png"
@@ -51,7 +51,7 @@
 			"description":"Adds game logos to home and game home page",
 			"order":-1,
 			"requires":[],
-			"screenshot":[
+			"screenshot-1080p":[
 				"screenshots/missing-screenshot.png",
 				"screenshots/missing-screenshot.png",
 				"screenshots/missing-screenshot.png"
@@ -72,7 +72,7 @@
 			"description":"Makes the forum look nicer",
 			"order":1,
 			"requires":["Global Fixes"],
-			"screenshot":[
+			"screenshot-1080p":[
 				"screenshots/missing-screenshot.png",
 				"screenshots/missing-screenshot.png",
 				"screenshots/missing-screenshot.png"
@@ -93,7 +93,7 @@
 			"description":"Adds a dash of color to navigation",
 			"order":2,
 			"requires":["Grayscale"],
-			"screenshot":[
+			"screenshot-1080p":[
 				"screenshots/missing-screenshot.png",
 				"screenshots/missing-screenshot.png",
 				"screenshots/missing-screenshot.png"
@@ -114,7 +114,7 @@
 			"description":"For those that like minimalism",
 			"order":3,
 			"requires":["Grayscale"],
-			"screenshot":[
+			"screenshot-1080p":[
 				"screenshots/missing-screenshot.png",
 				"screenshots/missing-screenshot.png",
 				"screenshots/missing-screenshot.png"
@@ -135,10 +135,14 @@
 			"description":"For the blue in you",
 			"order":6,
 			"requires":["Grayscale"],
-			"screenshot":[
+			"screenshot-1080p":[
 				"screenshots/pro-blue.1.png",
-				"screenshots/missing-screenshot.png",
+				"screenshots/pro-blue.2.png",
 				"screenshots/missing-screenshot.png"
+			],
+			"screenshot-480p":[
+				"screenshots/pro-blue.1.480p.png",
+				"screenshots/pro-blue.2.480p.png"
 			],
 			"author":"nrglg",
 			"author-alias":"NRGLG",
@@ -156,10 +160,14 @@
 			"description":"Gives the forum a PW Eclipse theme",
 			"order":7,
 			"requires":["Colorful Addon"],
-			"screenshot":[
+			"screenshot-1080p":[
 				"screenshots/va-eclipse.1.png",
-				"screenshots/missing-screenshot.png",
+				"screenshots/va-eclipse.2.png",
 				"screenshots/missing-screenshot.png"
+			],
+			"screenshot-480p":[
+				"screenshots/va-eclipse.1.480p.png",
+				"screenshots/va-eclipse.2.480p.png"
 			],
 			"author":"ovenusarmanio",
 			"author-alias":"VenusArmani",
@@ -177,10 +185,14 @@
 			"description":"Gives the forum a blue theme",
 			"order":6,
 			"requires":["Colorful Addon"],
-			"screenshot":[
+			"screenshot-1080p":[
 				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/the-blues.1.png",
-				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/missing-screenshot.png",
+				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/the-blues.2.png",
 				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/missing-screenshot.png"
+			],
+			"screenshot-480p":[
+				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/the-blues.1.480p.png",
+				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/the-blues.2.480p.png"
 			],
 			"author":"eldarth",
 			"author-alias":"",
@@ -198,10 +210,14 @@
 			"description":"Federation coloured STO theme",
 			"order":7,
 			"requires":[],
-			"screenshot":[
+			"screenshot-1080p":[
 				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/sto-federation.1.png",
-				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/missing-screenshot.png",
+				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/sto-federation.2.png",
 				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/missing-screenshot.png"
+			],
+			"screenshot-480p":[
+				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/sto-federation.1.480p.png",
+				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/sto-federation.2.480p.png"
 			],
 			"author":"khamseenair",
 			"author-alias":"",
