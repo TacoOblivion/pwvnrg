@@ -1,0 +1,286 @@
+@keyframes glow-my-pretty
+{
+    0% { box-shadow:0px 0px 8px 1px rgba(153, 51, 51, 0.75); }
+    /*25% { box-shadow:0px 0px 3px rgba(51, 153, 255,0.4); }*/
+    50% { box-shadow:0px 0px 8px 1px rgba(204, 51, 70,0.75); }
+    /*75% { box-shadow:0px 0px 3px rgba(51, 153, 255,0.4); }*/
+    100% { box-shadow:0px 0px 15px 1px rgba(255, 51, 60, 0.8); }
+}
+
+html { min-height:100%; height:auto; box-sizing:border-box; }
+
+body
+{
+    background:linear-gradient(rgba(153, 51, 51, 0.12) 80%, rgba(255, 51, 60, 0.175) 100%), url('https://cdn.rawgit.com/Goodlookinguy/pwvnrg/master/grayscale.content/zwartevilt.png') repeat;
+}
+
+
+/* Reset to prepare to overwriting */
+.DataList .Item,
+.Comment,
+.MessageList > Item.ItemDiscussion,
+.CommentsWrap > div.DataBox.DataBox-Comments > ul > li
+{
+    background:none;
+}
+
+/* Changes general post color (is too dark otherwise) */
+.ItemDiscussion,
+.Comment,
+.Activities > .Activity,
+.MessageList > li,
+.Item-Search,
+.MessageList > li.Item,
+.Profile .DataListWrap ul.DataList li.Item,
+.DataListWrap ul.Conversations li.Item,
+ol.DataList-Search li.Item,
+ul.Drafts li.Item
+{
+    overflow:hidden;
+    background-color:rgba(204, 51, 70, 0.35);
+    border:1px solid rgba(255, 51, 60,0.4);
+    box-shadow:0px 0px 8px 1px rgba(153, 51, 51, 0.75);
+    border-radius:5px;
+    transition:box-shadow 0.5s cubic-bezier(1,0,0.2,2.0) 80ms, border-radius 0.5s cubic-bezier(1,0,0.2,2.0) 80ms;
+}
+
+.ItemDiscussion:hover,
+.Comment:hover,
+.Activities > .Activity:hover,
+.MessageList > li:hover,
+.Item-Search:hover,
+.MessageList > li.Item:hover,
+.Profile .DataListWrap ul.DataList li.Item:hover,
+.DataListWrap ul.Conversations li.Item:hover,
+ol.DataList-Search li.Item:hover,
+ul.Drafts li.Item:hover,
+.Section-ActivityList .FormWrapper:hover,
+.FormWrapper:hover
+{
+    /*box-shadow:0px 0px 15px 2px rgba(255, 51, 60, 0.8);*/
+    border-radius:25px;
+    transition:border-radius 0.2s ease-in 0s;
+    animation: glow-my-pretty 2s linear 100ms infinite alternate;
+}
+
+/* Change form box color (index, activity, profile, post) */
+.CommentFormWrap
+{
+    background:none;
+    border:0;
+}
+
+.Section-ActivityList .FormWrapper,
+.FormWrapper
+{
+    box-sizing:border-box;
+    background-color:rgba(204, 51, 70, 0.4);
+    border:1px solid rgba(255, 51, 60,0.4);
+    margin-bottom:10px;
+    border-radius:5px;
+    box-shadow:0px 0px 8px 1px rgba(153, 51, 51, 0.75);
+    transition:box-shadow 0.5s cubic-bezier(1,0,0.2,2.0) 80ms, border-radius 0.5s cubic-bezier(1,0,0.2,2.0) 80ms;
+}
+
+/* Add backgrounds to preferences */
+#Content > div.FormTitleWrapper > div.Preferences,
+#Content form[action="/profile/picture?"],
+#Content form[action="/profile/online?"],
+#Content form[action="/profile/quotes?"],
+#Content form[action="/profile/signature?"],
+#Content form[action="/profile/edit?"]
+{
+    background-color:rgba(204, 51, 70, 0.45) !important;
+    border-radius:5px;
+}
+
+/* User Overall Control Panel */
+#Head
+{
+    background:none;
+}
+
+.Row > .Box
+{
+	background: rgba(204, 51, 70,0.35);
+	border: 1px solid rgba(255, 51, 60, 0.5);
+}
+
+.BoxTop
+{
+	box-shadow:0px 0px 10px 0px #000;
+}
+
+/* User Profile */
+#Panel
+{
+    box-sizing:border-box;
+    padding:5px;
+    background-color:rgba(204, 51, 70, 0.45);
+    border-radius:7px;
+}
+
+#Panel .ProfilePhotoLarge
+{
+    width:190px;
+    border-radius:5px 5px 0px 0px;
+}
+
+#Panel .Box
+{
+    background:none;
+    border:none;
+}
+
+.FilterMenu > li
+{
+    padding:0px !important;
+}
+
+.FilterMenu > li a, .FilterMenu > li a:link
+{
+    display:block;
+    padding:5px 0 5px 5px;
+}
+
+.FilterMenu > li a:hover
+{
+    background-color:rgba(255,255,255,0.1);
+    color:rgb(207,118,175);
+}
+
+/* Navigation Buttons (including page listings) */
+#Body .Button:not([value="Search"]), .NavButton, .Pager a, .Pager span,
+#Body .Button:not([value="Search"]):focus, .NavButton:focus, .Pager a:focus, .Pager a:active:focus
+{
+	background: linear-gradient(rgba(255,255,255,0.6), rgba(153, 51, 51, 0.5)) !important;
+    border-top:1px solid rgba(255,255,255,0.8);
+    border-bottom:1px solid rgba(153, 51, 51, 0.8);
+    box-shadow:0 2px 3px 0px #000;
+    border-radius:3px;
+}
+
+#Body .Button:not([value="Search"]):hover, .NavButton:hover, .Pager a:hover:not(.Highlight)
+{
+	background: linear-gradient(rgba(255,255,255,0.7), rgba(153, 51, 51, 0.4)) !important;
+    border-top:1px solid rgba(255,255,255,0.9);
+    border-bottom:1px solid rgba(153, 51, 51, 0.85);
+}
+
+#Body .Button:not([value="Search"]):active:hover, .NavButton:active:hover, .Pager a:active:not(.Highlight)
+{
+    background: linear-gradient(rgba(153, 51, 51, 0.5), rgba(255,255,255,0.3)) !important;
+    border-top:1px solid #AAA;
+    border-bottom:1px solid #000;
+    box-shadow:0 0px 3px 0px #000;
+}
+
+.Pager a.Highlight
+{
+    background: radial-gradient(45px 15px at center top, rgba(255,255,255,0.5), rgba(153, 51, 51, 0.7)) !important;
+}
+
+.CategoryTable > tbody > tr,
+.DiscussionsTable > tbody > tr
+{
+    background-color: rgba(122, 41, 41, 0.5);
+}
+
+.CategoryTable > tbody > tr.Item.Read.ItemDiscussion,
+.DiscussionsTable > tbody > tr.Item.Read.ItemDiscussion
+{
+    background-color: rgba(153, 51, 51, 0.5);
+}
+
+.CategoryTable > tbody > tr.Item.Unread.ItemDiscussion,
+.DiscussionsTable > tbody > tr.Item.Unread.ItemDiscussion
+{
+    background-color: rgba(135, 62, 62, 0.5);
+}
+
+.CategoryTable > tbody > tr.Item.New.ItemDiscussion,
+.DiscussionsTable > tbody > tr.Item.New.ItemDiscussion
+{
+    background-color: rgba(135, 62, 62, 0.5);
+}
+
+/* Hover */
+.CategoryTable > tbody > tr:hover,
+.DiscussionsTable > tbody > tr:hover td
+{
+    background: rgba(122, 41, 41, 0.7) !important;
+}
+
+.CategoryTable > tbody > tr.Item.Read.ItemDiscussion:hover,
+.DiscussionsTable > tbody > tr.Item.Read.ItemDiscussion:hover td
+{
+    background: rgba(153, 51, 51, 0.7) !important;
+}
+
+.CategoryTable > tbody > tr.Item.Unread.ItemDiscussion:hover,
+.DiscussionsTable > tbody > tr.Item.Unread.ItemDiscussion:hover td
+{
+    background: rgba(135, 62, 62, 0.7) !important;
+}
+
+.CategoryTable > tbody > tr.Item.New.ItemDiscussion:hover,
+.DiscussionsTable > tbody > tr.Item.New.ItemDiscussion:hover td
+{
+    background: rgba(135, 62, 62, 0.7) !important;
+}
+
+.Item.ItemDiscussion:hover td a:hover
+{
+    color: rgb(215, 150, 160);
+}
+
+.CategoryGroup tr, .ContentColumn .CategoryGroup
+{
+    
+}
+
+.DataTable > thead > tr > td
+{
+    background: linear-gradient(#DFA6AF, #782024);
+    color:#DEB5B0;
+    text-shadow:0px -2px 1px #993333, 0px -1px 1px #993333;
+}
+
+.ChildCategories a
+{
+    
+}
+
+.ChildCategoryList .Item h3.CategoryName
+{
+    margin-top:1px;
+    border-bottom:1px solid transparent;
+    background: rgba(135, 62, 62, 0.7) !important;
+}
+
+.ChildCategoryList .Item h3.CategoryName a:hover
+{
+    text-shadow:0px 0px 3px #000;
+    color:#DEB5B0;
+}
+
+.DataList.ChildCategoryList > li.Item
+{
+    background: linear-gradient(#DFA6AF, #782024);
+}
+
+#Body .SearchForm form[action="/search"]
+{
+    display:none;
+}
+
+/* Post internal borders */
+.Comment .Item-BodyWrap
+{
+    border-left:1px solid rgba(255, 51, 60, 0.35);
+}
+
+.Signature.UserSignature
+{
+    border-top:1px solid rgba(255, 51, 60, 0.35);
+}

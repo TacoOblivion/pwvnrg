@@ -157,6 +157,28 @@
 			"category":"Theme"
 		},
 		
+		"Pro Red":
+		{
+			"baseurl":"https://rawgit.com/Goodlookinguy/pwvnrg/",
+			"branch-commit":"master",
+			"file":"pro-red.css",
+			"description":"Red for your head",
+			"order":6,
+			"requires":["Grayscale"],
+			"screenshot-1080":[
+				"screenshots/missing-screenshot.png"
+			],
+			"screenshot-480":[
+				"screenshots/missing-screenshot.480.png"
+			],
+			"author":"nrglg",
+			"author-alias":"NRGLG",
+			"created":"2015-06-29",
+			"updated":"2015-06-30",
+			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
+			"category":"Theme"
+		},
+		
 		"VA Eclipse":
 		{
 			"baseurl":"https://rawgit.com/Goodlookinguy/pwvnrg/",
