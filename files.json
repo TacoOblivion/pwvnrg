@@ -137,12 +137,11 @@
 			"requires":["Grayscale"],
 			"screenshot-1080p":[
 				"screenshots/pro-blue.1.png",
-				"screenshots/pro-blue.2.png",
-				"screenshots/missing-screenshot.png"
+				"screenshots/pro-blue.2.png"
 			],
-			"screenshot-480p":[
-				"screenshots/pro-blue.1.480p.png",
-				"screenshots/pro-blue.2.480p.png"
+			"screenshot-480":[
+				"screenshots/pro-blue.1.480.png",
+				"screenshots/pro-blue.2.480.png"
 			],
 			"author":"nrglg",
 			"author-alias":"NRGLG",
@@ -162,12 +161,11 @@
 			"requires":["Colorful Addon"],
 			"screenshot-1080p":[
 				"screenshots/va-eclipse.1.png",
-				"screenshots/va-eclipse.2.png",
-				"screenshots/missing-screenshot.png"
+				"screenshots/va-eclipse.2.png"
 			],
-			"screenshot-480p":[
-				"screenshots/va-eclipse.1.480p.png",
-				"screenshots/va-eclipse.2.480p.png"
+			"screenshot-480":[
+				"screenshots/va-eclipse.1.480.png",
+				"screenshots/va-eclipse.2.480.png"
 			],
 			"author":"ovenusarmanio",
 			"author-alias":"VenusArmani",
@@ -187,12 +185,11 @@
 			"requires":["Colorful Addon"],
 			"screenshot-1080p":[
 				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/the-blues.1.png",
-				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/the-blues.2.png",
-				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/missing-screenshot.png"
+				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/the-blues.2.png"
 			],
-			"screenshot-480p":[
-				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/the-blues.1.480p.png",
-				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/the-blues.2.480p.png"
+			"screenshot-480":[
+				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/the-blues.1.480.png",
+				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/the-blues.2.480.png"
 			],
 			"author":"eldarth",
 			"author-alias":"",
@@ -212,12 +209,11 @@
 			"requires":[],
 			"screenshot-1080p":[
 				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/sto-federation.1.png",
-				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/sto-federation.2.png",
-				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/missing-screenshot.png"
+				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/sto-federation.2.png"
 			],
-			"screenshot-480p":[
-				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/sto-federation.1.480p.png",
-				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/sto-federation.2.480p.png"
+			"screenshot-480":[
+				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/sto-federation.1.480.png",
+				"https://rawgit.com/Goodlookinguy/pwvnrg/screenshots/sto-federation.2.480.png"
 			],
 			"author":"khamseenair",
 			"author-alias":"",
