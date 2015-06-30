@@ -1,3 +1,91 @@
+/* Links and Headers Override */
+h1.H, h2.H, div.P.PageDescription, .Discussion .PageTitle
+{
+    background-color: rgba(0, 99, 125, 1);
+    border-radius:10px;
+    padding:6px 8px;
+}
+
+.ContentColumn h2.H 
+{ 
+    padding:6px 8px; margin-top:-2px; border-radius:7px; 
+}
+
+h1.H.HomepageTitle, div.P.PageDescription 
+{
+    border-radius:10px 10px 0px 0px; 
+}
+
+div.P.PageDescription 
+{
+    padding-left:30px; margin-top:-5px; border-radius:0px 0px 10px 10px; 
+}
+
+.Discussion .PageTitle 
+{
+    border-radius:10px 10px 0px 0px; 
+}
+
+/* Breadcrumb coloring */
+.Breadcrumbs
+{
+    background:rgba(66, 81, 104,0.95);
+    padding:2px 8px;
+    border-radius:5px;
+}
+
+.Breadcrumbs a, .Breadcrumbs a:link
+{
+    color:rgb(255, 255, 77);
+}
+
+.Breadcrumbs a:link:hover, .Breadcrumbs a:hover
+{
+    color:rgba(255, 255, 77,0.75);
+}
+
+/* Compress data list spacing */
+.DataList > li 
+{
+  margin-bottom: 8px !important;
+}
+
+.Comment
+{
+    border-radius: 7px 7px 7px 7px;
+    border: 1px #000000;
+    border-style: solid;
+}
+
+.DataList .Item 
+{
+  background: none;
+  border: none;
+}
+
+/* Page Listings */
+.Pager a, .Pager span, .Pager a:focus, .Pager a:active:focus
+{
+    background:linear-gradient(rgba(255,255,255,0.6), rgba(0,0,0,0.5));
+    border:none !important;
+    box-shadow:0px 2px 5px 0px rgba(0,0,0,0.5);
+}
+
+.Pager a:hover:not(.Highlight)
+{
+    background:linear-gradient(rgba(255,255,255,0.7), rgba(0,0,0,0.4));
+}
+
+.Pager a:active:not(.Highlight)
+{
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(255,255,255,0.4));
+}
+
+.Pager a.Highlight
+{
+    background:linear-gradient(rgba(255,255,255,0.6), rgba(0,0,0,0.3));
+}
+
 body, tr
 {
     background: rgba(11, 129, 150, 1);
@@ -70,10 +158,6 @@ div.PostEdited
     color: orange;
 }
 
-div.Comment
-{
-    background: rgba(11, 129, 150, 1);
-}
 
 tr.Item
 {
