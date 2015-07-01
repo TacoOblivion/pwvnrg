@@ -277,10 +277,10 @@ ul.Drafts li.Item:hover,
 /* Post internal borders */
 .Comment .Item-BodyWrap
 {
-    border-left:1px solid rgba(255, 51, 60, 0.35);
+    border-color:rgba(255, 51, 60, 0.35);
 }
 
 .Signature.UserSignature
 {
-    border-top:1px solid rgba(255, 51, 60, 0.35);
+    border-color:rgba(255, 51, 60, 0.35);
 }
