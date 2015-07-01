@@ -47,6 +47,12 @@ table.PreferenceGroup tbody tr:hover td
     padding-right:5px;
 }
 
+/* Break long usernames into multiple lines*/
+.AuthorWrap .Author > a.Username
+{
+    word-break: break-all;
+}
+
 /* Differentiates between message and signature area */
 .Signature.UserSignature
 {
