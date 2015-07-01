@@ -1,4 +1,11 @@
 {
+	"defaults":
+	{
+		"missing-screenshot-1080":"https://cdn.rawgit.com/Goodlookinguy/pwvnrg/master/screenshots/missing-screenshot.png",
+		"missing-screenshot-480":"https://cdn.rawgit.com/Goodlookinguy/pwvnrg/master/screenshots/missing-screenshot.480.png",
+		"missing-thumbnail":"https://cdn.rawgit.com/Goodlookinguy/pwvnrg/master/thumbnails/missing-thumbnail.png"
+	},
+	
 	"themes":
 	{
 		"Global Fixes":
@@ -155,7 +162,7 @@
 				"screenshots/pro-blue.1.480.png",
 				"screenshots/pro-blue.2.480.png"
 			],
-			"thumbnail":"",
+			"thumbnail":"thumbnails/pro-blue.thumbnail.png",
 			"author":"nrglg",
 			"author-alias":"NRGLG",
 			"created":"2015-06-28",
@@ -203,7 +210,7 @@
 				"screenshots/va-eclipse.1.480.png",
 				"screenshots/va-eclipse.2.480.png"
 			],
-			"thumbnail":"",
+			"thumbnail":"thumbnails/va-eclipse.thumbnail.png",
 			"author":"ovenusarmanio",
 			"author-alias":"VenusArmani",
 			"created":"2015-06-28",
@@ -228,7 +235,7 @@
 				"https://rawgit.com/Goodlookinguy/pwvnrg/master/screenshots/the-blues.1.480.png",
 				"https://rawgit.com/Goodlookinguy/pwvnrg/master/screenshots/the-blues.2.480.png"
 			],
-			"thumbnail":"",
+			"thumbnail":"thumbnails/the-blues.thumbnail.png",
 			"author":"eldarth",
 			"author-alias":"",
 			"created":"2015-06-28",
