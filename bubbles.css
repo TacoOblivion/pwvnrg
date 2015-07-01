@@ -1,0 +1,200 @@
+@keyframes rotate-now
+{
+    0% { transform:rotate(0deg); color:#AEB6C6; text-shadow:0px 0px 1px #AEB6C6; }
+    50% { transform:rotate(360deg); color:#B69090; text-shadow:0px 0px 5px #B69090; }
+    100% { transform:rotate(180deg); color:#AEB6C6; text-shadow:0px 0px 1px #AEB6C6; }
+}
+
+/* All boxes */
+.DataList .Item
+{
+    border:1px solid #555;
+}
+
+/* Author Area */
+.AuthorWrap > .Author .ProfilePhotoMedium
+{
+    min-height:50px;
+    width:125px;
+    height:auto;
+    max-height:125px;
+}
+
+.Comment .Author .PhotoWrap
+{
+    width:100%;
+}
+
+.AuthorWrap .Author > a.Username
+{
+    border-radius:8px;
+    overflow:hidden;
+    padding:1px 3px 0px;
+}
+
+.ItemDiscussion > .Discussion .AuthorWrap .Author a.Username
+{
+    display:inline-block;
+    min-width:130px;
+    text-align:center;
+    width:auto;
+}
+
+.Online .AuthorWrap .Author a.Username
+{
+    background:rgba(128, 255, 128, 0.5);
+}
+
+.Offline .AuthorWrap .Author a.Username
+{
+    background:rgba(255, 128, 128, 0.5);
+}
+
+.Comment .AuthorWrap
+{
+    padding-left:2px;
+    width:125px;
+    text-align:center;
+}
+
+.AuthorWrap ~ .Meta.CommentMeta.CommentInfo
+{
+    position:absolute;
+    width:115px;
+    top:0px;
+    left:12px;
+    background:rgba(0, 0, 0, 0.85);
+    border-bottom-left-radius:50px 10px;
+    border-bottom-right-radius:50px 10px;
+    display:block;
+    padding:5px 5px 8px;
+    
+    opacity:0.0;
+    transition:opacity 0.8s linear 0s;
+}
+
+	/* Switch to hover */
+.AuthorWrap:hover ~ .Meta.CommentMeta.CommentInfo,
+.Meta.CommentMeta.CommentInfo:hover
+{
+    /*pointer-events:none;*/
+    opacity:1.0;
+    transition:opacity 0.3s linear 0.4s;
+}
+
+.AuthorWrap:hover .Author > a.Username
+{
+    color:rgba(0, 0, 0, 0.6);
+}
+
+/* Signature Area */
+.Signature.UserSignature
+{
+    position:relative;
+    min-width:600px;
+    width:auto;
+    padding:16px 76px 10px 10px;
+    margin-bottom:0px;
+    display:block;
+}
+
+.Signature.UserSignature::after
+{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.Comment { padding:0px; }
+.Comment .CommentHeader
+{
+    padding:10px;
+    width:120px;
+}
+
+.Comment .Item-BodyWrap
+{
+    border-left:1px solid rgba(255,255,255,0.2);
+    padding-left:0px;
+}
+
+.Comment .Item-BodyWrap .Message
+{
+    padding:10px;
+}
+
+.Item-Body
+{
+    position:relative;
+}
+
+/* Flag/Quote Area */
+.Reactions
+{
+    display:block;
+    opacity:0.0;
+    margin-top:-54px;
+    height:50px;
+    width:66px;
+    position:absolute;
+    right:10px;
+    bottom:-7px;
+    transition:opacity 1s ease-out 0.5s;
+}
+
+.Comment:hover .Item-BodyWrap .Message ~ .Reactions
+{
+    opacity:1.0;
+    transition:opacity 0.2s ease-in 0s;
+}
+
+
+.Item-Body::after
+{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.Reactions a.ReactButton,
+.Reactions a.ReactButton-Flag
+{
+    padding:3px 5px 0px;
+    float:left;
+    width:60px;
+    text-align:center;
+}
+
+.Reactions a.ReactButton:hover,
+.Reactions a.ReactButton-Flag:hover
+{
+    background:rgba(0,0,0,0.1);
+    border-radius:5px;
+}
+
+.OptionsTitle:hover::before
+{
+    animation:rotate-now 2s linear 0s infinite;
+}
+
+div.PostEdited { display:none; }
+
+div.CommentsWrap > div.DataBox.DataBox-Comments > ul > li > div > div.Options
+{
+    position:absolute;
+    right:4px;
+    display:block;
+    padding-top:3px;
+    margin:5px;
+    z-index:110;
+}
+
+/* Headers */
+h2.CommentHeading
+{
+    margin-left:20px;
+    background:rgba(255, 255, 255, 0.2);
+    border-radius:8px;
+    display:inline-block;
+    padding: 3px 9px 2px;
+}

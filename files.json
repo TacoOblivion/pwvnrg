@@ -104,6 +104,30 @@
 			"variant":""
 		},
 		
+		"Bubbles":
+		{
+			"baseurl":"https://rawgit.com/Goodlookinguy/pwvnrg/",
+			"branch-commit":"master",
+			"file":"bubbles.css",
+			"description":"An alternative to grayscale",
+			"order":1,
+			"requires":["Global Fixes"],
+			"screenshot-1080":[
+				"screenshots/missing-screenshot.png"
+			],
+			"screenshot-480":[
+				"screenshots/missing-screenshot.480.png"
+			],
+			"thumbnail":"",
+			"author":"nrglg",
+			"author-alias":"NRGLG",
+			"created":"2015-07-01",
+			"updated":"2015-07-01",
+			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
+			"category":"Base Theme",
+			"variant":""
+		},
+		
 		"Colorful Addon":
 		{
 			"baseurl":"https://rawgit.com/Goodlookinguy/pwvnrg/",
