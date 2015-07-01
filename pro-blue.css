@@ -273,3 +273,14 @@ ul.Drafts li.Item:hover,
 {
     display:none;
 }
+
+/* Post internal borders */
+.Comment .Item-BodyWrap
+{
+    border-left:1px solid rgba(51, 153, 255, 0.35);
+}
+
+.Signature.UserSignature
+{
+    border-top:1px solid rgba(51, 153, 255, 0.35);
+}

@@ -63,7 +63,9 @@ table.PreferenceGroup tbody tr:hover td
     width:auto;
     height:auto;
     
-    /* According to official rules, 650x250 is the max size */
+    /* According to official rules, 650x250 is the max size 
+    http://perfectworld.vanillaforums.com/discussion/1191393/perfect-world-entertainment-community-rules-and-policies
+    */
     max-width:650px;
     max-height:250px !important;
 }

@@ -84,15 +84,32 @@ div.PostEdited
     max-height:125px;
 }
 
-.AuthorWrap > .Author .Online .ProfilePhotoMedium
+.AuthorWrap .Author > a.Username
 {
-    border:3px solid rgba(32,128,32,0.75);
+    border-radius:0px 0px 10px 10px;
+}
+
+.Online .AuthorWrap .Author > a.Username
+{
+    border-bottom:3px solid rgba(32,128,32,0.75);
+}
+
+.Offline .AuthorWrap .Author > a.Username
+{
+    border-bottom:3px solid rgba(160,48,48,0.75);
+}
+
+/*.AuthorWrap > .Author .Online .ProfilePhotoMedium
+{
+    padding-left:5px;
+    border-left:3px solid rgba(32,128,32,0.75);
 }
 
 .AuthorWrap > .Author .Offline .ProfilePhotoMedium
 {
-    border:3px solid rgba(128,32,32,0.75);
-}
+    padding-left:5px;
+    border-left:3px solid rgba(128,32,32,0.75);
+}*/
 
 .CommentHeader .AuthorWrap, .CommentHeader .AuthorWrap > .Author
 {
