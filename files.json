@@ -180,12 +180,14 @@
 			"order":6,
 			"requires":["Grayscale"],
 			"screenshot-1080":[
-				"screenshots/missing-screenshot.png"
+				"screenshots/pro-red.1.png",
+				"screenshots/pro-red.2.png"
 			],
 			"screenshot-480":[
-				"screenshots/missing-screenshot.480.png"
+				"screenshots/pro-red.1.480.png",
+				"screenshots/pro-red.2.480.png"
 			],
-			"thumbnail":"",
+			"thumbnail":"thumbnails/pro-red.thumbnail.png",
 			"author":"nrglg",
 			"author-alias":"NRGLG",
 			"created":"2015-06-29",
@@ -239,7 +241,7 @@
 			"author":"eldarth",
 			"author-alias":"",
 			"created":"2015-06-28",
-			"updated":"2015-06-28",
+			"updated":"2015-06-29",
 			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
 			"category":"Theme"
 		},
