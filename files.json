@@ -246,7 +246,55 @@
 			"author":"khamseenair",
 			"author-alias":"",
 			"created":"2015-06-28",
-			"updated":"2015-06-28",
+			"updated":"2015-07-01",
+			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
+			"category":"Theme"
+		},
+		
+		"STO KDF":
+		{
+			"baseurl":"https://rawgit.com/khamseen/PWEVan/",
+			"branch-commit":"master",
+			"file":"STO_Theme_KDF.css",
+			"description":"KDF coloured STO theme",
+			"order":7,
+			"requires":[],
+			"screenshot-1080":[
+				"https://rawgit.com/khamseen/PWEVan/master/screenshots/sto-kdf.1.png",
+				"https://rawgit.com/khamseen/PWEVan/master/screenshots/sto-kdf.2.png"
+			],
+			"screenshot-480":[
+				"https://rawgit.com/khamseen/PWEVan/master/screenshots/sto-kdf.1.480.png",
+				"https://rawgit.com/khamseen/PWEVan/master/screenshots/sto-kdf.2.480.png"
+			],
+			"author":"khamseenair",
+			"author-alias":"",
+			"created":"2015-07-01",
+			"updated":"2015-07-01",
+			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
+			"category":"Theme"
+		},
+		
+		"STO Romulan":
+		{
+			"baseurl":"https://rawgit.com/khamseen/PWEVan/",
+			"branch-commit":"master",
+			"file":"STO_Theme_Rom.css",
+			"description":"Romulan coloured STO theme",
+			"order":7,
+			"requires":[],
+			"screenshot-1080":[
+				"https://rawgit.com/khamseen/PWEVan/master/screenshots/sto-rom.1.png",
+				"https://rawgit.com/khamseen/PWEVan/master/screenshots/sto-rom.2.png"
+			],
+			"screenshot-480":[
+				"https://rawgit.com/khamseen/PWEVan/master/screenshots/sto-rom.1.480.png",
+				"https://rawgit.com/khamseen/PWEVan/master/screenshots/sto-rom.2.480.png"
+			],
+			"author":"khamseenair",
+			"author-alias":"",
+			"created":"2015-07-01",
+			"updated":"2015-07-01",
 			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
 			"category":"Theme"
 		}
