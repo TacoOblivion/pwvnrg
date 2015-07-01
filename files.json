@@ -26,7 +26,7 @@
 		"Fluid Width":
 		{
 			"baseurl":"https://cdn.rawgit.com/Goodlookinguy/pwvnrg/",
-			"branch-commit":"9ad82a6",
+			"branch-commit":"1f462bc",
 			"file":"global.fluid-width.css",
 			"description":"Makes better use of the screen",
 			"order":-1,
@@ -40,7 +40,7 @@
 			"author":"nrglg",
 			"author-alias":"NRGLG",
 			"created":"2015-06-19",
-			"updated":"2015-06-28",
+			"updated":"2015-07-01",
 			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
 			"category":"Base Changes"
 		},
