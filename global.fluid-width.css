@@ -5,3 +5,9 @@
     width:auto;
     min-width:960px;
 }
+
+.themeManager
+{
+    min-width:925px;
+    width:auto !important;
+}
