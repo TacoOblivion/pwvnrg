@@ -361,7 +361,7 @@
 		"Beautiful Light":
 		{
 			"baseurl":"https://rawgit.com/dieketzer/pwenhance/",
-			"branch-commit":"master",
+			"branch-commit":"pub",
 			"file":"pub/Beautiful-Light.css",
 			"invertTextColors": true,
 			"description":"The lighter theme",
