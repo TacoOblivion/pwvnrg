@@ -367,13 +367,9 @@
 			"description":"The lighter theme",
 			"order":7,
 			"requires":[],
-			"screenshot-1080":[
-				"",
-				"";
-			],
+			"screenshot-1080":[],
 			"screenshot-480":[
-				"http://i.imgur.com/okZsAlw.png",
-				"";
+				"http://i.imgur.com/okZsAlw.png"
 			],
 			"thumbnail":"http://i.imgur.com/34FfqH6.png",
 			"author":"tehbubbaloo",
