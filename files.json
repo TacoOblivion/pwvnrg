@@ -356,6 +356,33 @@
 			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
 			"category":"Theme",
 			"variant":"STO Federation"
+		},
+		
+		"Beautiful Light":
+		{
+			"baseurl":"https://rawgit.com/dieketzer/pwenhance/",
+			"branch-commit":"master",
+			"file":"pub/Beautiful-Light.css",
+			"invertTextColors": true,
+			"description":"The lighter theme",
+			"order":7,
+			"requires":[],
+			"screenshot-1080":[
+				"",
+				"";
+			],
+			"screenshot-480":[
+				"http://i.imgur.com/okZsAlw.png",
+				"";
+			],
+			"thumbnail":"http://i.imgur.com/34FfqH6.png",
+			"author":"tehbubbaloo",
+			"author-alias":"",
+			"created":"2015-07-02",
+			"updated":"2015-07-02",
+			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
+			"category":"Theme",
+			"variant":""
 		}
 	}
 }
