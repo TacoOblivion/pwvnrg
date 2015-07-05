@@ -1,17 +1,17 @@
 @keyframes glow-my-pretty
 {
-    0% { box-shadow:0px 0px 8px 1px rgba(51, 51, 153, 0.75); }
+    0% { box-shadow:0px 0px 8px 1px rgba(51, 153, 51, 0.75); }
     /*25% { box-shadow:0px 0px 3px rgba(51, 153, 255,0.4); }*/
-    50% { box-shadow:0px 0px 8px 1px rgba(51, 102, 204,0.75); }
+    50% { box-shadow:0px 0px 8px 1px rgba(102, 204, 51,0.75); }
     /*75% { box-shadow:0px 0px 3px rgba(51, 153, 255,0.4); }*/
-    100% { box-shadow:0px 0px 15px 1px rgba(51, 153, 255, 0.8); }
+    100% { box-shadow:0px 0px 15px 1px rgba(153, 255, 51, 0.8); }
 }
 
 html { min-height:100%; height:auto; box-sizing:border-box; }
 
 body
 {
-    background:linear-gradient(rgba(51, 51, 153,0.15) 80%, rgba(51, 153, 255,0.2) 100%), url('https://cdn.rawgit.com/Goodlookinguy/pwvnrg/master/grayscale.content/zwartevilt.png') repeat;
+    background:linear-gradient(rgba(51, 153, 51,0.15) 80%, rgba(153, 255, 51,0.2) 100%), url('https://cdn.rawgit.com/Goodlookinguy/pwvnrg/master/grayscale.content/zwartevilt.png') repeat;
 }
 
 
@@ -37,9 +37,9 @@ ol.DataList-Search li.Item,
 ul.Drafts li.Item
 {
     overflow:hidden;
-    background-color:rgba(51, 102, 204, 0.35);
-    border:1px solid rgba(51, 153, 255,0.4);
-    box-shadow:0px 0px 8px 1px rgba(51, 51, 153, 0.75);
+    background-color:rgba(102, 204, 51, 0.35);
+    border:1px solid rgba(153, 255, 51,0.4);
+    box-shadow:0px 0px 8px 1px rgba(51, 153, 51, 0.75);
     border-radius:5px;
     transition:box-shadow 0.5s cubic-bezier(1,0,0.2,2.0) 80ms, border-radius 0.5s cubic-bezier(1,0,0.2,2.0) 80ms;
 }
@@ -57,7 +57,7 @@ ul.Drafts li.Item:hover,
 .Section-ActivityList .FormWrapper:hover,
 .FormWrapper:hover
 {
-    /*box-shadow:0px 0px 15px 2px rgba(51, 153, 255, 0.8);*/
+    /*box-shadow:0px 0px 15px 2px rgba(153, 255, 51, 0.8);*/
     border-radius:25px;
     transition:border-radius 0.2s ease-in 0s;
     animation: glow-my-pretty 2s linear 100ms infinite alternate;
@@ -74,11 +74,11 @@ ul.Drafts li.Item:hover,
 .FormWrapper
 {
     box-sizing:border-box;
-    background-color:rgba(51, 102, 204, 0.4);
-    border:1px solid rgba(51, 153, 255,0.4);
+    background-color:rgba(102, 204, 51, 0.4);
+    border:1px solid rgba(153, 255, 51,0.4);
     margin-bottom:10px;
     border-radius:5px;
-    box-shadow:0px 0px 8px 1px rgba(51, 51, 153, 0.75);
+    box-shadow:0px 0px 8px 1px rgba(51, 153, 51, 0.75);
     transition:box-shadow 0.5s cubic-bezier(1,0,0.2,2.0) 80ms, border-radius 0.5s cubic-bezier(1,0,0.2,2.0) 80ms;
 }
 
@@ -90,7 +90,7 @@ ul.Drafts li.Item:hover,
 #Content form[action="/profile/signature?"],
 #Content form[action="/profile/edit?"]
 {
-    background-color:rgba(51, 102, 204, 0.45) !important;
+    background-color:rgba(102, 204, 51, 0.45) !important;
     border-radius:5px;
 }
 
@@ -102,8 +102,8 @@ ul.Drafts li.Item:hover,
 
 .Row > .Box
 {
-	background: rgba(51, 102, 204,0.35);
-	border: 1px solid rgba(51, 153, 255, 0.5);
+	background: rgba(102, 204, 51,0.35);
+	border: 1px solid rgba(153, 255, 51, 0.5);
 }
 
 .BoxTop
@@ -116,7 +116,7 @@ ul.Drafts li.Item:hover,
 {
     box-sizing:border-box;
     padding:5px;
-    background-color:rgba(51, 102, 204, 0.45);
+    background-color:rgba(102, 204, 51, 0.45);
     border-radius:7px;
 }
 
@@ -153,23 +153,23 @@ ul.Drafts li.Item:hover,
 #Body .Button:not([value="Search"]), .NavButton, .Pager a, .Pager span,
 #Body .Button:not([value="Search"]):focus, .NavButton:focus, .Pager a:focus, .Pager a:active:focus
 {
-	background: linear-gradient(rgba(255,255,255,0.6), rgba(51, 51, 153, 0.5)) !important;
+	background: linear-gradient(rgba(255,255,255,0.6), rgba(51, 153, 51, 0.5)) !important;
     border-top:1px solid rgba(255,255,255,0.8);
-    border-bottom:1px solid rgba(51, 51, 153, 0.8);
+    border-bottom:1px solid rgba(51, 153, 51, 0.8);
     box-shadow:0 2px 3px 0px #000;
     border-radius:3px;
 }
 
 #Body .Button:not([value="Search"]):hover, .NavButton:hover, .Pager a:hover:not(.Highlight)
 {
-	background: linear-gradient(rgba(255,255,255,0.7), rgba(51, 51, 153, 0.4)) !important;
+	background: linear-gradient(rgba(255,255,255,0.7), rgba(51, 153, 51, 0.4)) !important;
     border-top:1px solid rgba(255,255,255,0.9);
-    border-bottom:1px solid rgba(51, 51, 153, 0.85);
+    border-bottom:1px solid rgba(51, 153, 51, 0.85);
 }
 
 #Body .Button:not([value="Search"]):active:hover, .NavButton:active:hover, .Pager a:active:not(.Highlight)
 {
-    background: linear-gradient(rgba(51, 51, 153, 0.5), rgba(255,255,255,0.3)) !important;
+    background: linear-gradient(rgba(51, 153, 51, 0.5), rgba(255,255,255,0.3)) !important;
     border-top:1px solid #AAA;
     border-bottom:1px solid #000;
     box-shadow:0 0px 3px 0px #000;
@@ -177,61 +177,61 @@ ul.Drafts li.Item:hover,
 
 .Pager a.Highlight
 {
-    background: radial-gradient(45px 15px at center top, rgba(255,255,255,0.5), rgba(51, 51, 153, 0.7)) !important;
+    background: radial-gradient(45px 15px at center top, rgba(255,255,255,0.5), rgba(51, 153, 51, 0.7)) !important;
 }
 
 .CategoryTable > tbody > tr,
 .DiscussionsTable > tbody > tr
 {
-    background-color: rgba(41, 41, 122, 0.5);
+    background-color: rgba(41, 122, 41, 0.5);
 }
 
 .CategoryTable > tbody > tr.Item.Read.ItemDiscussion,
 .DiscussionsTable > tbody > tr.Item.Read.ItemDiscussion
 {
-    background-color: rgba(51, 51, 153, 0.5);
+    background-color: rgba(51, 153, 51, 0.5);
 }
 
 .CategoryTable > tbody > tr.Item.Unread.ItemDiscussion,
 .DiscussionsTable > tbody > tr.Item.Unread.ItemDiscussion
 {
-    background-color: rgba(62, 62, 135, 0.5);
+    background-color: rgba(62, 135, 62, 0.5);
 }
 
 .CategoryTable > tbody > tr.Item.New.ItemDiscussion,
 .DiscussionsTable > tbody > tr.Item.New.ItemDiscussion
 {
-    background-color: rgba(62, 62, 135, 0.5);
+    background-color: rgba(62, 135, 62, 0.5);
 }
 
 /* Hover */
 .CategoryTable > tbody > tr:hover,
 .DiscussionsTable > tbody > tr:hover td
 {
-    background: rgba(41, 41, 122, 0.7) !important;
+    background: rgba(41, 122, 41, 0.7) !important;
 }
 
 .CategoryTable > tbody > tr.Item.Read.ItemDiscussion:hover,
 .DiscussionsTable > tbody > tr.Item.Read.ItemDiscussion:hover td
 {
-    background: rgba(51, 51, 153, 0.7) !important;
+    background: rgba(51, 153, 51, 0.7) !important;
 }
 
 .CategoryTable > tbody > tr.Item.Unread.ItemDiscussion:hover,
 .DiscussionsTable > tbody > tr.Item.Unread.ItemDiscussion:hover td
 {
-    background: rgba(62, 62, 135, 0.7) !important;
+    background: rgba(62, 135, 62, 0.7) !important;
 }
 
 .CategoryTable > tbody > tr.Item.New.ItemDiscussion:hover,
 .DiscussionsTable > tbody > tr.Item.New.ItemDiscussion:hover td
 {
-    background: rgba(62, 62, 135, 0.7) !important;
+    background: rgba(62, 135, 62, 0.7) !important;
 }
 
 .Item.ItemDiscussion:hover td a:hover
 {
-    color: rgb(51, 153, 255);
+    color: rgb(153, 255, 51);
 }
 
 .CategoryGroup tr, .ContentColumn .CategoryGroup
@@ -241,9 +241,9 @@ ul.Drafts li.Item:hover,
 
 .DataTable > thead > tr > td
 {
-    background: linear-gradient(#9DCEFF, #122447);
-    color:#5CADFF;
-    text-shadow:0px -2px 1px #333399, 0px -1px 1px #333399;
+    background: linear-gradient(#CEFF9D, #244712);
+    color:#9CE653;
+    text-shadow:0px -2px 1px #339933, 0px -1px 1px #339933;
 }
 
 .ChildCategories a
@@ -255,18 +255,18 @@ ul.Drafts li.Item:hover,
 {
     margin-top:1px;
     border-bottom:1px solid transparent;
-    background: rgba(62, 62, 135, 0.7) !important;
+    background: rgba(62, 135, 62, 0.7) !important;
 }
 
 .ChildCategoryList .Item h3.CategoryName a:hover
 {
     text-shadow:0px 0px 3px #000;
-    color:#85C2FF;
+    color:#C2FF85;
 }
 
 .DataList.ChildCategoryList > li.Item
 {
-    background: linear-gradient(#9DCEFF, #122447);
+    background: linear-gradient(#CEFF9D, #244712);
 }
 
 #Body .SearchForm form[action="/search"]
@@ -277,18 +277,18 @@ ul.Drafts li.Item:hover,
 /* Post internal borders */
 .Comment .Item-BodyWrap
 {
-    border-color:rgba(51, 153, 255, 0.35);
+    border-left:1px solid rgba(153, 255, 51, 0.35);
 }
 
 .Signature.UserSignature
 {
-    border-color:rgba(51, 153, 255, 0.35);
+    border-top:1px solid rgba(153, 255, 51, 0.35);
 }
 
 .WarningMessage
 {
-    background: rgba(51, 51, 153, 0.5);
-    box-shadow: 0px 0px 10px 2px rgba(51, 51, 153, 0.5);
+    background: rgba(51, 153, 51, 0.5);
+    box-shadow: 0px 0px 10px 2px rgba(51, 153, 51, 0.5);
     border:none;
     color: #DDD;
 }
