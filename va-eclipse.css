@@ -1,0 +1,333 @@
+/* ===== Global Fixes Modification ===== */
+
+/* Changes subforum category colors */
+.ChildCategoryList .Item h3.CategoryName
+{
+    background-color:rgba(43, 59, 85,0.95);
+}
+
+.DataList.ChildCategoryList > li.Item
+{
+    background-color:rgba(19, 37, 66,0.9);
+    border-color:rgba(43, 59, 85,0.95);
+}
+
+/* ===== Grayscale Modification ===== */
+
+/* Change background */
+#Head
+{
+    background:none;
+}
+
+body
+{
+    background-color:#090C13;
+    background-image: url(https://raw.githubusercontent.com/Goodlookinguy/pwvnrg/master/addon.venusarmani.content/main-backdrop.jpg), linear-gradient(#090C13, #10131A);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center center;
+    background-size:100% auto;
+}
+
+/* Reset to prepare to overwriting */
+.DataList .Item, .Comment, .MessageList > Item.ItemDiscussion, .CommentsWrap > div.DataBox.DataBox-Comments > ul > li
+{
+    background:none;
+}
+
+/* Links and Headers Override */
+h1.H, h2.H, div.P.PageDescription, .Discussion .PageTitle
+{
+    background-color:rgba(19, 37, 66,0.92);
+    border-radius:10px;
+    padding:6px 8px;
+}
+
+.ContentColumn h2.H { padding:6px 8px; margin-top:-2px; border-radius:7px; }
+h1.H.HomepageTitle, div.P.PageDescription { color:#FFF; border-radius:10px 10px 0px 0px; }
+div.P.PageDescription { padding-left:30px; margin-top:-5px; border-radius:0px 0px 10px 10px; }
+.Discussion .PageTitle { border-radius:10px 10px 0px 0px; }
+
+/* Changes subforum link colors */
+.ChildCategories a
+{
+	color:rgba(184,202,204,0.6);
+}
+
+.ChildCategories a:hover
+{
+	color:rgba(245,255,255,0.85);
+}
+
+#Form_Body:focus
+{
+    box-shadow:0 0 5px 2px rgba(11,11,40,0.5);
+}
+
+/* Changes general post color (is too dark otherwise) */
+.ItemDiscussion,
+.Comment,
+.Activities > .Activity,
+.MessageList > li,
+.Item-Search,
+.MessageList > li.Item,
+.Profile .DataListWrap ul.DataList li.Item,
+.DataListWrap ul.Conversations li.Item,
+ol.DataList-Search li.Item,
+ul.Drafts li.Item
+{
+    background-color:rgba(19, 37, 66,0.9);
+}
+
+#Content > div.CommentsWrap > div.DataBox.DataBox-Comments > h2
+{
+    background-color:rgba(19, 37, 66,0.9);
+    margin:0;
+    padding:10px 0 10px 15px;
+}
+
+.CommentsWrap #PagerBefore
+{
+    margin-top:5px;
+    margin-right:4px;
+}
+
+/* Change form box color (index, activity, profile, post) */
+.CommentFormWrap
+{
+    background:none;
+    border:0;
+}
+
+.Section-ActivityList .FormWrapper,
+.FormWrapper
+{
+    box-sizing:border-box;
+    background-color:rgba(19, 37, 66, 0.92);
+    border-radius:10px;
+    border:1px solid rgba(0,0,0,0.4);
+    margin-bottom:10px;
+}
+
+.CategoryGroup h2.H
+{ 
+    background:linear-gradient(rgba(0,0,0,0.8), rgba(255,255,255,0.0));
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:0px;
+}
+
+/* Breadcrum coloring */
+.Breadcrumbs
+{
+    background:rgba(66, 81, 104,0.95);
+    padding:2px 8px;
+    border-radius:5px;
+}
+
+.Breadcrumbs a, .Breadcrumbs a:link
+{
+    color:rgb(255, 255, 77);
+}
+
+.Breadcrumbs a:link:hover, .Breadcrumbs a:hover
+{
+    color:rgba(255, 255, 77,0.75);
+}
+
+/* Changes to pretty the avatar area */
+.Comment .CommentInfo
+{
+    background-color:rgba(19,37,66,0.3);
+}
+
+/* Changes to make quotes stand out more */
+blockquote.Quote
+{
+    border-left:4px solid rgba(44,91,187,0.35);
+    background-color:rgba(76,129,143,0.1);
+}
+
+/* Message area link colors */
+.Item .Comment .Item-BodyWrap .Message a:link, .Item .Discussion .Item-BodyWrap .Message a:link, .ConversationMessage .Message a:link
+{
+    background-color:rgba(255,255,214,0.3);
+}
+
+.Item .Comment .Item-BodyWrap .Message a:hover, .Item .Discussion .Item-BodyWrap .Message a:hover, .ConversationMessage .Message a:hover
+{
+    background-color:rgba(66, 81, 104,0.7);
+}
+
+/* ===== Colorful modification ===== */
+
+/* Category list coloring */
+.CategoryGroup tr, .ContentColumn .CategoryGroup tr { background-color:rgba(19,37,66,0.5); }
+.CategoryTable { background-color:rgba(19,37,66,0.8); }
+.CategoryTable > tbody > tr, .DiscussionsTable > tbody > tr { background-color:rgba(19,37,66,0.85); }
+.CategoryTable > thead > tr, .DiscussionsTable > thead > tr { background:linear-gradient(rgba(19,37,66,0.95),rgba(43, 59, 85,0.95)); }
+
+.ChildCategories a { color:rgb(255,247,254); }
+.ChildCategories a:hover { padding:0 6px; margin:0 -6px; border-radius:6px; background-color:rgba(0,28,113,0.7); }
+
+/* Thread list coloring */
+.Item.Unread.ItemDiscussion { background-color:rgba(118,175,207,0.7); }
+.Item.Unread.ItemDiscussion:hover { background:rgba(51,173,173,0.6) !important; }
+
+.Item.Read.ItemDiscussion { background-color:rgba(0, 13, 38, 0.85); }
+.Item.Read.ItemDiscussion:hover { background-color:rgba(245, 12, 39,0.6) !important; }
+
+.Item.New.ItemDiscussion { background-color:rgba(118,46,128,0.7); }
+.Item.New.ItemDiscussion:hover { background-color:rgba(255, 249, 184,0.6) !important; }
+
+.Item.Announcement.ItemDiscussion { background-color:rgba(0, 13,38,0.95); }
+
+/* ===== Additional Changes ===== */
+
+/* User Overall Control Panel */
+.Row > .Box
+{
+	background: rgba(19, 37, 66,0.95);
+	border: 1px solid rgb(19, 37, 66);
+}
+
+.BoxTop
+{
+	box-shadow: 0 0 10px 0 rgba(19, 37, 66,0.8);
+}
+
+/* User Profile */
+#Panel
+{
+    box-sizing:border-box;
+    padding:5px;
+    background-color:rgba(19, 37, 66,0.95);
+    border-radius:7px;
+}
+
+#Panel .ProfilePhotoLarge
+{
+    width:190px;
+    border-radius:5px 5px 0px 0px;
+}
+
+#Panel .Box
+{
+    background:none;
+    border:none;
+}
+
+.FilterMenu > li
+{
+    /* PWE, stop using !important so carelessly. Ugh. */
+    padding:0px !important;
+}
+
+.FilterMenu > li a, .FilterMenu > li a:link
+{
+    display:block;
+    padding:5px 0 5px 5px;
+}
+
+.FilterMenu > li a:hover
+{
+    background-color:rgba(255,255,255,0.1);
+    color:rgb(118,175,207);
+}
+
+/* Navigation Button */
+#Body .Button, .NavButton, #Body .Button:focus, .NavButton:focus
+{
+	background: linear-gradient(rgba(255,255,255,0.4), rgba(0,0,0,0.3)) !important;
+    border-top:1px solid rgba(255,255,255,0.8);
+    border-bottom:1px solid rgba(0,0,0,0.8);
+    box-shadow:0 2px 3px 0px #000;
+    border-radius:3px;
+}
+
+#Body .Button:hover, .NavButton:hover
+{
+	background: linear-gradient(rgba(255,255,255,0.5), rgba(0,0,0,0.2)) !important;
+    border-top:1px solid rgba(255,255,255,0.9);
+    border-bottom:1px solid rgba(0,0,0,0.85);
+}
+
+#Body .Button:active:hover, .NavButton:active:hover
+{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(255,255,255,0.3)) !important;
+    border-top:1px solid #FFF;
+    border-bottom:1px solid #000;
+    box-shadow:0 0px 3px 0px #000;
+}
+
+.NavButton.ProfileButtons.Button-EditProfile
+{
+	margin:4px 8px 0 0;
+}
+
+/* Notification Preferences */
+#Content > div.FormTitleWrapper > div.Preferences
+{
+    background-color:rgba(19, 37, 66, 0.95);
+    border-radius:10px;
+}
+
+/* Add backgrounds to preferences */
+#Content form[action="/profile/picture?"],
+#Content form[action="/profile/online?"],
+#Content form[action="/profile/quotes?"],
+#Content form[action="/profile/signature?"],
+#Content form[action="/profile/edit?"]
+{
+    background-color:rgba(19, 37, 66, 0.95) !important;
+    border-radius:10px;
+}
+
+#Content form[action="/profile/signature?"] h1.H, #Content form[action="/profile/signature?"] h2.H
+{
+    background:none;
+}
+
+#Content > div.Profile > div.DataListWrap > ul > li
+{
+    background-color:rgba(19, 37, 66, 0.95);
+    border-radius:7px;
+    margin-bottom:15px !important;
+    box-shadow:0px 0px 7px 1px rgba(118,175,207,0.8);
+    transition:box-shadow 0.8s ease-out 0s;
+}
+
+#Content > div.Profile > div.DataListWrap > ul > li:hover
+{
+    box-shadow:0px 0px 15px 3px rgba(118,175,207,0.8);
+    transition:box-shadow 50ms linear 0s;
+}
+
+
+/* Page Listings */
+.Pager a, .Pager span, .Pager a:focus, .Pager a:active:focus
+{
+    background:linear-gradient(rgba(255,255,255,0.6), rgba(0,0,0,0.5));
+    border:none !important;
+    box-shadow:0px 2px 5px 0px rgba(0,0,0,0.5);
+}
+
+.Pager a:hover:not(.Highlight)
+{
+    background:linear-gradient(rgba(255,255,255,0.7), rgba(0,0,0,0.4));
+}
+
+.Pager a:active:not(.Highlight)
+{
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(255,255,255,0.4));
+}
+
+.Pager a.Highlight
+{
+    background:linear-gradient(rgba(255,255,255,0.6), rgba(0,0,0,0.3));
+}
+
+#Body .SearchForm form[action="/search"]
+{
+    display:none;
+}

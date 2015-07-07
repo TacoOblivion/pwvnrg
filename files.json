@@ -15,7 +15,6 @@
 			"file":"global.fixes.css",
 			"description":"General fixes and usability",
 			"order":-1,
-			"requires":[],
 			"screenshot-1080":[
 				"screenshots/missing-screenshot.png"
 			],
@@ -39,7 +38,6 @@
 			"file":"global.fluid-width.css",
 			"description":"Makes better use of the screen",
 			"order":-1,
-			"requires":[],
 			"screenshot-1080":[
 				"screenshots/missing-screenshot.png"
 			],
@@ -63,7 +61,6 @@
 			"file":"global.logos.css",
 			"description":"Adds game logos to home and game home page",
 			"order":-1,
-			"requires":[],
 			"screenshot-1080":[
 				"screenshots/missing-screenshot.png"
 			],
@@ -87,7 +84,6 @@
 			"file":"grayscale.css",
 			"description":"Makes the forum look nicer",
 			"order":1,
-			"requires":["Global Fixes"],
 			"screenshot-1080":[
 				"screenshots/missing-screenshot.png"
 			],
@@ -111,7 +107,6 @@
 			"file":"bubbles.css",
 			"description":"An alternative to grayscale",
 			"order":1,
-			"requires":["Global Fixes"],
 			"screenshot-1080":[
 				"screenshots/missing-screenshot.png"
 			],
@@ -135,7 +130,6 @@
 			"file":"addon.colorful.css",
 			"description":"Adds a dash of color to navigation",
 			"order":2,
-			"requires":["Grayscale"],
 			"screenshot-1080":[
 				"screenshots/missing-screenshot.png"
 			],
@@ -159,7 +153,6 @@
 			"file":"addon.compact.css",
 			"description":"For those that like minimalism",
 			"order":3,
-			"requires":["Grayscale"],
 			"screenshot-1080":[
 				"screenshots/missing-screenshot.png"
 			],
@@ -183,7 +176,6 @@
 			"file":"pro-blue.css",
 			"description":"For the blue in you",
 			"order":6,
-			"requires":["Grayscale"],
 			"screenshot-1080":[
 				"screenshots/pro-blue.1.png",
 				"screenshots/pro-blue.2.png"
@@ -209,7 +201,6 @@
 			"file":"pro-red.css",
 			"description":"Red for your head",
 			"order":6,
-			"requires":["Grayscale"],
 			"screenshot-1080":[
 				"screenshots/pro-red.1.png",
 				"screenshots/pro-red.2.png"
@@ -235,7 +226,6 @@
 			"file":"pro-green.css",
 			"description":"Mean green machine",
 			"order":6,
-			"requires":["Grayscale"],
 			"screenshot-1080":[
 				"https://cdn.rawgit.com/Goodlookinguy/pwvnrg/master/screenshots/missing-screenshot.png"
 			],
@@ -256,10 +246,9 @@
 		{
 			"baseurl":"https://rawgit.com/Goodlookinguy/pwvnrg/",
 			"branch-commit":"master",
-			"file":"addon.va-eclipse.css",
+			"file":"va-eclipse.css",
 			"description":"Gives the forum a PW Eclipse theme",
 			"order":7,
-			"requires":["Colorful Addon"],
 			"screenshot-1080":[
 				"screenshots/va-eclipse.1.png",
 				"screenshots/va-eclipse.2.png"
@@ -285,7 +274,6 @@
 			"file":"PW-TheBlues.css",
 			"description":"Gives the forum a blue theme",
 			"order":6,
-			"requires":["Colorful Addon"],
 			"screenshot-1080":[
 				"https://rawgit.com/Goodlookinguy/pwvnrg/master/screenshots/the-blues.1.png",
 				"https://rawgit.com/Goodlookinguy/pwvnrg/master/screenshots/the-blues.2.png"
@@ -311,7 +299,6 @@
 			"file":"STO_Theme_Fed.css",
 			"description":"Federation coloured STO theme",
 			"order":7,
-			"requires":[],
 			"screenshot-1080":[
 				"https://rawgit.com/Goodlookinguy/pwvnrg/master/screenshots/sto-federation.1.png",
 				"https://rawgit.com/Goodlookinguy/pwvnrg/master/screenshots/sto-federation.2.png"
@@ -337,7 +324,6 @@
 			"file":"STO_Theme_KDF.css",
 			"description":"KDF coloured STO theme",
 			"order":7,
-			"requires":[],
 			"screenshot-1080":[
 				"https://rawgit.com/khamseen/PWEVan/master/screenshots/sto-kdf.1.png",
 				"https://rawgit.com/khamseen/PWEVan/master/screenshots/sto-kdf.2.png"
@@ -363,7 +349,6 @@
 			"file":"STO_Theme_Rom.css",
 			"description":"Romulan coloured STO theme",
 			"order":7,
-			"requires":[],
 			"screenshot-1080":[
 				"https://rawgit.com/khamseen/PWEVan/master/screenshots/sto-rom.1.png",
 				"https://rawgit.com/khamseen/PWEVan/master/screenshots/sto-rom.2.png"
@@ -390,7 +375,6 @@
 			"invertTextColors": true,
 			"description":"The lighter theme",
 			"order":7,
-			"requires":[],
 			"screenshot-1080":[],
 			"screenshot-480":[
 				"http://i.imgur.com/okZsAlw.png"
