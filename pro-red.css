@@ -293,22 +293,28 @@ ul.Drafts li.Item:hover,
     color: #DDD;
 }
 
-.WarningMessage a, .CasualMessage a
+.WarningMessage a.Dismiss:hover, .CasualMessage a.Dismiss:hover
+{
+    color:inherit;
+    background:none;
+}
+
+.WarningMessage a:not(.Dismiss), .CasualMessage a:not(.Dismiss)
 {
     color: #DDD;
 }
 
-.WarningMessage a:hover, .CasualMessage a:hover
+.WarningMessage a:not(.Dismiss):hover, .CasualMessage a:not(.Dismiss):hover
 {
     color: #FFF;
 }
 
-.WarningMessage a:hover::before, .CasualMessage a:hover::before
+.WarningMessage a:not(.Dismiss):hover::before, .CasualMessage a:not(.Dismiss):hover::before
 {
     content:"-->";
 }
 
-.WarningMessage a:hover::after, .CasualMessage a:hover::after
+.WarningMessage a:not(.Dismiss):hover::after, .CasualMessage a:not(.Dismiss):hover::after
 {
     content:"<--";
 }
