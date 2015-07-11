@@ -182,6 +182,7 @@
     display:none;
 }
 
+/* Ensures posts author information doesn't bleed outside post */
 .Item-Body::after
 {
     content:"";
@@ -239,4 +240,9 @@ div.CommentsWrap > div.DataBox.DataBox-Comments > ul > li > div > div.Options
     padding-top:3px;
     margin:5px;
     z-index:110;
+}
+
+.EditCommentForm
+{
+    margin:0px;
 }
