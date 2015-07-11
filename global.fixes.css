@@ -234,7 +234,8 @@ a.Bookmarked::before
 .Excerpt
 {
     max-height:180px;
-    overflow:hidden;
+    overflow:auto;
+    padding-bottom:1px;
 }
 
 /* Fixes Preview Colors */
@@ -262,4 +263,10 @@ mark
     border-radius:5px;
     padding-left:5px;
     padding-right:4px;
+}
+
+/* Removes "Post Edited" message color */
+div.PostEdited
+{
+    display:none;
 }

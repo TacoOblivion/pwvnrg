@@ -1,0 +1,235 @@
+@keyframes rotate-now
+{
+    0% { transform:rotate(0deg); color:#AEB6C6; text-shadow:0px 0px 1px #AEB6C6; }
+    50% { transform:rotate(360deg); color:#B69090; text-shadow:0px 0px 5px #B69090; }
+    100% { transform:rotate(180deg); color:#AEB6C6; text-shadow:0px 0px 1px #AEB6C6; }
+}
+
+/* All boxes */
+.DataList .Item
+{
+    border:1px solid #555;
+}
+
+/* Author Area */
+.AuthorWrap > .Author .ProfilePhotoMedium
+{
+    min-height:50px;
+    width:125px;
+    height:auto;
+    max-height:125px;
+}
+
+.Comment .Author .PhotoWrap
+{
+    width:100%;
+}
+
+.AuthorWrap .Author > a.Username
+{
+    border-radius:8px;
+    overflow:hidden;
+    padding:1px 3px 0px;
+}
+
+.ItemDiscussion > .Discussion .AuthorWrap .Author a.Username
+{
+    display:inline-block;
+    min-width:130px;
+    text-align:center;
+    width:auto;
+}
+
+.Online .AuthorWrap .Author a.Username
+{
+    background:rgba(128, 255, 128, 0.5);
+}
+
+.Offline .AuthorWrap .Author a.Username
+{
+    background:rgba(255, 128, 128, 0.5);
+}
+
+.Comment .AuthorWrap
+{
+    padding-left:2px;
+    width:125px;
+    text-align:center;
+    position:static;
+}
+
+.CommentHeader
+{
+    position:relative;
+    text-align:center;
+}
+
+.Item.ItemDiscussion .Discussion .AuthorWrap
+{
+    padding:10px;
+}
+
+.AuthorWrap ~ .Meta.CommentMeta.CommentInfo
+{
+    position:absolute;
+    width:100%;
+    top:-10px;
+    left:0px;
+    text-align:center;
+    background:rgba(0, 0, 0, 0.85);
+    border-bottom-left-radius:50% 20px;
+    border-bottom-right-radius:50% 20px;
+    display:block;
+    padding:5px 5px 8px;
+    
+    opacity:0.0;
+    transition:opacity 0.8s linear 0s;
+}
+
+	/* Switch to hover */
+.AuthorWrap:hover ~ .Meta.CommentMeta.CommentInfo,
+.Meta.CommentMeta.CommentInfo:hover
+{
+    /*pointer-events:none;*/
+    opacity:1.0;
+    transition:opacity 0.3s linear 0.4s;
+}
+
+.AuthorWrap:hover .Author > a.Username
+{
+    color:rgba(0, 0, 0, 0.6);
+}
+
+/* Signature Area */
+.Signature.UserSignature
+{
+    position:relative;
+    min-width:600px;
+    width:auto;
+    padding:16px 76px 10px 10px;
+    margin-bottom:0px;
+    display:block;
+}
+
+.Signature.UserSignature::after
+{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.Comment { padding:0px; }
+.Comment .CommentHeader
+{
+    padding:10px;
+    width:120px;
+}
+
+.Comment .Item-BodyWrap
+{
+    border-left:1px solid rgba(255,255,255,0.2);
+    padding-left:0px;
+}
+
+.Comment .Item-BodyWrap .Message
+{
+    padding:10px 24px 10px 10px;
+}
+
+.Item.ItemDiscussion
+{
+    padding:0px;
+}
+
+.Item.ItemDiscussion .Discussion
+{
+    position:relative;
+}
+
+.Item.ItemDiscussion .Discussion .Message
+{
+    padding:10px;
+}
+
+/* Flag/Quote Area */
+.Reactions
+{
+    display:block;
+    opacity:0.0;
+    /*margin-top:-54px;*/
+    min-height:50px;
+    height:auto;
+    width:24px;
+    position:absolute;
+    right:0px;
+    top:-15px;
+    transition:opacity 1s ease-out 0.5s;
+    background:rgba(0, 0, 0, 0.8);
+    
+    /* Yet again, someone felt it necessary to use !important */
+    padding:5px 0px !important;
+}
+
+.Comment:hover .Item-BodyWrap .Message ~ .Reactions,
+.Item.ItemDiscussion .Discussion:hover .Item-BodyWrap .Message ~ .Reactions
+{
+    opacity:1.0;
+    transition:opacity 0.2s ease-in 0s;
+}
+
+.DataList .Item.Mine .Reactions
+{
+    display:none;
+}
+
+.ReactButton { margin:0; }
+
+.Reactions a.ReactButton:not(.Popup),
+.Reactions a.ReactButton-Flag:not(.Popup)
+{
+    padding:3px 5px 0px;
+    float:left;
+    width:16px;
+    text-align:left;
+    font-size:0px;
+}
+
+.Reactions a.ReactButton:not(.Popup)::before,
+.Reactions a.ReactButton-Flag:not(.Popup)::before
+{
+    color:lightblue;
+}
+
+.Item .OptionsTitle
+{
+    visibility: visible;
+}
+
+.Comment .Options .OptionsTitle
+{
+    opacity:0.0;
+    transition:opacity 200ms linear 0s;
+}
+
+.Comment:hover .Options .OptionsTitle
+{
+    opacity:1.0;
+    transition:opacity 200ms linear 0s;
+}
+
+.Item .OptionsTitle:hover::before
+{
+    animation:rotate-now 2s linear 0s infinite;
+}
+
+div.PostEdited { display:none; }
+
+div.CommentsWrap > div.DataBox.DataBox-Comments > ul > li > div > div.Options
+{
+    position:absolute;
+    right:4px;
+    display:block;
+    padding-top:3px;
+    margin:5px;
+    z-index:110;
+}

@@ -19,12 +19,6 @@ body { background: url('https://cdn.rawgit.com/Goodlookinguy/pwvnrg/master/grays
 	color:rgba(255,255,255,0.85);
 }
 
-/* Removes "Post Edited" message color */
-div.PostEdited
-{
-    display:none;
-}
-
 /* Adds constraints to post textbox height */
 #Form_Body
 {
@@ -75,55 +69,6 @@ div.PostEdited
     background-color:rgb(45, 47, 55);
 }
 
-/* Changes to pretty the avatar area */
-.AuthorWrap > .Author .ProfilePhotoMedium
-{
-    width:auto;
-    height:auto;
-    max-width: 125px;
-    max-height:125px;
-}
-
-.AuthorWrap .Author > a.Username
-{
-    border-radius:0px 0px 10px 10px;
-}
-
-.Online .AuthorWrap .Author > a.Username
-{
-    border-bottom:3px solid rgba(32,128,32,0.75);
-}
-
-.Offline .AuthorWrap .Author > a.Username
-{
-    border-bottom:3px solid rgba(160,48,48,0.75);
-}
-
-/*.AuthorWrap > .Author .Online .ProfilePhotoMedium
-{
-    padding-left:5px;
-    border-left:3px solid rgba(32,128,32,0.75);
-}
-
-.AuthorWrap > .Author .Offline .ProfilePhotoMedium
-{
-    padding-left:5px;
-    border-left:3px solid rgba(128,32,32,0.75);
-}*/
-
-.CommentHeader .AuthorWrap, .CommentHeader .AuthorWrap > .Author
-{
-    text-align:center;
-}
-
-.Comment .CommentInfo
-{
-    display:block;
-    background-color:rgba(0,0,0,0.3);
-    padding:3px 3px 2px 10px;
-    border-radius:10px;
-}
-
 /* Added hover-over page numbers */
 .Pager a:hover:not(.Highlight)
 {
@@ -144,59 +89,9 @@ blockquote.Quote
     background-color:rgba(0,0,0,0.1);
 }
 
-.Message > blockquote.Quote:hover, blockquote.Quote blockquote.Quote blockquote.Quote:hover
+.Message blockquote.Quote:hover
 {
     box-shadow:0 0 5px 2px rgba(128,128,128,0.25);
-}
-
-/* Prettifies Flag/Quote Area */
-.Discussion .Item-BodyWrap .Reactions, .Comment .Item-BodyWrap .Reactions
-{
-    background-color:rgba(0,0,0,0.25);
-    padding: 10px 0 8px 15px !important;
-    line-height:15px;
-}
-
-/* Message area link colors */
-.Item .Comment .Item-BodyWrap .Message a:link, .Item .Discussion .Item-BodyWrap .Message a:link, .ConversationMessage .Message a:link
-{
-    border-radius:8px;
-    background-color:rgba(0,0,0,0.3);
-    display:inline-block;
-    padding:0 6px;
-    max-width:100%;
-    box-sizing:border-box;
-}
-
-.Item .Comment .Item-BodyWrap .Message a:hover, .Item .Discussion .Item-BodyWrap .Message a:hover, .ConversationMessage .Message a:hover
-{
-    border-radius:8px;
-    background-color:rgba(255,255,255,0.1);
-    display:inline-block;
-    padding:0 6px;
-    color:rgb(196,128,128);
-    text-decoration:none;
-}
-
-.Item .Comment .Item-BodyWrap .Message a > img, .Item .Discussion .Item-BodyWrap .Message a > img, .ConversationMessage .Message a > img
-{
-    width:auto;
-    height:auto;
-    margin:10px 5px;
-}
-
-.Message
-{
-    overflow:hidden;
-}
-
-/* Removes outline from non-normal post links due to above change (no reason to have those stick out) */
-.Quote.UserQuote .QuoteAuthor a:link, pre a:link
-{
-    border-radius:0px !important;
-    background-color:transparent !important;
-    display:inline !important;
-    padding:0px !important;
 }
 
 /* Change form box color (index, activity, profile, post) */

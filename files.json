@@ -14,44 +14,28 @@
 			"branch-commit":"master",
 			"file":"global.fixes.css",
 			"description":"General fixes and usability",
-			"order":-1,
-			"screenshot-1080":[
-				"screenshots/missing-screenshot.png"
-			],
-			"screenshot-480":[
-				"screenshots/missing-screenshot.480.png"
-			],
-			"thumbnail":"",
+			"order":-128,
 			"author":"nrglg",
 			"author-alias":"NRGLG",
 			"created":"2015-06-19",
-			"updated":"2015-07-01",
+			"updated":"2015-07-11",
 			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
-			"category":"Base Change",
-			"variant":""
+			"category":"Default"
 		},
 		
 		"Fluid Width":
 		{
 			"baseurl":"https://cdn.rawgit.com/Goodlookinguy/pwvnrg/",
-			"branch-commit":"1f462bc",
+			"branch-commit":"06cc6e0",
 			"file":"global.fluid-width.css",
 			"description":"Makes better use of the screen",
 			"order":-1,
-			"screenshot-1080":[
-				"screenshots/missing-screenshot.png"
-			],
-			"screenshot-480":[
-				"screenshots/missing-screenshot.480.png"
-			],
-			"thumbnail":"",
 			"author":"nrglg",
 			"author-alias":"NRGLG",
 			"created":"2015-06-19",
-			"updated":"2015-07-01",
+			"updated":"2015-07-11",
 			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
-			"category":"Base Change",
-			"variant":""
+			"category":"Addon"
 		},
 
 		"Game Logos":
@@ -61,88 +45,75 @@
 			"file":"global.logos.css",
 			"description":"Adds game logos to home and game home page",
 			"order":-1,
-			"screenshot-1080":[
-				"screenshots/missing-screenshot.png"
-			],
-			"screenshot-480":[
-				"screenshots/missing-screenshot.480.png"
-			],
-			"thumbnail":"",
 			"author":"nrglg",
 			"author-alias":"NRGLG",
 			"created":"2015-06-27",
-			"updated":"2015-06-28",
+			"updated":"2015-06-11",
 			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
-			"category":"Base Change",
-			"variant":""
+			"category":"Addon"
 		},
 		
-		"Grayscale":
+		"Better Posts 1":
 		{
 			"baseurl":"https://rawgit.com/Goodlookinguy/pwvnrg/",
 			"branch-commit":"master",
-			"file":"grayscale.css",
-			"description":"Makes the forum look nicer",
+			"file":"addon.better-posts-1.css",
+			"description":"Makes posts more visually appealing",
 			"order":1,
-			"screenshot-1080":[
-				"screenshots/missing-screenshot.png"
-			],
-			"screenshot-480":[
-				"screenshots/missing-screenshot.480.png"
-			],
-			"thumbnail":"",
 			"author":"nrglg",
 			"author-alias":"NRGLG",
-			"created":"2015-06-28",
-			"updated":"2015-07-01",
+			"created":"2015-07-11",
+			"updated":"2015-07-11",
 			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
-			"category":"Base Theme",
-			"variant":""
+			"category":"Addon",
+			"variant":"Better Posts 1"
 		},
 		
-		"Bubbles":
+		"Better Posts 2":
 		{
 			"baseurl":"https://rawgit.com/Goodlookinguy/pwvnrg/",
 			"branch-commit":"master",
-			"file":"bubbles.css",
-			"description":"An alternative to grayscale",
+			"file":"addon.better-posts-2.css",
+			"description":"Makes posts more visually appealing",
 			"order":1,
-			"screenshot-1080":[
-				"screenshots/missing-screenshot.png"
-			],
-			"screenshot-480":[
-				"screenshots/missing-screenshot.480.png"
-			],
-			"thumbnail":"",
 			"author":"nrglg",
 			"author-alias":"NRGLG",
 			"created":"2015-07-01",
-			"updated":"2015-07-01",
+			"updated":"2015-07-11",
 			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
-			"category":"Base Theme",
-			"variant":""
+			"category":"Addon",
+			"variant":"Better Posts 1"
 		},
 		
-		"Colorful Addon":
+		"Better Links":
+		{
+			"baseurl":"https://rawgit.com/Goodlookinguy/pwvnrg/",
+			"branch-commit":"master",
+			"file":"addon.better-links.css",
+			"description":"Makes linked text stand out",
+			"order":1,
+			"author":"nrglg",
+			"author-alias":"NRGLG",
+			"created":"2015-07-11",
+			"updated":"2015-07-11",
+			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
+			"category":"Addon",
+			"variant":"Better Posts 1"
+		},
+		
+		"Colorful":
 		{
 			"baseurl":"https://rawgit.com/Goodlookinguy/pwvnrg/",
 			"branch-commit":"master",
 			"file":"addon.colorful.css",
 			"description":"Adds a dash of color to navigation",
 			"order":2,
-			"screenshot-1080":[
-				"screenshots/missing-screenshot.png"
-			],
-			"screenshot-480":[
-				"screenshots/missing-screenshot.480.png"
-			],
-			"thumbnail":"",
 			"author":"nrglg",
 			"author-alias":"NRGLG",
 			"created":"2015-06-28",
 			"updated":"2015-06-28",
 			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
-			"category":"Base Theme Addon",
+			"category":"Addon",
 			"variant":""
 		},
 		
@@ -153,6 +124,22 @@
 			"file":"addon.compact.css",
 			"description":"For those that like minimalism",
 			"order":3,
+			"author":"nrglg",
+			"author-alias":"NRGLG",
+			"created":"2015-06-28",
+			"updated":"2015-06-28",
+			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
+			"category":"Addon",
+			"variant":""
+		},
+		
+		"Grayscale":
+		{
+			"baseurl":"https://rawgit.com/Goodlookinguy/pwvnrg/",
+			"branch-commit":"master",
+			"file":"grayscale.css",
+			"description":"Makes the forum look nicer",
+			"order":10,
 			"screenshot-1080":[
 				"screenshots/missing-screenshot.png"
 			],
@@ -163,9 +150,9 @@
 			"author":"nrglg",
 			"author-alias":"NRGLG",
 			"created":"2015-06-28",
-			"updated":"2015-06-28",
+			"updated":"2015-07-11",
 			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
-			"category":"Base Theme Addon",
+			"category":"Theme",
 			"variant":""
 		},
 		
@@ -175,7 +162,7 @@
 			"branch-commit":"master",
 			"file":"pro-blue.css",
 			"description":"For the blue in you",
-			"order":6,
+			"order":12,
 			"screenshot-1080":[
 				"screenshots/pro-blue.1.png",
 				"screenshots/pro-blue.2.png"
@@ -200,7 +187,7 @@
 			"branch-commit":"master",
 			"file":"pro-red.css",
 			"description":"Red for your head",
-			"order":6,
+			"order":12,
 			"screenshot-1080":[
 				"screenshots/pro-red.1.png",
 				"screenshots/pro-red.2.png"
@@ -225,7 +212,7 @@
 			"branch-commit":"master",
 			"file":"pro-green.css",
 			"description":"Mean green machine",
-			"order":6,
+			"order":12,
 			"screenshot-1080":[
 				"https://cdn.rawgit.com/Goodlookinguy/pwvnrg/master/screenshots/missing-screenshot.png"
 			],
@@ -248,7 +235,7 @@
 			"branch-commit":"master",
 			"file":"va-eclipse.css",
 			"description":"Gives the forum a PW Eclipse theme",
-			"order":7,
+			"order":13,
 			"screenshot-1080":[
 				"screenshots/va-eclipse.1.png",
 				"screenshots/va-eclipse.2.png"
@@ -273,7 +260,7 @@
 			"branch-commit":"patch-1",
 			"file":"PW-TheBlues.css",
 			"description":"Gives the forum a blue theme",
-			"order":6,
+			"order":12,
 			"screenshot-1080":[
 				"https://rawgit.com/Goodlookinguy/pwvnrg/master/screenshots/the-blues.1.png",
 				"https://rawgit.com/Goodlookinguy/pwvnrg/master/screenshots/the-blues.2.png"
@@ -298,7 +285,7 @@
 			"branch-commit":"master",
 			"file":"STO_Theme_Fed.css",
 			"description":"Federation coloured STO theme",
-			"order":7,
+			"order":15,
 			"screenshot-1080":[
 				"https://rawgit.com/Goodlookinguy/pwvnrg/master/screenshots/sto-federation.1.png",
 				"https://rawgit.com/Goodlookinguy/pwvnrg/master/screenshots/sto-federation.2.png"
@@ -323,7 +310,7 @@
 			"branch-commit":"master",
 			"file":"STO_Theme_KDF.css",
 			"description":"KDF coloured STO theme",
-			"order":7,
+			"order":15,
 			"screenshot-1080":[
 				"https://rawgit.com/khamseen/PWEVan/master/screenshots/sto-kdf.1.png",
 				"https://rawgit.com/khamseen/PWEVan/master/screenshots/sto-kdf.2.png"
@@ -348,7 +335,7 @@
 			"branch-commit":"master",
 			"file":"STO_Theme_Rom.css",
 			"description":"Romulan coloured STO theme",
-			"order":7,
+			"order":15,
 			"screenshot-1080":[
 				"https://rawgit.com/khamseen/PWEVan/master/screenshots/sto-rom.1.png",
 				"https://rawgit.com/khamseen/PWEVan/master/screenshots/sto-rom.2.png"
@@ -374,7 +361,7 @@
 			"file":"pub/Beautiful-Light.css",
 			"invertTextColors": true,
 			"description":"The lighter theme",
-			"order":7,
+			"order":15,
 			"screenshot-1080":[],
 			"screenshot-480":[
 				"http://i.imgur.com/okZsAlw.png"
