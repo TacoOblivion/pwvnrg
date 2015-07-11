@@ -182,6 +182,13 @@
     display:none;
 }
 
+.Item-Body::after
+{
+    content:"";
+    display:block;
+    clear:both;
+}
+
 .ReactButton { margin:0; }
 
 .Reactions a.ReactButton:not(.Popup),
