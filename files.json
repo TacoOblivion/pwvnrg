@@ -178,7 +178,8 @@
 			"updated":"2015-07-09",
 			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
 			"category":"Theme",
-			"variant":"Pro Blue"
+			"variant":"Pro Blue",
+			"incompatible-addons":["Better Posts 2"]
 		},
 		
 		"Pro Red":
@@ -203,7 +204,8 @@
 			"updated":"2015-07-09",
 			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
 			"category":"Theme",
-			"variant":"Pro Blue"
+			"variant":"Pro Blue",
+			"incompatible-addons":["Better Posts 2"]
 		},
 		
 		"Pro Green":
@@ -226,7 +228,8 @@
 			"updated":"2015-07-09",
 			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
 			"category":"Theme",
-			"variant":"Pro Blue"
+			"variant":"Pro Blue",
+			"incompatible-addons":["Better Posts 2"]
 		},
 		
 		"VA Eclipse":
