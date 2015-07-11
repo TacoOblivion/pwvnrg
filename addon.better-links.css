@@ -1,0 +1,41 @@
+/* Message area link colors */
+.Item .Comment .Item-BodyWrap .Message a:link, .Item .Discussion .Item-BodyWrap .Message a:link, .ConversationMessage .Message a:link
+{
+    border-radius:8px;
+    background-color:rgba(0,0,0,0.3);
+    display:inline-block;
+    padding:0 6px;
+    max-width:100%;
+    box-sizing:border-box;
+}
+
+.Item .Comment .Item-BodyWrap .Message a:hover, .Item .Discussion .Item-BodyWrap .Message a:hover, .ConversationMessage .Message a:hover
+{
+    border-radius:8px;
+    background-color:rgba(255,255,255,0.1);
+    display:inline-block;
+    padding:0 6px;
+    color:rgb(196,128,128);
+    text-decoration:none;
+}
+
+.Item .Comment .Item-BodyWrap .Message a > img, .Item .Discussion .Item-BodyWrap .Message a > img, .ConversationMessage .Message a > img
+{
+    width:auto;
+    height:auto;
+    margin:10px 5px;
+}
+
+.Message
+{
+    overflow:hidden;
+}
+
+/* Removes outline from non-normal post links due to above change (no reason to have those stick out) */
+.Quote.UserQuote .QuoteAuthor a:link, pre a:link
+{
+    border-radius:0px !important;
+    background-color:transparent !important;
+    display:inline !important;
+    padding:0px !important;
+}
