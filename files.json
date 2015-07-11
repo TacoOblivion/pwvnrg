@@ -58,7 +58,7 @@
 			"baseurl":"https://rawgit.com/Goodlookinguy/pwvnrg/",
 			"branch-commit":"master",
 			"file":"addon.better-posts-1.css",
-			"description":"Makes posts more visually appealing",
+			"description":"Makes posts more visually appealing (Grayscale)",
 			"order":1,
 			"author":"nrglg",
 			"author-alias":"NRGLG",
@@ -74,7 +74,7 @@
 			"baseurl":"https://rawgit.com/Goodlookinguy/pwvnrg/",
 			"branch-commit":"master",
 			"file":"addon.better-posts-2.css",
-			"description":"Makes posts more visually appealing",
+			"description":"Makes posts more visually appealing (Bubbles)",
 			"order":1,
 			"author":"nrglg",
 			"author-alias":"NRGLG",
@@ -153,7 +153,8 @@
 			"updated":"2015-07-11",
 			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
 			"category":"Theme",
-			"variant":""
+			"variant":"",
+			"allow-addons":true
 		},
 		
 		"Pro Blue":
@@ -179,6 +180,7 @@
 			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
 			"category":"Theme",
 			"variant":"Pro Blue",
+			"allow-addons":true,
 			"incompatible-addons":["Better Posts 2"]
 		},
 		
@@ -205,6 +207,7 @@
 			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
 			"category":"Theme",
 			"variant":"Pro Blue",
+			"allow-addons":true,
 			"incompatible-addons":["Better Posts 2"]
 		},
 		
@@ -229,6 +232,7 @@
 			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
 			"category":"Theme",
 			"variant":"Pro Blue",
+			"allow-addons":true,
 			"incompatible-addons":["Better Posts 2"]
 		},
 		
@@ -254,7 +258,8 @@
 			"updated":"2015-06-28",
 			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
 			"category":"Theme",
-			"variant":""
+			"variant":"",
+			"allow-addons":true
 		},
 		
 		"The Blues":
@@ -279,7 +284,8 @@
 			"updated":"2015-06-29",
 			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
 			"category":"Theme",
-			"variant":""
+			"variant":"",
+			"allow-addons":true
 		},
 		
 		"STO Federation":
