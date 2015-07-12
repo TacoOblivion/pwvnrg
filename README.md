@@ -1,12 +1,14 @@
 ## PWE Vanilla Forums CSS/JS Injection Correction
 
-### How to install/use with Asterelle's PWE Vanilla Enhance?
+[PWVNRG Roadmap](https://trello.com/b/IM4TSmLa/pwvnrg-roadmap)
+
+### How to install/use with Asterelle's PWE Vanilla Enhance? (Recommended)
 1. Follow the installation instructions at https://github.com/asterpw/pwevanillaenhance
 2. There will be a small blue cogwheel in your user control bar. Click on that.
 3. Under themes you will find the themes from here. Click on one to load it.
 4. It is recommended that you reload the page after setting all of the theme pieces you want so that they load in the correct order.
 
-### How to install/use with Stylish (regular install)?
+### How to install/use with Stylish? (Manual)
 1. Get the addon called "Stylish" for Firefox or Chrome.
 2. Go to http://perfectworld.vanillaforums.com/
 3. Create a new style by clicking on the link pointed to on this picture. ![Example](http://dump.nrgs.org/pwpw/StylishPWEFStyles2.png)
@@ -31,20 +33,25 @@ activating the rest of the indented list.
 
 Example: To have VA Eclipse with Compact Addon. Activate 'Grayscale' -> Activate 'Colorful Addon' -> Activate 'Compact Addon' -> Activate 'VA Eclipse'
 
-1. Grayscale
-	2. Colorful Addon
-		3. VA Eclipse (by @ovenusarmanio)
-		3. The Blues (by @eldarth)
-	2. Compact Addon
-	2. Pro Blue, Red (WIP), and Green (WIP)
-2. STO Federation (by @khamseenair)
+1. Better Posts 1
+2. Better Posts 2
+3. Better Links
+	1. Colorful
+		1. VA Eclipse (by @ovenusarmanio)
+		2. The Blues (by @eldarth)
+	2. Compact
+	3. Pro Blue
+	4. Pro Red
+	5. Pro Green
+	6. Grayscale
+4. STO Federation (by @khamseenair)
 
 ### Styles that don't need to be activated in any order
 * Fluid Width
-* Game Logos
+* Game Logos (Currently Broken)
 
 ### What JS?
 None yet. I've been actively trying to avoid using JS. I want to do as much as I can in pure CSS.
 
 ### For programmers / extension makers
-I've added a files.json file that has the themes listed using Asterelle's descriptions of my style sheets.
+You can gather meta information about the themes from files.json. More on this to come later...
