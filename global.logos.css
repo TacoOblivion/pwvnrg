@@ -41,7 +41,8 @@
 #CategoryGroup-en.CategoryGroup tr.Item > .CategoryName > .Wrap,
 #CategoryGroup-russian-forum.CategoryGroup tr.Item > .CategoryName > .Wrap,
 #CategoryGroup-fr.CategoryGroup tr.Item > .CategoryName > .Wrap,
-#CategoryGroup-de.CategoryGroup tr.Item > .CategoryName > .Wrap
+#CategoryGroup-de.CategoryGroup tr.Item > .CategoryName > .Wrap,
+#CategoryGroup-arc-forums tr.Item > .CategoryName > .Wrap
 {
     padding-left:120px;
 }
@@ -49,7 +50,8 @@
 #CategoryGroup-en.CategoryGroup tr.Item > .CategoryName,
 #CategoryGroup-russian-forum.CategoryGroup tr.Item > .CategoryName,
 #CategoryGroup-fr.CategoryGroup tr.Item > .CategoryName,
-#CategoryGroup-de.CategoryGroup tr.Item > .CategoryName
+#CategoryGroup-de.CategoryGroup tr.Item > .CategoryName,
+#CategoryGroup-arc-forums tr.Item > .CategoryName
 {
     background-repeat:no-repeat;
     background-position:3px center;
