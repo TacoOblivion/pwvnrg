@@ -19,15 +19,6 @@ body { background: url('https://cdn.rawgit.com/Goodlookinguy/pwvnrg/master/grays
 	color:rgba(255,255,255,0.85);
 }
 
-/* Adds constraints to post textbox height */
-#Form_Body
-{
-    min-height: 150px;
-    max-height: 600px;
-    overflow-x: hidden !important;
-    overflow-y: auto !important;
-}
-
 #Form_Body:focus
 {
     box-shadow:0 0 5px 2px rgba(255,255,255,0.5);

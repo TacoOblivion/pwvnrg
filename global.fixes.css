@@ -270,3 +270,12 @@ div.PostEdited
 {
     display:none;
 }
+
+/* Adds constraints to post textbox height - this is open for change if 425px doesn't seem like a big number */
+#Form_Body
+{
+    min-height: 80px;
+    max-height: 425px;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+}
