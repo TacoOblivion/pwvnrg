@@ -331,3 +331,9 @@ blockquote.Quote
 {
     display:none;
 }
+
+/* New Discussion Button */
+#Content .ButtonGroup
+{
+	background-color:rgba(19, 37, 66,0.55);
+}
