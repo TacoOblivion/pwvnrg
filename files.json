@@ -267,7 +267,7 @@
 			"baseurl":"https://rawgit.com/armntic/pwvnrg/",
 			"branch-commit":"patch-1",
 			"file":"PW-TheBlues.css",
-			"description":"Gives the forum a blue theme",
+			"description":"Gives the forum an ocean blues theme",
 			"order":12,
 			"screenshot-1080":[
 				"https://rawgit.com/Goodlookinguy/pwvnrg/master/screenshots/the-blues.1.png",
@@ -281,7 +281,7 @@
 			"author":"eldarth",
 			"author-alias":"",
 			"created":"2015-06-28",
-			"updated":"2015-06-29",
+			"updated":"2015-07-24",
 			"discussion":"http://perfectworld.vanillaforums.com/discussion/1195098#latest",
 			"category":"Theme",
 			"variant":"",
@@ -307,7 +307,7 @@
 			"author":"khamseenair",
 			"author-alias":"",
 			"created":"2015-06-28",
-			"updated":"2015-07-12",
+			"updated":"2015-07-24",
 			"discussion":"http://perfectworld.vanillaforums.com/discussion/1195098#latest",
 			"category":"Theme",
 			"variant":"STO Federation"
@@ -332,7 +332,7 @@
 			"author":"khamseenair",
 			"author-alias":"",
 			"created":"2015-07-01",
-			"updated":"2015-07-12",
+			"updated":"2015-07-24",
 			"discussion":"http://perfectworld.vanillaforums.com/discussion/1195098#latest",
 			"category":"Theme",
 			"variant":"STO Federation"
@@ -357,7 +357,7 @@
 			"author":"khamseenair",
 			"author-alias":"",
 			"created":"2015-07-01",
-			"updated":"2015-07-12",
+			"updated":"2015-07-24",
 			"discussion":"http://perfectworld.vanillaforums.com/discussion/1195098#latest",
 			"category":"Theme",
 			"variant":"STO Federation"
@@ -379,7 +379,7 @@
 			"author":"tehbubbaloo",
 			"author-alias":"",
 			"created":"2015-07-02",
-			"updated":"2015-07-13",
+			"updated":"2015-07-24",
 			"discussion":"http://perfectworld.vanillaforums.com/discussion/1195148",
 			"category":"Theme",
 			"variant":""
