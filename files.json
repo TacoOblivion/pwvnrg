@@ -208,7 +208,7 @@
 			"baseurl":"https://rawgit.com/armntic/pwvnrg/",
 			"branch-commit":"patch-1",
 			"file":"PW-TheBlues.css",
-			"description":"Gives the forum a blue theme",
+			"description":"Gives the forum an ocean blues theme",
 			"order":6,
 			"requires":["Colorful Addon"],
 			"screenshot-1080":[
@@ -222,7 +222,7 @@
 			"author":"eldarth",
 			"author-alias":"",
 			"created":"2015-06-28",
-			"updated":"2015-06-29",
+			"updated":"2015-07-24",
 			"discussion":"http://perfectworld.vanillaforums.com/discussion/7895#latest",
 			"category":"Theme"
 		},
