@@ -47,12 +47,12 @@ div.P.PageDescription
 /* Compress data list spacing */
 .DataList > li 
 {
-  margin-bottom: 8px !important;
+  margin-bottom: 6px !important;
 }
 
 .Comment
 {
-    border-radius: 7px 7px 7px 7px;
+    border-radius: 9px;
     border: 1px #000000;
     border-style: solid;
 }
@@ -84,6 +84,10 @@ div.P.PageDescription
 .Pager a.Highlight
 {
     background:linear-gradient(rgba(255,255,255,0.6), rgba(0,0,0,0.3));
+}
+
+a, body {
+  color: #DDDDDD;
 }
 
 body, tr
@@ -132,6 +136,10 @@ div.Signature
   padding: 5px;
 }
 
+.CategoryTable > tbody > tr, .DiscussionsTable > tbody > tr {
+  background: rgba(11, 140, 160, 1);
+}
+
 .Item.Read 
 {
   background:rgba(11, 140, 160, .5);
@@ -140,17 +148,6 @@ div.Signature
   opacity: .9;
 }
 
-.Item.Unread.ItemDiscussion 
-{
-  background-color: rgba(255,255,255,0.2) !important;
-}
-
-/* in global fixes
-div.PostEdited
-{
-    color: darkgray;
-}
-*/
 
 #Content > h1
 {
@@ -159,18 +156,6 @@ div.PostEdited
 }
 
 
-tr.Item
-{
-    background: #C0C0C0;
-    /* color: blue; */
-}
-
-/* TEST
-div.Message
-{
-    mix-blend-mode: lghten;
-}
-*/
 
 #Content > div.DataTableWrap > table > thead
 {
@@ -188,6 +173,7 @@ div.Message
     background: linear-gradient(rgb(55,58,67),rgb(39,39,49));
     border: 1px solid rgb(34,153,224);
 }
+
 .Form-BodyWrap:hover
 {
 	box-shadow:0 0 9px 3px rgba(34,153,244,0.7);
@@ -220,15 +206,10 @@ div.Message
     animation-direction: alternate;
 }
 
-/**
-** FROM STARTREK CATEGORY
-**/
-
 .MessageList .Item.ItemDiscussion:hover
 {
     box-shadow: 0 0 9px 3px lightblue;
 }
-
 
 /* Fixes codebox colors */
 pre
@@ -249,7 +230,7 @@ pre > a
 /* Message area link colors */
 .Item .Comment .Item-BodyWrap .Message a:link, .Item .Discussion .Item-BodyWrap .Message a:link
 {
-    border-radius:8px;
+    border-radius:9px;
     background-color:rgba(0,0,0,0.1);
     display:inline-block;
     padding:0 6px;
@@ -257,7 +238,7 @@ pre > a
 
 .Item .Comment .Item-BodyWrap .Message a:hover, .Item .Discussion .Item-BodyWrap .Message a:hover
 {
-    border-radius:8px;
+    border-radius:9px;
     background-color:rgba(255,255,255,0.1);
     display:inline-block;
     padding:0 6px;
@@ -310,29 +291,26 @@ div.PostEdited
 /* Made posts have a hover-over border to help eye focus */
 .MessageList .Item:hover
 {
-    box-shadow: 0 0 9px 3px rgba(255,255,255,0.15);
+    border-radius:9px;
+    box-shadow: 0 0 9px 5px rgba(255,255,255,0.15);
 }
 
 /* Various item lists item colors */
-.Item.Unread.ItemDiscussion
-{
- 	background-color:rgba(0,0,0,0.05) !important;   
-}
+
+/* .Item.Unread.ItemDiscussion {} */
 
 .Item.Unread.ItemDiscussion > td:first-child:hover
 {
     border-left:3px solid red;
 }
 
-.Item.New.ItemDiscussion
-{
- 	background-color:rgba(255,255,255,0.01) !important;   
-}
-
 .Item.New.ItemDiscussion > td:first-child:hover
 {
     border-left:3px solid cyan;
 }
+
+/* .Item.New.ItemDiscussion {} */
+
 
 /* Changes to pretty the avatar area */
 .AuthorWrap > .Author .ProfilePhotoMedium
