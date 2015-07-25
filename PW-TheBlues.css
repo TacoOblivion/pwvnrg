@@ -1,0 +1,401 @@
+/* Links and Headers Override */
+h1.H, h2.H, div.P.PageDescription, .Discussion .PageTitle
+{
+    background-color: rgba(0, 99, 125, 1);
+    border-radius:10px;
+    padding:6px 8px;
+}
+
+.ContentColumn h2.H 
+{ 
+    padding:6px 8px; margin-top:-2px; border-radius:7px; 
+}
+
+h1.H.HomepageTitle, div.P.PageDescription 
+{
+    border-radius:10px 10px 0px 0px; 
+}
+
+div.P.PageDescription 
+{
+    padding-left:30px; margin-top:-5px; border-radius:0px 0px 10px 10px; 
+}
+
+.Discussion .PageTitle 
+{
+    border-radius:10px 10px 0px 0px; 
+}
+
+/* Breadcrumb coloring */
+.Breadcrumbs
+{
+    background:rgba(66, 81, 104,0.95);
+    padding:2px 8px;
+    border-radius:5px;
+}
+
+.Breadcrumbs a, .Breadcrumbs a:link
+{
+    color:rgb(255, 255, 77);
+}
+
+.Breadcrumbs a:link:hover, .Breadcrumbs a:hover
+{
+    color:rgba(255, 255, 77,0.75);
+}
+
+/* Compress data list spacing */
+.DataList > li 
+{
+  margin-bottom: 6px !important;
+}
+
+.Comment
+{
+    border-radius: 9px;
+    border: 1px #000000;
+    border-style: solid;
+}
+
+.DataList .Item 
+{
+  background: none;
+  border: none;
+}
+
+/* Page Listings */
+.Pager a, .Pager span, .Pager a:focus, .Pager a:active:focus
+{
+    background:linear-gradient(rgba(255,255,255,0.6), rgba(0,0,0,0.5));
+    border:none !important;
+    box-shadow:0px 2px 5px 0px rgba(0,0,0,0.5);
+}
+
+.Pager a:hover:not(.Highlight)
+{
+    background:linear-gradient(rgba(255,255,255,0.7), rgba(0,0,0,0.4));
+}
+
+.Pager a:active:not(.Highlight)
+{
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(255,255,255,0.4));
+}
+
+.Pager a.Highlight
+{
+    background:linear-gradient(rgba(255,255,255,0.6), rgba(0,0,0,0.3));
+}
+
+a, body {
+  color: #DDDDDD;
+}
+
+body, tr
+{
+    background: rgba(11, 129, 150, 1);
+}
+
+body > #Frame > .Head 
+{
+  padding: 4px 1px 1px;
+}
+
+.BoxTop
+{
+    padding: 2px 4px;
+    margin-bottom: 5px;
+}
+
+
+div.Message:hover, div.Item-Body:hover
+{
+    background: #004455;
+}
+
+div.Message, div.Item-Body
+{
+    background: #008899;
+}
+
+div.Signature
+{
+    border-top: 3px solid rgba(0, 0, 255, 0.3);
+}
+
+.Signature.UserSignature img
+{
+    width:auto;
+    height:auto;
+    max-width:500px;
+    max-height:150px;
+}
+
+.ItemDiscussion, .Comment, .Activities > .Activity, .MessageList > li, .Item-Search 
+{
+  background: rgba(11, 140, 160, 1);
+  padding: 5px;
+}
+
+.CategoryTable > tbody > tr, .DiscussionsTable > tbody > tr {
+  background: rgba(11, 140, 160, 1);
+}
+
+.Item.Read 
+{
+  background:rgba(11, 140, 160, .5);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  filter: alpha(opacity=90);
+  opacity: .9;
+}
+
+
+#Content > h1
+{
+    background-color: #035E5E;
+    color: orange;
+}
+
+
+
+#Content > div.DataTableWrap > table > thead
+{
+    background-color: #05778B;
+}
+
+#Head
+{
+    background: rgba(0, 99, 125, 1);
+}
+
+/*Comment Box*/
+.Form-BodyWrap
+{
+    background: linear-gradient(rgb(55,58,67),rgb(39,39,49));
+    border: 1px solid rgb(34,153,224);
+}
+
+.Form-BodyWrap:hover
+{
+	box-shadow:0 0 9px 3px rgba(34,153,244,0.7);
+}
+
+/*Preview Window Changes*/
+.Preview
+{
+    background: rgb(45, 47, 55);
+    color: #ffffff;
+    border: 1px solid rgb(255,255,238);
+}
+
+/*warning message flashing and colour changes*/
+@keyframes WMBorderFlash
+{
+    from { border: 1px solid rgba(218,1,0,1); box-shadow:0 0 8px 2px rgba(218,1,0,1); }
+    to { border: 1px solid rgba(218,1,0,0.2); box-shadow:0 0 8px 2px rgba(218,1,0,0.2); }
+}
+
+.WarningMessage
+{
+    background: linear-gradient(rgb(55,58,67),rgb(39,39,49));
+    color: rgb(255,130,0);
+    font-weight: bold;
+    animation-name: WMBorderFlash;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.MessageList .Item.ItemDiscussion:hover
+{
+    box-shadow: 0 0 9px 3px lightblue;
+}
+
+/* Fixes codebox colors */
+pre
+{
+	/* background-color:rgba(255,255,255,0.025); */
+    background-color:#EEEECD !important;
+    color:black !important;
+	border-radius:5px;
+}
+
+pre > a
+{
+    color:red !important;
+}
+
+
+
+/* Message area link colors */
+.Item .Comment .Item-BodyWrap .Message a:link, .Item .Discussion .Item-BodyWrap .Message a:link
+{
+    border-radius:9px;
+    background-color:rgba(0,0,0,0.1);
+    display:inline-block;
+    padding:0 6px;
+}
+
+.Item .Comment .Item-BodyWrap .Message a:hover, .Item .Discussion .Item-BodyWrap .Message a:hover
+{
+    border-radius:9px;
+    background-color:rgba(255,255,255,0.1);
+    display:inline-block;
+    padding:0 6px;
+    color:rgb(196,128,128);
+    text-decoration:none;
+}
+
+/* Removes outline from non-normal post links due to above change (no reason to have those stick out) */
+.Quote.UserQuote .QuoteAuthor a:link, pre a:link
+{
+    border-radius:0px !important;
+    background-color:transparent !important;
+    display:inline !important;
+    padding:0px !important;
+}
+
+
+
+
+/* .SpoilerText > pre */
+.SpoilerText
+{
+    background-color:rgba(0,0,0,0.5);
+}
+
+/* Fixes "Post Edited" message color
+/* Now removes it...remove "display:none;" if you want to see it */
+div.PostEdited
+{
+    color: rgba(255,128,128,0.7);
+    display:none;
+}
+
+
+/* Adds constraints to post textbox height */
+#Form_Body
+{
+    min-height: 150px;
+    max-height: 600px;
+    overflow-x: hidden !important;
+    overflow-y: scroll !important;
+}
+
+#Form_Body:focus
+{
+    box-shadow:0 0 5px 2px rgba(255,255,255,0.5);
+}
+
+
+/* Made posts have a hover-over border to help eye focus */
+.MessageList .Item:hover
+{
+    border-radius:9px;
+    box-shadow: 0 0 9px 5px rgba(255,255,255,0.15);
+}
+
+/* Various item lists item colors */
+
+/* .Item.Unread.ItemDiscussion {} */
+
+.Item.Unread.ItemDiscussion > td:first-child:hover
+{
+    border-left:3px solid red;
+}
+
+.Item.New.ItemDiscussion > td:first-child:hover
+{
+    border-left:3px solid cyan;
+}
+
+/* .Item.New.ItemDiscussion {} */
+
+
+/* Changes to pretty the avatar area */
+.AuthorWrap > .Author .ProfilePhotoMedium
+{
+    width:auto !important;
+    height:auto;
+    max-width: 125px !important;
+    max-height:150px !important;
+    border:2px solid #000;
+}
+
+.CommentHeader .AuthorWrap, .CommentHeader .AuthorWrap > .Author
+{
+    text-align:center;
+}
+
+.Comment .CommentInfo
+{
+    display:block;
+    background-color:rgba(0,0,0,0.3);
+    padding:3px 3px 2px 10px;
+    border-radius:10px;
+}
+
+
+/* Changes to make quotes stand out more */
+
+blockquote.Quote
+{
+    border-left:4px solid rgba(255,255,255,0.35);
+    background-color:rgba(0,0,0,0.1);
+}
+
+.Message > blockquote.Quote:hover, blockquote.Quote blockquote.Quote > blockquote.Quote:hover
+{
+    box-shadow:0 0 5px 2px rgba(128,128,128,0.25);
+}
+
+
+/* Make signature area stand out */
+.Signature.UserSignature
+{
+    border-top:2px solid rgba(0,255,255,0.75);
+    border-top-style:ridge;
+    
+}
+
+
+/* Prettifies Flag/Quote Area */
+.Discussion .Item-BodyWrap .Reactions, .Comment .Item-BodyWrap .Reactions
+{
+    background-color:rgba(0,0,0,0.25);
+    padding: 10px 0 8px 15px !important;
+    line-height:15px;
+}
+
+
+/*Numbered Notifications*/
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(1) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/1.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(2) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/2.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(3) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/3.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(4) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/4.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(5) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/5.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(6) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/6.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(7) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/7.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(8) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/8.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(9) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/9.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(10) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/10.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(11) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/11.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(12) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/12.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(13) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/13.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(14) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/14.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(15) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/15.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(16) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/16.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(17) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/17.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(18) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/18.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(19) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/19.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(20) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/20.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(21) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/21.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(22) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/22.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(23) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/23.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(24) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/24.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(25) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/25.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(26) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/26.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(27) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/27.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(28) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/28.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(29) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/29.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
+.Item.Activity.Activity-Comment.HasPhoto:nth-child(30) { background: url("http://www.holo-federation.com/downloads2/STOImages/notifN/30.png") no-repeat bottom 4px right 5px rgba(55, 58, 67, 1) !important; }
