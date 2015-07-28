@@ -16,7 +16,7 @@
   // more specific filters
   // following the Unicode categorization
   // this list is incomplete at the moment
-  var specificRanges = [
+  var blockedRanges = [
       ////////////////////////////////////////////////
       // European Scripts
       [0xFB1E, 0xFB1E], // Alphabetic Presentation Forms
@@ -160,14 +160,14 @@
       [0x1CD4, 0x1CE8], // Vedic Extensions
       [0x1CED, 0x1CED], // Vedic Extensions
       [0x1CF2, 0x1CF4], // Vedic Extensions
-      [0x1CF8, 0x1CF9] // Vedic Extensions
+      [0x1CF8, 0x1CF9], // Vedic Extensions
       
       ////////////////////////////////////////////////
       // Southeast Asian Scripts
       
       [0x0E31, 0x0E31], // Thai
       [0x0E34, 0x0E3A], // Thai
-      [0x0E47, 0x0E4F], // Thai
+      [0x0E47, 0x0E4F] // Thai
       
       ////////////////////////////////////////////////
       // Indonesia & Oceania Scripts
