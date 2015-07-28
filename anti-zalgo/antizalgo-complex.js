@@ -3,6 +3,8 @@
 // @namespace    NRGsoft
 // @version      1.0
 // @description  Strip certain ranges of text that can be used to create Zalgo text from forums
+// @downloadURL  https://github.com/Goodlookinguy/pwvnrg/raw/master/anti-zalgo/antizalgo-complex.js
+// @updateURL    https://github.com/Goodlookinguy/pwvnrg/raw/master/anti-zalgo/antizalgo-complex.js
 // @author       NRGLG
 // @run-at       document-end
 // @match        http://perfectworld.vanillaforums.com/*
