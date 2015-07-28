@@ -1,4 +1,4 @@
-## PWE Vanilla Forums CSS/JS Injection Correction
+## PWE Vanilla Forums CSS/JS Injectables
 
 [PWVNRG Roadmap](https://trello.com/b/IM4TSmLa/pwvnrg-roadmap)
 
@@ -49,9 +49,6 @@ Example: To have VA Eclipse with Compact Addon. Activate 'Grayscale' -> Activate
 ### Styles that don't need to be activated in any order
 * Fluid Width
 * Game Logos (Currently Broken)
-
-### What JS?
-None yet. I've been actively trying to avoid using JS. I want to do as much as I can in pure CSS.
 
 ### For programmers / extension makers
 You can gather meta information about the themes from files.json. More on this to come later...
