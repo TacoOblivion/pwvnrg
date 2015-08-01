@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Post Format Changer
 // @namespace    NRGsoft
-// @version      1.0a
+// @version      1.0b
 // @description  Adds post format changer
 // @downloadURL  https://github.com/Goodlookinguy/pwvnrg/raw/master/post-format-changer/post-format-changer.user.js
 // @updateURL    https://github.com/Goodlookinguy/pwvnrg/raw/master/post-format-changer/post-format-changer.user.js
@@ -41,7 +41,7 @@
         var $formatDropdown = $(formatDropdown);
         $editorButtons.prepend($formatDropdown);
 
-        $option = $(($formatDropdown.find('option[value="' + formFormat + '"]'))[0])
+        var $option = $(($formatDropdown.find('option[value="' + formFormat + '"]'))[0])
         $option.attr('selected', 'selected');
     };
     
