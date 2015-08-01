@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Post Format Changer
 // @namespace    NRGsoft
-// @version      1.0
+// @version      1.0a
 // @description  Adds post format changer
 // @downloadURL  https://github.com/Goodlookinguy/pwvnrg/raw/master/post-format-changer/post-format-changer.user.js
 // @updateURL    https://github.com/Goodlookinguy/pwvnrg/raw/master/post-format-changer/post-format-changer.user.js
@@ -45,5 +45,5 @@
         $option.attr('selected', 'selected');
     };
     
-    $('.FormWrapper').each(function(){makePostFormatChanger(this);});
+    $('.FormWrapper, .FormTitleWrapper').each(function(){makePostFormatChanger(this);});
 })();
