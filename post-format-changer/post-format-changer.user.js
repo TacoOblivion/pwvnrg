@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Post Format Changer
 // @namespace    NRGsoft
-// @version      1.0b
+// @version      1.0c
 // @description  Adds post format changer
 // @downloadURL  https://github.com/Goodlookinguy/pwvnrg/raw/master/post-format-changer/post-format-changer.user.js
 // @updateURL    https://github.com/Goodlookinguy/pwvnrg/raw/master/post-format-changer/post-format-changer.user.js
@@ -13,7 +13,7 @@
 
 (function()
 {
-    var formatDropdown = '<select id="Form_Format" name="Format">' +
+    var formatDropdown = '<select class="post-format-changer">' +
                             '<option value="BBCode">BBCode</option>' +
                             '<option value="Markdown">Markdown</option>' +
                             '<option value="Html">HTML</option>' +
@@ -28,17 +28,28 @@
         
     }, false);
     
+    var changeFormat = function()
+    {
+        var $this = $(this);
+        var $formFormat = $(($this.closest('.bodybox-wrap').find('#Form_Format'))[0]);
+        $formFormat.val($this.val());
+    };
     
     var makePostFormatChanger = function(target)
     {
+        console.log(target);
         var $target = $(target);
         var $bodyboxWrap = $(($target.find('.bodybox-wrap'))[0]);
+        
+        if ($bodyboxWrap.find('.post-format-changer').length)
+            return;
+        
         var $formFormat = $(($bodyboxWrap.find('#Form_Format'))[0]);
         var $editorButtons = $(($bodyboxWrap.find('.editor'))[0]);
         var formFormat = $formFormat.val();
-        $formFormat.remove();
 
         var $formatDropdown = $(formatDropdown);
+        $formatDropdown.change(changeFormat);
         $editorButtons.prepend($formatDropdown);
 
         var $option = $(($formatDropdown.find('option[value="' + formFormat + '"]'))[0])
