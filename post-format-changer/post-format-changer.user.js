@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Post Format Changer
 // @namespace    NRGsoft
-// @version      1.0c
+// @version      1.0d
 // @description  Adds post format changer
 // @downloadURL  https://github.com/Goodlookinguy/pwvnrg/raw/master/post-format-changer/post-format-changer.user.js
 // @updateURL    https://github.com/Goodlookinguy/pwvnrg/raw/master/post-format-changer/post-format-changer.user.js
@@ -37,7 +37,6 @@
     
     var makePostFormatChanger = function(target)
     {
-        console.log(target);
         var $target = $(target);
         var $bodyboxWrap = $(($target.find('.bodybox-wrap'))[0]);
         
