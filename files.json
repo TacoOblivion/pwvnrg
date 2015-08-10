@@ -53,6 +53,21 @@
 			"category":"Addon"
 		},
 		
+		"Avatar in Listings":
+		{
+			"baseurl":"https://cdn.rawgit.com/Goodlookinguy/pwvnrg/",
+			"branch-commit":"master",
+			"file":"addon.avatar-in-listings.css",
+			"description":"Shows avatars in thread listings",
+			"order":-1,
+			"author":"nrglg",
+			"author-alias":"NRGLG",
+			"created":"2015-08-09",
+			"updated":"2015-08-09",
+			"discussion":"http://perfectworld.vanillaforums.com/discussion/1195098#latest",
+			"category":"Addon"
+		},
+		
 		"Better Posts 1":
 		{
 			"baseurl":"https://rawgit.com/Goodlookinguy/pwvnrg/",
