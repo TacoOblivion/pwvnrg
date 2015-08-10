@@ -1,4 +1,29 @@
-/* ===== Global Fixes Modification ===== */
+/* Links */
+a
+{
+    color: #FFF;
+}
+
+a:hover
+{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.Message a
+{
+    color: #6C89C1;
+}
+
+
+/* Reset to prepare to overwriting */
+.DataList .Item,
+.Comment,
+.MessageList > Item.ItemDiscussion,
+.CommentsWrap > div.DataBox.DataBox-Comments > ul > li
+{
+    background:none;
+}
 
 /* Changes subforum category colors */
 .ChildCategoryList .Item h3.CategoryName
@@ -18,6 +43,7 @@
 #Head
 {
     background:none;
+    color: #FFF;
 }
 
 body
@@ -28,6 +54,7 @@ body
     background-attachment: fixed;
     background-position:center center;
     background-size:100% auto;
+    color: #FFF;
 }
 
 /* Reset to prepare to overwriting */
@@ -93,6 +120,16 @@ ul.Drafts li.Item
     margin-right:4px;
 }
 
+/* Comment spacing */
+.Comments.DataList > li.Item:first-child
+{
+    margin-top:12px;
+}
+.Comments.DataList > li.Item:not(:last-child)
+{
+    margin-bottom:20px !important;
+}
+
 /* Change form box color (index, activity, profile, post) */
 .CommentFormWrap
 {
@@ -115,6 +152,7 @@ ul.Drafts li.Item
     background:linear-gradient(rgba(0,0,0,0.8), rgba(255,255,255,0.0));
     border-bottom-left-radius:0px;
     border-bottom-right-radius:0px;
+    color: #F5F5F5;
 }
 
 /* Breadcrum coloring */
@@ -149,17 +187,34 @@ blockquote.Quote
 }
 
 /* Message area link colors */
-.Item .Comment .Item-BodyWrap .Message a:link, .Item .Discussion .Item-BodyWrap .Message a:link, .ConversationMessage .Message a:link
+.Item .Comment .Item-BodyWrap .Message a:link,
+.Item .Discussion .Item-BodyWrap .Message a:link,
+.ConversationMessage .Message a:link
 {
-    background-color:rgba(255,255,214,0.3);
+    background-color:rgba(255,255,214,0.05);
+    border-radius: 10px;
+    padding-left:3px;
+    padding-right:3px;
 }
 
 .Item .Comment .Item-BodyWrap .Message a:hover, .Item .Discussion .Item-BodyWrap .Message a:hover, .ConversationMessage .Message a:hover
 {
     background-color:rgba(66, 81, 104,0.7);
+    text-decoration: none;
+    text-shadow: 0px -1px 0px #000;
 }
 
 /* ===== Colorful modification ===== */
+
+.ItemDiscussion:hover td
+{
+    background: none !important;
+}
+
+.Item.ItemDiscussion a
+{
+    text-shadow:0px 0px 5px #000;
+}
 
 /* Category list coloring */
 .CategoryGroup tr, .ContentColumn .CategoryGroup tr { background-color:rgba(19,37,66,0.5); }
@@ -171,13 +226,13 @@ blockquote.Quote
 .ChildCategories a:hover { padding:0 6px; margin:0 -6px; border-radius:6px; background-color:rgba(0,28,113,0.7); }
 
 /* Thread list coloring */
-.Item.Unread.ItemDiscussion { background-color:rgba(118,175,207,0.7); }
+.Item.Unread.ItemDiscussion { background-color:rgba(118,175,207,0.85); }
 .Item.Unread.ItemDiscussion:hover { background:rgba(51,173,173,0.6) !important; }
 
 .Item.Read.ItemDiscussion { background-color:rgba(0, 13, 38, 0.85); }
 .Item.Read.ItemDiscussion:hover { background-color:rgba(245, 12, 39,0.6) !important; }
 
-.Item.New.ItemDiscussion { background-color:rgba(118,46,128,0.7); }
+.Item.New.ItemDiscussion { background-color:rgba(118,46,128,0.85); }
 .Item.New.ItemDiscussion:hover { background-color:rgba(255, 249, 184,0.6) !important; }
 
 .Item.Announcement.ItemDiscussion { background-color:rgba(0, 13,38,0.95); }
@@ -273,17 +328,14 @@ blockquote.Quote
 }
 
 /* Add backgrounds to preferences */
-#Content form[action="/profile/picture?"],
-#Content form[action="/profile/online?"],
-#Content form[action="/profile/quotes?"],
-#Content form[action="/profile/signature?"],
-#Content form[action="/profile/edit?"]
+#Content form[action^="/profile/"]
 {
     background-color:rgba(19, 37, 66, 0.95) !important;
     border-radius:10px;
 }
 
-#Content form[action="/profile/signature?"] h1.H, #Content form[action="/profile/signature?"] h2.H
+#Content form[action="/profile/signature?"] h1.H,
+#Content form[action="/profile/signature?"] h2.H
 {
     background:none;
 }
@@ -327,7 +379,7 @@ blockquote.Quote
     background:linear-gradient(rgba(255,255,255,0.6), rgba(0,0,0,0.3));
 }
 
-#Body .SearchForm form[action="/search"]
+#Body .SearchForm form[action^="/search"]
 {
     display:none;
 }
@@ -336,4 +388,11 @@ blockquote.Quote
 #Content .ButtonGroup
 {
 	background-color:rgba(19, 37, 66,0.55);
+}
+
+/* Table headers */
+.CategoryTable > thead > tr,
+.DiscussionsTable > thead > tr
+{
+    color: #F5F5F5;
 }
