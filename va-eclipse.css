@@ -1,10 +1,17 @@
 /* Links */
-a
+a,
+#Head a,
+.MiniPager a,
+.UserLink
 {
     color: #FFF;
+    text-decoration: none;
 }
 
-a:hover
+a:hover,
+#Head a:hover,
+.MiniPager a:hover,
+.UserLink:hover
 {
     text-decoration: none;
     color: #FFF;
@@ -14,6 +21,7 @@ a:hover
 {
     color: #6C89C1;
 }
+
 
 
 /* Reset to prepare to overwriting */
