@@ -298,13 +298,13 @@ input.InputBox:input-placeholder
     background-color: #EEE;
 }
 
-input[type="checkbox"]
+:not(.addon) > input[type="checkbox"]
 {
     line-height: 13px;
     vertical-align: middle;
 }
 
-span.label
+:not(.addon) > input[type="checkbox"] + span.label
 {
     color: #FFF !important;
     line-height: 13px;
