@@ -7,13 +7,28 @@
     100% { box-shadow:0px 0px 15px 1px rgba(255, 51, 60, 0.8); }
 }
 
+a,
+#Head a,
+body,
+.MiniPager a,
+.UserLink
+{
+    color: #FFF;
+    text-decoration: none;
+}
+
+a:hover,
+#Head a:hover
+{
+    text-decoration: none;
+}
+
 html { min-height:100%; height:auto; box-sizing:border-box; }
 
 body
 {
     background:linear-gradient(rgba(153, 51, 51, 0.12) 80%, rgba(255, 51, 60, 0.175) 100%), url('https://cdn.rawgit.com/Goodlookinguy/pwvnrg/master/grayscale.content/zwartevilt.png') repeat;
 }
-
 
 /* Reset to prepare to overwriting */
 .DataList .Item,
@@ -30,13 +45,13 @@ body
 .Activities > .Activity,
 .MessageList > li,
 .Item-Search,
-.MessageList > li.Item,
 .Profile .DataListWrap ul.DataList li.Item,
 .DataListWrap ul.Conversations li.Item,
 ol.DataList-Search li.Item,
-ul.Drafts li.Item
+ul.Drafts li.Item,
+div.Profile > div.User
 {
-    overflow:hidden;
+    /*overflow:hidden;*/
     background-color:rgba(204, 51, 70, 0.35);
     border:1px solid rgba(255, 51, 60,0.4);
     box-shadow:0px 0px 8px 1px rgba(153, 51, 51, 0.75);
@@ -49,19 +64,306 @@ ul.Drafts li.Item
 .Activities > .Activity:hover,
 .MessageList > li:hover,
 .Item-Search:hover,
-.MessageList > li.Item:hover,
 .Profile .DataListWrap ul.DataList li.Item:hover,
 .DataListWrap ul.Conversations li.Item:hover,
 ol.DataList-Search li.Item:hover,
 ul.Drafts li.Item:hover,
 .Section-ActivityList .FormWrapper:hover,
-.FormWrapper:hover
+.FormWrapper:hover,
+div.Profile > div.User:hover
 {
     /*box-shadow:0px 0px 15px 2px rgba(255, 51, 60, 0.8);*/
     border-radius:25px;
     transition:border-radius 0.2s ease-in 0s;
     animation: glow-my-pretty 2s linear 100ms infinite alternate;
 }
+
+.customWallpaper .ItemDiscussion a:not(.Bookmark),
+.customWallpaper .Comment,
+.customWallpaper .Activities > .Activity,
+.customWallpaper .MessageList > li,
+.customWallpaper .Item-Search,
+.customWallpaper .Profile .DataListWrap ul.DataList li.Item,
+.customWallpaper .DataListWrap ul.Conversations li.Item,
+.customWallpaper ol.DataList-Search li.Item,
+.customWallpaper ul.Drafts li.Item,
+.customWallpaper div.Profile > div.User
+{
+    text-shadow:-1px -1px 1px #000,
+                 1px  1px 1px #000,
+                 1px -1px 1px #000,
+                -1px  1px 1px #000,
+                 0px  0px 5px #FFF;
+}
+
+.DataList .Item
+{
+    margin-bottom: 15px !important;
+}
+
+.Activities a.CommentLink,
+.Activities a.CommentLink:hover
+{
+    color: #888 !important;
+    text-shadow: none;
+}
+
+span.DateCreated
+{
+    color: #C9C9C9;
+}
+
+div.Profile > div.User
+{
+    padding: 5px 10px;
+}
+
+div.ProfileOptions
+{
+    width: auto;
+    min-width: 110px;
+}
+
+div.ProfileOptions > a.NavButton.ProfileButtons.Button-EditProfile
+{
+    margin-top: 14px;
+    margin-right: 15px;
+}
+
+h1.H,
+h2.H,
+.Row > h1,
+.PageDescription
+{
+    color: #FFF;
+    background-color:rgba(204, 51, 70, 0.35);
+    border:1px solid rgba(255, 51, 60,0.4);
+    box-shadow:0px 0px 8px 1px rgba(153, 51, 51, 0.75);
+    border-radius:5px;
+    padding: 5px 15px;
+}
+
+.PageDescription
+{
+    margin-left: 20px;
+    padding-left: 8px;
+    padding-right: 6px;
+}
+
+.Profile > .DataListWrap > .FormWrapper
+{
+    margin-bottom: 10px;
+}
+
+.Dashboard.Profile.Section-EditProfile:not(#dashboard_profile_signature) #Content > .ProfileOptions
+{
+    margin-top: 2px;
+    margin-right: 5px;
+}
+
+#dashboard_profile_signature #Content > .ProfileOptions
+{
+    margin-top: 17px;
+    margin-right: 21px;
+}
+
+.ProfilePhotoSmall
+{
+    /*transition: transform 0.1s linear 0.1s;*/
+    transition: transform 0.3s cubic-bezier(0,0,0.5,2.0) 0s;
+    position:relative;
+}
+
+.ProfilePhotoSmall:hover
+{
+    z-index:100;
+    transform: translateY(-10px) scale(4, 4);
+    transition: transform 0.2s cubic-bezier(0,0,0.5,2.0) 0.4s;
+    animation: glow-my-pretty 2s linear 0.4s infinite alternate;
+}
+
+.DataTable a.Title
+{
+    width:50px;
+    overflow:hidden;
+}
+
+.MenuItems
+{
+    background-color: rgb(204, 51, 70);
+    color: #FFF;
+}
+
+.ButtonGroup .Dropdown
+{
+    
+}
+
+.MenuItems a,
+.MenuItems a:link,
+.MenuItems a:visited,
+.MenuItems a:active
+{
+    color: #FFF !important;
+}
+
+.MenuItems a:hover
+{
+    background-color: rgb(163, 41, 56) !important;
+    cursor: pointer;
+}
+
+.Flyout
+{
+    background-color: rgb(204, 51, 70);
+    color: #FFF;
+}
+
+.Flyout:after
+{
+    border-bottom-color: rgb(204, 51, 70);
+}
+
+.FlyoutMenu a
+{
+    color: #FFF !important;
+}
+
+.PopList .Meta
+{
+    color: #CCC;
+}
+
+input.InputBox
+{
+    background-color: rgb(204, 51, 70);
+    color: #FFF;
+}
+
+input.InputBox:focus
+{
+    background-color: rgb(204, 51, 70);
+}
+
+input.InputBox::-webkit-input-placeholder
+{
+    color: #FFF;
+}
+
+input.InputBox:-moz-placeholder
+{
+    color: #FFF;
+}
+
+input.InputBox::-moz-placeholder
+{
+    color: #FFF;
+}
+
+input.InputBox:-ms-input-placeholder
+{
+    color: #FFF;
+}
+
+input.InputBox:input-placeholder
+{
+    color: #FFF;
+}
+
+/* Extension */
+.emote-category
+{
+    background-color: transparent;
+}
+
+.enhance-options .Flyout .title
+{
+    background: rgb(163, 41, 56);
+}
+
+.enhance-options .Flyout::after
+{
+    border-bottom-color: rgb(163, 41, 56);
+}
+
+.sp-container
+{
+    background-color: transparent;
+    border: solid 1px #FFF;
+    border-radius: 5px;
+}
+
+.sp-input
+{
+    background-color: #EEE;
+}
+
+input[type="checkbox"]
+{
+    line-height: 13px;
+    vertical-align: middle;
+}
+
+span.label
+{
+    color: #FFF !important;
+    line-height: 13px;
+    vertical-align: middle;
+}
+
+.Flyout.emotes-dialog
+{
+    background-color: rgb(163, 41, 56);
+}
+
+.Flyout.emotes-dialog .emotes-div
+{
+    background-color: rgb(204, 51, 70);
+}
+
+.emotes-div:only-of-type
+{
+    background-color: rgb(163, 41, 56) !important;
+}
+
+.emotes-div:only-of-type .image:hover
+{
+    background-color: rgb(204, 51, 70) !important;
+    box-shadow: 0px 0px 0px 3px rgb(204, 51, 70);
+}
+
+.emote-category img.selected
+{
+    background-color: rgb(204, 51, 70);
+}
+
+.emotes-dialog .image:hover
+{
+    background-color: rgb(163, 41, 56);
+    box-shadow: 0px 0px 0px 3px rgb(163, 41, 56);
+}
+
+.emote-category img:hover:not(.selected)
+{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.Flyout.emotes-dialog:after
+{
+    border-bottom-color: rgb(163, 41, 56);
+}
+
+/* Attempting to reduce break overuse once again, hopefully this time it won't overdo it */
+blockquote.Quote.UserQuote + br
+{
+    display: none;
+}
+
+blockquote.Quote.UserQuote + span[style*="color"] br:first-of-type
+{
+    display: none;
+}
+
 
 /* Change form box color (index, activity, profile, post) */
 .CommentFormWrap
@@ -84,11 +386,7 @@ ul.Drafts li.Item:hover,
 
 /* Add backgrounds to preferences */
 #Content > div.FormTitleWrapper > div.Preferences,
-#Content form[action="/profile/picture?"],
-#Content form[action="/profile/online?"],
-#Content form[action="/profile/quotes?"],
-#Content form[action="/profile/signature?"],
-#Content form[action="/profile/edit?"]
+#Content form[action^="/profile/"]
 {
     background-color:rgba(204, 51, 70, 0.45) !important;
     border-radius:5px;
@@ -186,20 +484,20 @@ ul.Drafts li.Item:hover,
     background-color: rgba(122, 41, 41, 0.5);
 }
 
-.CategoryTable > tbody > tr.Item.Read.ItemDiscussion,
-.DiscussionsTable > tbody > tr.Item.Read.ItemDiscussion
+.CategoryTable > tbody > tr.Item.Read,
+.DiscussionsTable > tbody > tr.Item.Read
 {
     background-color: rgba(153, 51, 51, 0.5);
 }
 
-.CategoryTable > tbody > tr.Item.Unread.ItemDiscussion,
-.DiscussionsTable > tbody > tr.Item.Unread.ItemDiscussion
+.CategoryTable > tbody > tr.Item.Unread,
+.DiscussionsTable > tbody > tr.Item.Unread
 {
     background-color: rgba(135, 62, 62, 0.5);
 }
 
-.CategoryTable > tbody > tr.Item.New.ItemDiscussion,
-.DiscussionsTable > tbody > tr.Item.New.ItemDiscussion
+.CategoryTable > tbody > tr.Item.New,
+.DiscussionsTable > tbody > tr.Item.New
 {
     background-color: rgba(135, 62, 62, 0.5);
 }
@@ -211,20 +509,20 @@ ul.Drafts li.Item:hover,
     background: rgba(122, 41, 41, 0.7) !important;
 }
 
-.CategoryTable > tbody > tr.Item.Read.ItemDiscussion:hover,
-.DiscussionsTable > tbody > tr.Item.Read.ItemDiscussion:hover td
+.CategoryTable > tbody > tr.Item.Read:hover,
+.DiscussionsTable > tbody > tr.Item.Read:hover td
 {
     background: rgba(153, 51, 51, 0.7) !important;
 }
 
-.CategoryTable > tbody > tr.Item.Unread.ItemDiscussion:hover,
-.DiscussionsTable > tbody > tr.Item.Unread.ItemDiscussion:hover td
+.CategoryTable > tbody > tr.Item.Unread:hover,
+.DiscussionsTable > tbody > tr.Item.Unread:hover td
 {
     background: rgba(135, 62, 62, 0.7) !important;
 }
 
-.CategoryTable > tbody > tr.Item.New.ItemDiscussion:hover,
-.DiscussionsTable > tbody > tr.Item.New.ItemDiscussion:hover td
+.CategoryTable > tbody > tr.Item.New:hover,
+.DiscussionsTable > tbody > tr.Item.New:hover td
 {
     background: rgba(135, 62, 62, 0.7) !important;
 }
@@ -326,7 +624,7 @@ ul.Drafts li.Item:hover,
 .DismissMessage a:not(.Dismiss):hover::before,
 .AlertMessage a:not(.Dismiss):hover::before
 {
-    content:"-->";
+    content:"»";
 }
 
 .WarningMessage a:not(.Dismiss):hover::after,
@@ -334,5 +632,5 @@ ul.Drafts li.Item:hover,
 .DismissMessage a:not(.Dismiss):hover::after,
 .AlertMessage a:not(.Dismiss):hover::after
 {
-    content:"<--";
+    content:"«";
 }
