@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         Anti-Zalgo (Simple)
 // @namespace    NRGsoft
-// @version      1.0
+// @version      1.0b
 // @description  Strip certain ranges of text that can be used to create Zalgo text from forums
 // @downloadURL  https://github.com/Goodlookinguy/pwvnrg/raw/master/anti-zalgo/antizalgo-simple.js
 // @updateURL    https://github.com/Goodlookinguy/pwvnrg/raw/master/anti-zalgo/antizalgo-simple.js
 // @author       NRGLG
 // @run-at       document-end
-// @match        http://perfectworld.vanillaforums.com/*
+// @match        http://forum.arcgames.com/*
 // @grant        none
 // ==/UserScript==
 

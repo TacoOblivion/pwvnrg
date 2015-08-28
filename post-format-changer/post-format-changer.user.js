@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         Post Format Changer
 // @namespace    NRGsoft
-// @version      1.0d
+// @version      1.1
 // @description  Adds post format changer
 // @downloadURL  https://github.com/Goodlookinguy/pwvnrg/raw/master/post-format-changer/post-format-changer.user.js
 // @updateURL    https://github.com/Goodlookinguy/pwvnrg/raw/master/post-format-changer/post-format-changer.user.js
 // @author       NRGLG
 // @run-at       document-end
-// @match        http://perfectworld.vanillaforums.com/*
+// @match        http://forum.arcgames.com/*
 // @grant        none
 // ==/UserScript==
 
