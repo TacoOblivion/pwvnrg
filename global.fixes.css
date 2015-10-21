@@ -154,10 +154,15 @@ a.Bookmarked::before
     padding-left:30px;
 }
 
-.ChildCategoryList .Item
+.ChildCategoryList
+{
+    overflow: visible;
+}
+
+.Categories .ChildCategoryList .Item.Category
 {
     box-sizing:border-box;
-    width:24%;
+    width:23%;
     height:140px;
     margin:0 3px;
     overflow:hidden;
@@ -165,12 +170,12 @@ a.Bookmarked::before
     background-color:#1B1C20;
 }
 
-.ChildCategoryList .Item:nth-child(odd)
+.Categories .ChildCategoryList .Item.Category:nth-child(odd)
 {
     clear:none;
 }
 
-.ChildCategoryList .Item h3.CategoryName
+.Categories .ChildCategoryList .Item.Category .ItemContent h3.CategoryName
 {
     min-height:22px;
     max-height:44px;
@@ -184,20 +189,20 @@ a.Bookmarked::before
     background-color:#222224;
 }
 
-.ChildCategoryList .Item div.CategoryDescription
+.Categories .ChildCategoryList .Item.Category div.CategoryDescription
 {
     font-size:0.8em;
     line-height:1.3em;
     padding:0 10px;
 }
 
-.ChildCategoryList .ItemContent
+.Categories .ChildCategoryList .Item.Category .ItemContent
 {
     padding:0;
     vertical-align:top;
 }
 
-.DataList.ChildCategoryList > li.Item
+.DataList.ChildCategoryList > li.Item.Category
 {
     /* Why the frick is PWE using !important so much? Only I should need it, not them... */
     margin-bottom:6px !important;
@@ -206,7 +211,7 @@ a.Bookmarked::before
     background-color:#1B1C20;
 }
 
-.ChildCategoryList .Item .Meta.Hidden
+.Categories .ChildCategoryList .Item.Category .Meta.Hidden
 {
     display:block;
     overflow:hidden;
@@ -217,7 +222,7 @@ a.Bookmarked::before
     bottom:0;
 }
 
-.ChildCategoryList .Item .Meta.Hidden .MItem
+.Categories .ChildCategoryList .Item.Category .Meta.Hidden .MItem
 {
     display:inline-block;
     width:45%;
@@ -225,9 +230,20 @@ a.Bookmarked::before
     position:relative;
 }
 
-.ChildCategoryList .Item .Meta.Hidden .MItem.CommentCount
+.Categories .ChildCategoryList .Item.Category .Meta.Hidden .MItem.CommentCount
 {
     text-align:right;
+}
+
+.Categories .ChildCategoryList .Item.Category .ItemContent .CategoryDescription:before
+{
+    content: "";
+    display:none;
+}
+
+.Categories .ChildCategoryList .Item.Category .ItemContent .CategoryDescription
+{
+    display: block;
 }
 
 /* Fixes overly long PM snippet alerts */
