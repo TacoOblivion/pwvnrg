@@ -26,7 +26,7 @@
 		"Fluid Width":
 		{
 			"baseurl":"https://cdn.rawgit.com/Goodlookinguy/pwvnrg/",
-			"branch-commit":"9da1554",
+			"branch-commit":"e037380",
 			"file":"global.fluid-width.css",
 			"description":"Makes better use of the screen",
 			"order":-1,
