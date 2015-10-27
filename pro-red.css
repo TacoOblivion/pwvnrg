@@ -27,7 +27,8 @@ html { min-height:100%; height:auto; box-sizing:border-box; }
 
 body
 {
-    background:linear-gradient(rgba(153, 51, 51, 0.12) 80%, rgba(255, 51, 60, 0.175) 100%), url('https://cdn.rawgit.com/Goodlookinguy/pwvnrg/master/grayscale.content/zwartevilt.png') repeat;
+    /*background:linear-gradient(rgba(153, 51, 51, 0.12) 80%, rgba(255, 51, 60, 0.175) 100%), url('https://cdn.rawgit.com/Goodlookinguy/pwvnrg/master/grayscale.content/zwartevilt.png') repeat;*/
+    background: linear-gradient(rgba(153, 51, 51, 0.32) 80%, rgba(255, 51, 60, 0.175) 100%), url('https://pwimages-a.akamaihd.net/global/vanilla/backgrounds/default.jpg') top center no-repeat #131418;
 }
 
 /* Reset to prepare to overwriting */
@@ -76,6 +77,36 @@ div.Profile > div.User:hover
     border-radius:25px;
     transition:border-radius 0.2s ease-in 0s;
     animation: glow-my-pretty 2s linear 100ms infinite alternate;
+}
+
+.MessageList > li .Item-Header,
+.MessageList .ItemDiscussion .Item-Header
+{
+    transition: border-radius 0.5s cubic-bezier(1,0,0.2,2.0) 80ms;
+}
+
+.MessageList > li:hover .Item-Header,
+.MessageList .ItemDiscussion:hover .Item-Header
+{
+    border-radius: 25px 25px 0 0;
+    transition:border-radius 0.2s ease-in 0s;
+}
+
+.ItemDiscussion .Item-BodyWrap
+{
+    transition: border-radius 0.5s cubic-bezier(1,0,0.2,2.0) 80ms;
+}
+.ItemDiscussion:hover .Item-BodyWrap
+{
+    transition:border-radius 0.2s ease-in 0s;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.CommentHeader,
+.DiscussionHeader
+{
+    
 }
 
 .customWallpaper .ItemDiscussion a:not(.Bookmark),
@@ -188,7 +219,9 @@ h2.H,
     overflow:hidden;
 }
 
-.MenuItems
+.Profile .MenuItems,
+.Vanilla .MenuItems,
+.Conversations .MenuItems
 {
     background-color: rgb(204, 51, 70);
     color: #FFF;
@@ -199,27 +232,41 @@ h2.H,
     
 }
 
-.MenuItems a,
-.MenuItems a:link,
-.MenuItems a:visited,
-.MenuItems a:active
+.Profile .MenuItems a,
+.Profile .MenuItems a:link,
+.Profile .MenuItems a:visited,
+.Profile .MenuItems a:active,
+.Vanilla .MenuItems a,
+.Vanilla .MenuItems a:link,
+.Vanilla .MenuItems a:visited,
+.Vanilla .MenuItems a:active,
+.Conversations .MenuItems a,
+.Conversations .MenuItems a:link,
+.Conversations .MenuItems a:visited,
+.Conversations .MenuItems a:active
 {
     color: #FFF !important;
 }
 
-.MenuItems a:hover
+.Profile .MenuItems a:hover,
+.Vanilla .MenuItems a:hover,
+.Conversations .MenuItems a:hover
 {
     background-color: rgb(163, 41, 56) !important;
     cursor: pointer;
 }
 
-.Flyout
+.Profile .Flyout,
+.Vanilla .Flyout,
+.Conversations .Flyout
 {
     background-color: rgb(204, 51, 70);
     color: #FFF;
 }
 
-.Flyout:after
+.Profile .Flyout:after,
+.Vanilla .Flyout:after,
+.Conversations .Flyout:after
 {
     border-bottom-color: rgb(204, 51, 70);
 }
@@ -448,7 +495,7 @@ blockquote.Quote.UserQuote + span[style*="color"] br:first-of-type
 }
 
 /* Navigation Buttons (including page listings) */
-#Body .Button:not([value="Search"]), .NavButton, .Pager a, .Pager span,
+/*#Body .Button:not([value="Search"]), .NavButton, .Pager a, .Pager span,
 #Body .Button:not([value="Search"]):focus, .NavButton:focus, .Pager a:focus, .Pager a:active:focus
 {
 	background: linear-gradient(rgba(255,255,255,0.6), rgba(153, 51, 51, 0.5)) !important;
@@ -476,30 +523,58 @@ blockquote.Quote.UserQuote + span[style*="color"] br:first-of-type
 .Pager a.Highlight
 {
     background: radial-gradient(45px 15px at center top, rgba(255,255,255,0.5), rgba(153, 51, 51, 0.7)) !important;
+}*/
+
+.Pager .Highlight
+{
+    background: rgba(153, 51, 51, 0.7);
+    box-shadow: 0 0 7px 0 rgba(153, 51, 51, 0.6);
+}
+
+.Pager a:not(.Highlight):hover
+{
+    background: rgba(153, 51, 51, 0.7);
+    box-shadow: 0 0 7px 0 rgba(153, 51, 51, 0.6);
+}
+
+.Button
+{
+    background: rgba(153, 51, 51, 0.6);
+}
+
+.Button:active, .Button:focus
+{
+    background: rgba(153, 51, 51, 0.9);
+}
+
+.ButtonGroup.Open .Button.Handle
+{
+    background: rgba(122, 41, 41, 0.5);
 }
 
 .CategoryTable > tbody > tr,
 .DiscussionsTable > tbody > tr
 {
-    background-color: rgba(122, 41, 41, 0.5);
+    background-color: rgba(122, 41, 41, 0.5) !important;
 }
 
 .CategoryTable > tbody > tr.Item.Read,
 .DiscussionsTable > tbody > tr.Item.Read
 {
-    background-color: rgba(153, 51, 51, 0.5);
+    background-color: rgba(153, 51, 51, 0.5) !important;
 }
 
 .CategoryTable > tbody > tr.Item.Unread,
 .DiscussionsTable > tbody > tr.Item.Unread
 {
-    background-color: rgba(135, 62, 62, 0.5);
+    background-color: rgba(135, 62, 62, 0.5) !important;
 }
 
 .CategoryTable > tbody > tr.Item.New,
 .DiscussionsTable > tbody > tr.Item.New
 {
-    background-color: rgba(135, 62, 62, 0.5);
+    /* Now I have to make this important... ~_~ */
+    background-color: rgba(135, 62, 62, 0.5) !important;
 }
 
 /* Hover */
@@ -575,7 +650,9 @@ blockquote.Quote.UserQuote + span[style*="color"] br:first-of-type
 /* Post internal borders */
 .Comment .Item-BodyWrap
 {
+    border: none;
     border-color:rgba(255, 51, 60, 0.35);
+    background: none;
 }
 
 .Signature.UserSignature
@@ -633,4 +710,11 @@ blockquote.Quote.UserQuote + span[style*="color"] br:first-of-type
 .AlertMessage a:not(.Dismiss):hover::after
 {
     content:"«";
+}
+
+/* Side bars */
+.MessageList.Comments
+{
+    padding-left: 0;
+    background-image: none;
 }
