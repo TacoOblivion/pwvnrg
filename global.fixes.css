@@ -168,31 +168,57 @@ a.Bookmarked::before
 
 .PageControls.Top
 {
-    height: 32px;
+    box-sizing: border-box;
+    min-height: 32px;
     display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    clear: left;
+}
+
+#Content .BoxNewDiscussion,
+.Pager
+{
+    
 }
 
 .Categories .ChildCategoryList
 {
+    box-sizing:content-box;
     display: block;
-    height: 140px;
+    min-height: 140px;
     padding-bottom: 0px;
 }
 
 .Categories .ChildCategoryList .Item.Category
 {
+    border-radius:10px 4px 10px 4px;
+    background-color:#1B1C20;
+    
     box-sizing:border-box;
     width:23%;
     height:140px;
-    margin:0 3px;
     overflow:hidden;
     box-shadow:0 0 4px 0px #000;
-    background-color:#1B1C20;
+    
+    margin-top: 5px !important;
+    margin-bottom: 6px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
 }
 
-.Categories .ChildCategoryList .Item.Category:nth-child(odd)
+.Categories .ChildCategoryList .Item.Category:nth-child(4n+1)
 {
-    clear:none;
+    margin-left: 0px !important;
+    margin-right: 20px !important;
+}
+
+.Categories .ChildCategoryList .Item.Category:nth-child(4n+4)
+{
+    margin-left: 20px !important;
+    margin-right: 0px !important;
 }
 
 .Categories .ChildCategoryList .Item.Category .ItemContent h3.CategoryName
@@ -220,15 +246,6 @@ a.Bookmarked::before
 {
     padding:0;
     vertical-align:top;
-}
-
-.DataList.ChildCategoryList > li.Item.Category
-{
-    /* Why the frick is PWE using !important so much? Only I should need it, not them... */
-    margin-bottom:6px !important;
-    border-radius:10px 4px 10px 4px;
-    position:relative;
-    background-color:#1B1C20;
 }
 
 .Categories .ChildCategoryList .Item.Category .Meta.Hidden

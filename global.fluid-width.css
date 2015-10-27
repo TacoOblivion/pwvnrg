@@ -40,7 +40,20 @@
     
     .Categories .ChildCategoryList .Item.Category
     {
-		margin: 0px 1% 20px 1% !important;
+		margin-left: 1% !important;
+		margin-right: 1% !important;
+    }
+    
+    .Categories .ChildCategoryList .Item.Category:nth-child(4n+1)
+    {
+		margin-left: 0px !important;
+		margin-right: 2% !important;
+    }
+
+    .Categories .ChildCategoryList .Item.Category:nth-child(4n+4)
+    {
+		margin-left: 2% !important;
+		margin-right: 0px !important;
     }
 }
 
