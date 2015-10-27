@@ -47,6 +47,18 @@ table.PreferenceGroup tbody tr:hover td
     padding-right:5px;
 }
 
+.Pager a:hover:not(.Highlight)
+{
+    background: #d57c13;
+    color: #fff;
+    box-shadow: 0 0 7px 0 rgba(255, 138, 0, 0.5);
+}
+
+.Pager .Highlight + .Pager a:hover:not(.Highlight)
+{
+    background: none !important
+}
+
 /* Break long usernames into multiple lines*/
 .AuthorWrap .Author > a.Username
 {
@@ -112,7 +124,7 @@ a.Bookmarked::before
 }
 
 /* Fixes profile button - partial credit to dblazen1 */
-#Body .Button:not([value="Search"]), .NavButton
+/*#Body .Button:not([value="Search"]), .NavButton
 {
 	color:#DDD;
 	text-shadow: none;
@@ -130,23 +142,18 @@ a.Bookmarked::before
     color:#AAA;
     background:linear-gradient(#272731, #373a43);
     border-top-color:rgba(255,255,255,0.1);
-}
+}*/
 
 /* Fixes Search Icon Focus */
-.SiteSearch .Button:focus
+/*.SiteSearch .Button:focus
 {
     background-image: url('http://perfectworld.vanillaforums.com/applications/dashboard/design/images/sprites.png');
-}
+}*/
 
 /* Fixes awful look of subforum categories subforums of thread lists */
 .ChildCategoryList
 {
     padding:20px 0;
-}
-
-.HomepageTitle
-{
-    padding-left:20px;
 }
 
 .PageDescription
@@ -294,4 +301,28 @@ div.PostEdited
     max-height: 425px;
     overflow-x: hidden !important;
     overflow-y: auto !important;
+}
+
+/* Bloop */
+.NewCommentCount,
+.CategoryTable .Tag,
+.DiscussionsTable .Tag
+{
+    font-family: Tahoma;
+    border-radius: 4px;
+}
+
+.DiscussionsTable > tbody > tr .MiniPager,
+.NewCommentCount,
+.CategoryTable .Tag,
+.DiscussionsTable .Tag
+{
+    padding: 4px 10px;
+    margin-right: 6px;
+    line-height: 14px;
+    
+	display: block;
+    float: left;
+    width: auto !important;
+    height: 14px;
 }
