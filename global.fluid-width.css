@@ -3,11 +3,147 @@
 {
     padding:0 40px;
     width:auto;
-    min-width:960px;
+    min-width:768px;
 }
 
 .themeManager
 {
     min-width:925px;
     width:auto !important;
+}
+
+.DiscussionsTable > tbody > tr > td.DiscussionName > div > a.Title
+{
+    word-wrap: break-word;
+    white-space: normal;
+    width: auto;
+}
+
+.CategoryTable > tbody > tr td,
+.DiscussionsTable > tbody > tr td
+{
+    position: relative;
+}
+
+.BlockTitle:hover
+{
+    overflow: visible;
+}
+
+@media (max-width: 960px)
+{
+    .DiscussionsTable .Item a.Title::before
+    {
+        display:inline-block;
+        font-family:"vanillicon";
+        font-variant:normal;
+        font-weight:normal;
+        font-style:normal;
+        color:#FFF;
+        min-width:1em;
+        text-align:center;
+        text-decoration:inherit;
+        text-transform:none;
+        line-height:1;
+        -webkit-font-smoothing:antialiased;
+        margin-right:4px;
+    }
+    
+    .DiscussionsTable .Item.Announcement a.Title::before
+    {
+    	content: "\f113";
+    }
+    
+    .DiscussionsTable .Item.Closed a.Title::before
+    {
+		content: "\f166";
+	}
+    
+    .DiscussionsTable .Item.New a.Title::before,
+    .DiscussionsTable .Item.Unread a.Title::before
+    {
+		content: "\f132";
+	}
+    
+    .DiscussionsTable .Item.Announcement.New a.Title::before,
+    .DiscussionsTable .Item.Announcement.Unread a.Title::before
+    {
+		content: "\f113\0020\f132";
+	}
+    
+    .DiscussionsTable .Item.Announcement.Closed a.Title::before
+    {
+		content: "\f113\0020\f166";
+	}
+    
+    .DiscussionsTable .Item.Closed.New a.Title::before,
+    .DiscussionsTable .Item.Closed.Unread a.Title::before
+    {
+		content: "\f166\0020\f132";
+	}
+    
+    .DiscussionsTable .Item.Announcement.Closed.New a.Title::before,
+    .DiscussionsTable .Item.Announcement.Closed.Unread a.Title::before
+    {
+		content: "\f113\0020\f166\0020\f132";
+	}
+    
+    .NewCommentCount,
+    .CategoryTable .Tag,
+    .DiscussionsTable .Tag
+    {
+		display: none;
+    }
+}
+
+@media (max-width: 1440px)
+{
+    .DiscussionsTable td.BigCount
+    {
+		width: 55px;
+    }
+    
+    .Categories .ChildCategoryList .Item.Category
+    {
+		margin: 0px 1% 20px 1% !important;
+    }
+}
+
+@media (max-width: 1152px)
+{
+    .CategoryTable td.BigCount,
+    .DiscussionsTable td.BigCount,
+    .CategoryTable > tbody > tr .BigCount,
+    .DiscussionsTable > tbody > tr .BigCount
+    {
+		display: none;
+    }
+    
+    .Categories .ChildCategoryList .Item.Category .Meta.Hidden .MItem
+    {
+		display: none;
+    }
+    
+    .Categories .ChildCategoryList .Item.Category .ItemContent .CategoryName .Title
+    {
+		font-size: 75%;
+	}
+}
+
+@media (min-width: 1441px)
+{
+    .CategoryTable > thead > tr td.FirstUser,
+    .DiscussionsTable > thead > tr td.FirstUser,
+    .CategoryTable > thead > tr td.LastUser,
+    .DiscussionsTable > thead > tr td.LastUser
+    {
+		min-width: 150px;
+		max-width: 250px;
+		width: 17% !important;
+    }
+    
+    .Categories .ChildCategoryList .Item.Category
+    {
+		margin: 0px 10px 20px 10px !important;
+    }
 }
