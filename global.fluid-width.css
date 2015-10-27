@@ -3,12 +3,13 @@
 {
     padding:0 40px;
     width:auto;
-    min-width:768px;
+    min-width:662px;
 }
 
 .themeManager
 {
-    min-width:925px;
+    margin: 40px auto !important;
+    min-width:620px;
     width:auto !important;
 }
 
@@ -28,6 +29,53 @@
 .BlockTitle:hover
 {
     overflow: visible;
+}
+
+@media (max-width: 1440px)
+{
+    .DiscussionsTable td.BigCount
+    {
+		width: 55px;
+    }
+    
+    .Categories .ChildCategoryList .Item.Category
+    {
+		margin: 0px 1% 20px 1% !important;
+    }
+}
+
+@media (max-width: 1152px)
+{
+    .CategoryTable td.BigCount,
+    .DiscussionsTable td.BigCount,
+    .CategoryTable > tbody > tr .BigCount,
+    .DiscussionsTable > tbody > tr .BigCount
+    {
+		display: none;
+    }
+    
+    .Categories .ChildCategoryList .Item.Category .Meta.Hidden .MItem
+    {
+		display: none;
+    }
+    
+    .Categories .ChildCategoryList .Item.Category .ItemContent .CategoryName .Title
+    {
+		font-size: 75%;
+	}
+    
+    .DataTableWrap,
+    .PageControls,
+    .Categories .ChildCategoryList
+    {
+		padding: 0 5.5%;
+	}
+    
+    .MessageList.Comments
+    {
+		padding-left: 0px;
+		background: none;
+	}
 }
 
 @media (max-width: 960px)
@@ -94,39 +142,66 @@
     {
 		display: none;
     }
+    
+    .CategoryTable .LatestPost
+    {
+		width: 250px;
+	}
+    
+    .DataTableWrap,
+    .PageControls,
+    .Categories .ChildCategoryList
+    {
+		padding: 0 4%;
+	}
+    
+    .Categories .ChildCategoryList .Item.Category .ItemContent .CategoryDescription
+    {
+		font-size: 10px;
+	}
 }
 
-@media (max-width: 1440px)
+@media (max-width: 784px)
 {
-    .DiscussionsTable td.BigCount
-    {
-		width: 55px;
-    }
-    
-    .Categories .ChildCategoryList .Item.Category
-    {
-		margin: 0px 1% 20px 1% !important;
-    }
-}
-
-@media (max-width: 1152px)
-{
-    .CategoryTable td.BigCount,
-    .DiscussionsTable td.BigCount,
-    .CategoryTable > tbody > tr .BigCount,
-    .DiscussionsTable > tbody > tr .BigCount
+    .BlockTitle,
+    .DiscussionsTable .FirstUser .Meta,
+    .DiscussionsTable .LastUser .Meta
     {
 		display: none;
-    }
+	}
     
-    .Categories .ChildCategoryList .Item.Category .Meta.Hidden .MItem
+    .CategoryTable .LatestPost .Meta
     {
 		display: none;
+	}
+    
+    .CategoryTable .LatestPost
+    {
+		width: 100px;
+		padding-left: 0px;
+		text-align: center;
     }
     
-    .Categories .ChildCategoryList .Item.Category .ItemContent .CategoryName .Title
+    .CategoryTable .LatestPost .PhotoWrap
     {
-		font-size: 75%;
+		display: block;
+		width: 100%;
+		
+	}
+    
+    .DiscussionsTable > thead > tr td.FirstUser,
+    .DiscussionsTable > thead > tr td.LastUser,
+    .DiscussionsTable .FirstUser,
+    .DiscussionsTable .LastUser
+    {
+		width: 75px;
+	}
+    
+    .DataTableWrap,
+    .PageControls,
+    .Categories .ChildCategoryList
+    {
+		padding: 0 2%;
 	}
 }
 

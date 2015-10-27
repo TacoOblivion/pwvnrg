@@ -85,7 +85,7 @@ table.PreferenceGroup tbody tr:hover td
     http://perfectworld.vanillaforums.com/discussion/1191393/perfect-world-entertainment-community-rules-and-policies
     */
     max-width:650px;
-    max-height:250px !important;
+    max-height:150px !important;
 }
 
 /* show icons properly (they used FFFFFF instead of ffffff - credit to dblazen1 for finding this one */
@@ -338,4 +338,10 @@ div.PostEdited
     float: left;
     width: auto !important;
     height: 14px;
+}
+
+/* Remove once fixed in PWVE */
+.enhance-title.promoter
+{
+    color: #FFEE88 !important;
 }
